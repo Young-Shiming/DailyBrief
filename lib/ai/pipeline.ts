@@ -207,15 +207,16 @@ export async function generateDailyReport(
     selectRoundRobin(grouped[c], PER_CATEGORY_LIMIT[c]),
   );
 
-  const userPayload = compact.map((a, i) => ({
-    n: i + 1,
-    title: a.title,
-    url: a.url,
-    source: a.source,
-    category: a.category,
-    excerpt: (a.excerpt ?? "").slice(0, 200),
-    published: a.publishedAt?.toISOString() ?? "",
-  }));
+    const userPayload = compact.map((a, i) => ({
+      n: i + 1,
+      title: a.title,
+      url: a.url,
+      source: a.source,
+      category: a.category,
+      excerpt: (a.excerpt ?? "").slice(0, 200),
+      summary: (a.summary ?? "").slice(0, 400),
+      published: a.publishedAt?.toISOString() ?? "",
+    }));
   const userPayloadJson = JSON.stringify(userPayload);
 
   let report: DailyReport;
