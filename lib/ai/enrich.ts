@@ -8,6 +8,8 @@ interface EnrichInput {
   title: string;
   excerpt?: string;
   source?: string;
+  /** Source content language (en/fr/de/ja/zh). Helps the LLM translate accurately. */
+  lang?: string;
 }
 
 /**
@@ -82,7 +84,7 @@ Output STRICTLY a JSON object, no markdown:
 
 const FINANCE_SYSTEM_PROMPT_ZH = `你是一名中文编辑，为短篇外语新闻生成**中文摘要**。
 
-输入：每条新闻有 url、title、excerpt（RSS 简介，仅一两句话，可能为英文、法文、德文、日文等）和 source（来源媒体名）。
+输入：每条新闻有 url、title、excerpt（RSS 简介，仅一两句话）、source（来源媒体名）和 lang（原文语言代码）。
 
 任务：根据 title + excerpt，生成 50-100 字中文摘要：
   - 原文非中文 → 翻译关键信息为中文（不是逐字翻译，而是抽出要点）
@@ -103,9 +105,9 @@ const FINANCE_SYSTEM_PROMPT_ZH = `你是一名中文编辑，为短篇外语新�
 
 const FINANCE_TRANSLATE_PROMPT_ZH = `你是一名中文翻译编辑。你的唯一任务是将外语新闻**完整翻译**为中文。
 
-输入：每条新闻有 url、title、excerpt（外语文章完整正文，可能为英文、法文、德文、日文等）和 source（来源媒体名）。
+输入：每条新闻有 url、title、excerpt（外语文章完整正文）、source（来源媒体名）和 lang（原文语言代码：en=英文、fr=法文、de=德文、ja=日文）。
 
-任务：将 excerpt 中的外语正文**完整翻译**为流畅中文，200-400字。
+任务：根据 lang 字段识别原文语言，将 excerpt 中的全文**完整翻译**为流畅中文，200-400字。
   - 保留原文所有关键信息：数字、百分比、金额、日期、机构名、人名、地名
   - 保留原文的引述和态度（said/dit/sagte/〜と述べた → 表示，claimed → 声称，warned → 警告）
   - 保留原文的事实逻辑链——谁做了什么、为什么、影响是什么
@@ -396,6 +398,7 @@ export async function enrichFinanceNewsSummaries(
         url: it.url,
         title: it.title,
         source: it.source ?? "",
+        lang: it.lang ?? "en",
         excerpt: (it.excerpt ?? "").slice(0, 2000),
       }));
       const translated = await runEnrichment(payload, PROMPTS.translate, "finance translation");
@@ -412,6 +415,7 @@ export async function enrichFinanceNewsSummaries(
       url: it.url,
       title: it.title,
       source: it.source ?? "",
+      lang: it.lang ?? "en",
       excerpt: (it.excerpt ?? "").slice(0, 280),
     }));
     const summarized = await runEnrichment(payload, PROMPTS.finance, "finance summaries");

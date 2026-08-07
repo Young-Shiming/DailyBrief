@@ -186,17 +186,25 @@ async function enrichMergedSubgroup(
     .slice(0, limit);
   const toEnrich = top.filter((a) => !sameLocaleIds.has(a.sourceId));
   if (toEnrich.length === 0) return;
+
+  // Attach source language tag so the LLM knows what it's translating from
+  const sourceLangMap = new Map(subSources.map((s) => [s.id, s.lang ?? "en"]));
+  const enrichmentInput = toEnrich.map((a) => ({
+    ...a,
+    lang: sourceLangMap.get(a.sourceId) ?? "en",
+  }));
+
   console.log(
-    `[daily] enriching ${toEnrich.length}/${top.length} ${category}:${subcategory} items with ${REPORT_LOCALE} summaries…`,
+    `[daily] enriching ${enrichmentInput.length}/${top.length} ${category}:${subcategory} items with ${REPORT_LOCALE} summaries…`,
   );
   const t0 = Date.now();
-  const summaries = await enrichFinanceNewsSummaries(toEnrich);
+  const summaries = await enrichFinanceNewsSummaries(enrichmentInput);
   for (const a of toEnrich) {
     const s = summaries.get(normalizeUrl(a.url));
     if (s) a.summary = s;
   }
   console.log(
-    `[daily] enrichment done in ${((Date.now() - t0) / 1000).toFixed(1)}s, matched ${summaries.size}/${toEnrich.length}`,
+    `[daily] enrichment done in ${((Date.now() - t0) / 1000).toFixed(1)}s, matched ${summaries.size}/${enrichmentInput.length}`,
   );
 }
 
