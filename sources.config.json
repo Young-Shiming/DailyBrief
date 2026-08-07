@@ -357,7 +357,17 @@
     "locales": [
       "zh",
       "en"
-    ]
+    ],
+    "keywords": [
+      "market", "stock", "bond", "rate", "fed", "central bank",
+      "gdp", "inflation", "cpi", "trade", "tariff", "dollar",
+      "euro", "yen", "oil", "gold", "commodity", "earnings",
+      "revenue", "profit", "deal", "merger", "acquisition",
+      "ipo", "treasury", "yield", "crypto", "bitcoin",
+      "index", "s&p", "nasdaq", "dow", "investor",
+      "bank", "banks", "ecb", "opec", "imf"
+    ],
+    "notes": "关键词过滤：只保留金融/市场/经济相关新闻，剔除生活特写等软性内容。"
   },
   {
     "id": "wsj-markets",

@@ -25,9 +25,10 @@ export async function fetchRss(
   sourceId: string,
   url: string,
   category: Category,
-  options: { limit?: number; useCurl?: boolean } = {},
+  options: { limit?: number; useCurl?: boolean; keywords?: string[] } = {},
 ): Promise<RawArticle[]> {
   const limit = options.limit ?? 30;
+  const keywordList = (options.keywords ?? []).map((k) => k.toLowerCase());
 
   let feed;
   if (options.useCurl) {
@@ -37,7 +38,7 @@ export async function fetchRss(
     feed = await parser.parseURL(url);
   }
 
-  return (feed.items ?? [])
+  const items = (feed.items ?? [])
     .slice(0, limit)
     .map((item) => ({
       sourceId,
@@ -51,4 +52,21 @@ export async function fetchRss(
       category,
     }))
     .filter((a) => a.title && a.url);
+
+  // Apply optional keyword filter — keep items whose title or excerpt
+  // matches at least one keyword (case-insensitive). No keywords = keep all.
+  if (keywordList.length > 0) {
+    const filtered = items.filter((a) => {
+      const haystack = `${a.title} ${a.excerpt}`.toLowerCase();
+      return keywordList.some((kw) => haystack.includes(kw));
+    });
+    if (filtered.length < items.length) {
+      console.log(
+        `  [rss:${sourceId}] keyword filter: ${items.length} → ${filtered.length} (${items.length - filtered.length} removed)`,
+      );
+    }
+    return filtered;
+  }
+
+  return items;
 }
