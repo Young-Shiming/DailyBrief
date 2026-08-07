@@ -199,12 +199,44 @@ async function enrichMergedSubgroup(
   );
   const t0 = Date.now();
   const summaries = await enrichFinanceNewsSummaries(enrichmentInput);
+
+  // Multi-pass URL matching: LLMs often tweak URLs slightly (encode/decode,
+  // drop query params, etc.). Try full normalized match first, then fall
+  // back to path-only match for the stragglers.
+  let matched = 0;
+  const unmatched: string[] = [];
   for (const a of toEnrich) {
-    const s = summaries.get(normalizeUrl(a.url));
-    if (s) a.summary = s;
+    // Pass 1: full normalized URL match
+    let s = summaries.get(normalizeUrl(a.url));
+    // Pass 2: path-only match (scheme/host/query independent)
+    if (!s) {
+      try {
+        const pathKey = new URL(a.url).pathname.replace(/\/+$/, "").toLowerCase();
+        for (const [k, v] of summaries) {
+          try {
+            if (new URL(k).pathname.replace(/\/+$/, "").toLowerCase() === pathKey) {
+              s = v;
+              break;
+            }
+          } catch {}
+        }
+      } catch {}
+    }
+    if (s) {
+      a.summary = s;
+      matched++;
+    } else {
+      unmatched.push(a.url);
+    }
+  }
+  if (unmatched.length > 0) {
+    console.warn(
+      `[daily] ${unmatched.length} articles failed URL matching — URLs:`,
+      unmatched,
+    );
   }
   console.log(
-    `[daily] enrichment done in ${((Date.now() - t0) / 1000).toFixed(1)}s, matched ${summaries.size}/${enrichmentInput.length}`,
+    `[daily] enrichment done in ${((Date.now() - t0) / 1000).toFixed(1)}s, matched ${matched}/${enrichmentInput.length}`,
   );
 }
 
