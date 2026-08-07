@@ -327,7 +327,7 @@ export async function enrichFinanceNewsSummaries(
     url: it.url,
     title: it.title,
     source: it.source ?? "",
-    excerpt: (it.excerpt ?? "").slice(0, 280),
+    excerpt: (it.excerpt ?? "").slice(0, 2000),
   }));
   return runEnrichment(payload, PROMPTS.finance, "finance summaries");
 }

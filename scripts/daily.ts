@@ -28,6 +28,7 @@ import { fetchCryptoFearGreed } from "../lib/trading/fear-greed";
 import { fetchCryptoGlobal } from "../lib/trading/coingecko";
 import { generateTradingCommentary } from "../lib/ai/trading-commentary";
 import type { TradingSection } from "../lib/ai/pipeline";
+import { fetchFullTextBatch } from "../lib/sources/fulltext";
 import { todayKey } from "../lib/utils";
 
 const OUTPUT_DIR = "daily_reports";
@@ -238,6 +239,57 @@ async function runTrading(): Promise<TradingSection | null> {
   };
 }
 
+/**
+ * Fetch full article text for RSS-based news sources whose excerpt is
+ * typically only 1-2 sentences. Replaces excerpt in-place when the fetched
+ * text is longer than the existing excerpt. Best-effort: failures are
+ * silent and the original excerpt is kept.
+ *
+ * Sources excluded from fulltext: GitHub Trending (scraper), HN / V2EX /
+ * X-viral / HF papers (API aggregators), LinuxDo (short-form forum).
+ */
+async function enrichFullTexts(articles: ArticleInput[]): Promise<void> {
+  const SKIP_SOURCE_IDS = new Set([
+    "github-trending",
+    "hackernews",
+    "v2ex-hot",
+    "linuxdo",
+    "attentionvc-ai",
+    "huggingface-papers",
+  ]);
+
+  const candidates = articles.filter(
+    (a) => !SKIP_SOURCE_IDS.has(a.sourceId) && a.url.startsWith("http"),
+  );
+
+  if (candidates.length === 0) return;
+
+  console.log(
+    `[daily] fetching full text for ${candidates.length} articles (concurrency=5, timeout=10s)…`,
+  );
+  const t0 = Date.now();
+
+  const urls = candidates.map((a) => a.url);
+  const results = await fetchFullTextBatch(urls, 5, 10_000);
+
+  const textMap = new Map(
+    results.filter((r) => r.text).map((r) => [r.url, r.text!]),
+  );
+
+  let replaced = 0;
+  for (const a of candidates) {
+    const text = textMap.get(a.url);
+    if (text && text.length > (a.excerpt?.length ?? 0)) {
+      a.excerpt = text;
+      replaced++;
+    }
+  }
+
+  console.log(
+    `[daily] fulltext done in ${((Date.now() - t0) / 1000).toFixed(1)}s — ${replaced}/${candidates.length} enriched (${textMap.size} fetched)`,
+  );
+}
+
 async function main() {
   // Fail fast on misconfigured backend before we spend 30s fetching
   // 500+ articles only to discover the LLM has no credentials.
@@ -250,6 +302,10 @@ async function main() {
   if (articles.length === 0) {
     throw new Error("no articles fetched — aborting");
   }
+
+  // Fetch full article text for RSS-based news before AI enrichment,
+  // so the LLM has more than a 1-sentence excerpt to work with.
+  await enrichFullTexts(articles);
 
   // Enrich GH Trending, papers, finance news, and politics with summaries.
   await enrichGhTrending(articles);
