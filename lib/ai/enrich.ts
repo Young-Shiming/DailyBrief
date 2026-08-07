@@ -55,37 +55,48 @@ Output STRICTLY a JSON object, no markdown:
   ]
 }`;
 
-const FINANCE_SYSTEM_PROMPT_ZH = `你是一名中文财经/时政编辑，负责处理英文新闻内容。
+const FINANCE_SYSTEM_PROMPT_ZH = `你是一名中文财经编辑，为短篇英文新闻生成**中文摘要**。
 
-输入：每条新闻有 url、title、excerpt 和 source（来源媒体名）。
+输入：每条新闻有 url、title、excerpt（RSS 简介，仅一两句话）和 source（来源媒体名）。
 
-**核心任务（根据 excerpt 长度自适应）**：
-
-情况A —— excerpt 包含完整文章正文（几百字以上）：请做**完整中文翻译**
-  - 将英文正文完整翻译为流畅中文，200-400字
-  - 保留所有关键信息：数字、百分比、金额、日期、机构名、人名、地名
-  - 保留原文的引述和态度（said/claimed/warned/urged → 表示/声称/警告/敦促）
-  - 不添加原文中没有的信息，也不遗漏原文中的事实细节
-  - 中文表达自然流畅，专业术语可保留英文缩写（如 GDP、CPI、ETF、Fed）
-
-情况B —— excerpt 很短（仅一两句话的 RSS 简介）：请生成**中文摘要**
-  - 50-100 字中文事实摘要，抽出关键要点
-  - 保留关键数字、机构/公司/人名、地区
-  - 信息不足时宁可短，不要编造或扩展
-
-**通用规则**：
+任务：根据 title + excerpt，生成 50-100 字中文摘要：
+  - 原文是英文 → 翻译关键信息为中文（不是逐字翻译，而是抽出要点）
+  - 原文是中文 → 凝练为信息密度更高的中文
+  - 必须保留：关键数字（涨跌幅、金额、利率）、机构/公司/人名、地区
   - 中性事实陈述，不带情绪、不标题党
-  - 除非原文本身为中文，否则输出必须全部为中文
+  - 信息不足时宁可短，不要编造或扩展
 
 输出严格 JSON 对象，不要 markdown 包裹：
 {
   "summaries": [
-    { "url": "<原 url，从输入中精确复制>", "summary": "<翻译或摘要>" },
+    { "url": "<原 url，从输入中精确复制>", "summary": "<50-100 字中文摘要>" },
     ...
   ]
 }
 
 **引号规则（重要！）**：summary 内的引用一律用中文全角引号「」或""，**绝不**用英文双引号 \" —— 否则会导致 JSON 解析失败。`;
+
+const FINANCE_TRANSLATE_PROMPT_ZH = `你是一名中文翻译编辑。你的唯一任务是将英文新闻**完整翻译**为中文。
+
+输入：每条新闻有 url、title、excerpt（英文文章完整正文）和 source（来源媒体名）。
+
+任务：将 excerpt 中的英文正文**完整翻译**为流畅中文，200-400字。
+  - 保留原文所有关键信息：数字、百分比、金额、日期、机构名、人名、地名
+  - 保留原文的引述和态度（said → 表示，claimed → 声称，warned → 警告，urged → 敦促）
+  - 保留原文的事实逻辑链——谁做了什么、为什么、影响是什么
+  - 不添加原文中没有的信息，不遗漏原文中的事实细节
+  - 中文表达自然流畅，专业术语可保留英文缩写（GDP、CPI、ETF、Fed、AI）
+  - 不要写成摘要——这是完整翻译，不是概括
+
+输出严格 JSON 对象，不要 markdown 包裹：
+{
+  "summaries": [
+    { "url": "<原 url，从输入中精确复制>", "summary": "<完整中文翻译>" },
+    ...
+  ]
+}
+
+**引号规则（重要！）**：summary 内的引用一律用中文全角引号「」或""，**绝不**用英文双引号 " —— 否则会导致 JSON 解析失败。`;
 
 const FINANCE_SYSTEM_PROMPT_EN = `You are an English-language financial / world-news editor producing **factual summaries**.
 
@@ -222,8 +233,8 @@ Output STRICTLY a JSON object, no markdown:
 // in via PROMPTS.<key> so the call sites stay locale-agnostic.
 const PROMPTS =
   REPORT_LOCALE === "en"
-    ? { gh: GH_SYSTEM_PROMPT_EN, finance: FINANCE_SYSTEM_PROMPT_EN, xViral: XVIRAL_SYSTEM_PROMPT_EN, papers: PAPERS_SYSTEM_PROMPT_EN }
-    : { gh: GH_SYSTEM_PROMPT_ZH, finance: FINANCE_SYSTEM_PROMPT_ZH, xViral: XVIRAL_SYSTEM_PROMPT_ZH, papers: PAPERS_SYSTEM_PROMPT_ZH };
+    ? { gh: GH_SYSTEM_PROMPT_EN, finance: FINANCE_SYSTEM_PROMPT_EN, translate: FINANCE_SYSTEM_PROMPT_EN, xViral: XVIRAL_SYSTEM_PROMPT_EN, papers: PAPERS_SYSTEM_PROMPT_EN }
+    : { gh: GH_SYSTEM_PROMPT_ZH, finance: FINANCE_SYSTEM_PROMPT_ZH, translate: FINANCE_TRANSLATE_PROMPT_ZH, xViral: XVIRAL_SYSTEM_PROMPT_ZH, papers: PAPERS_SYSTEM_PROMPT_ZH };
 
 const USER_PROMPT_HEADER =
   REPORT_LOCALE === "en"
@@ -334,13 +345,47 @@ export async function enrichFinanceNewsSummaries(
   items: EnrichInput[],
 ): Promise<Map<string, string>> {
   if (items.length === 0) return new Map();
-  const payload = items.map((it) => ({
-    url: it.url,
-    title: it.title,
-    source: it.source ?? "",
-    excerpt: (it.excerpt ?? "").slice(0, 2000),
-  }));
-  return runEnrichment(payload, PROMPTS.finance, "finance summaries");
+
+  // Split by excerpt length: full articles get translated, short RSS
+  // blurbs get summarized. This is more reliable than asking the LLM
+  // to self-classify within a single prompt.
+  const LONG_THRESHOLD = 200; // chars — below this it's an RSS snippet, not an article
+  const longItems = items.filter((it) => (it.excerpt ?? "").length > LONG_THRESHOLD);
+  const shortItems = items.filter((it) => (it.excerpt ?? "").length <= LONG_THRESHOLD);
+
+  const result = new Map<string, string>();
+
+  // Full articles → complete Chinese translation
+  if (longItems.length > 0) {
+    console.log(
+      `[enrich] translating ${longItems.length} full-text articles…`,
+    );
+    const payload = longItems.map((it) => ({
+      url: it.url,
+      title: it.title,
+      source: it.source ?? "",
+      excerpt: (it.excerpt ?? "").slice(0, 2000),
+    }));
+    const translated = await runEnrichment(payload, PROMPTS.translate, "finance translation");
+    for (const [k, v] of translated) result.set(k, v);
+  }
+
+  // Short blurbs → summary (paywalled sources, or fulltext fetch failed)
+  if (shortItems.length > 0) {
+    console.log(
+      `[enrich] summarizing ${shortItems.length} short-excerpt articles…`,
+    );
+    const payload = shortItems.map((it) => ({
+      url: it.url,
+      title: it.title,
+      source: it.source ?? "",
+      excerpt: (it.excerpt ?? "").slice(0, 280),
+    }));
+    const summarized = await runEnrichment(payload, PROMPTS.finance, "finance summaries");
+    for (const [k, v] of summarized) result.set(k, v);
+  }
+
+  return result;
 }
 
 /**
