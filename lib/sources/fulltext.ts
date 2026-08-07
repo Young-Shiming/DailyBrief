@@ -8,7 +8,7 @@
  * returns null so callers can fall back to the original excerpt.
  */
 
-import { JSDOM } from "jsdom";
+import { parseHTML } from "linkedom";
 import { Readability } from "@mozilla/readability";
 
 const DEFAULT_TIMEOUT_MS = 10_000;
@@ -50,8 +50,8 @@ export async function fetchFullText(
     const html = await response.text();
     if (html.length < 500) return null; // too short to be a real article
 
-    const dom = new JSDOM(html, { url });
-    const reader = new Readability(dom.window.document);
+    const { document } = parseHTML(html);
+    const reader = new Readability(document);
     const article = reader.parse();
 
     if (!article?.textContent) return null;

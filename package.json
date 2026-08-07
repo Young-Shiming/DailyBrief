@@ -19,13 +19,12 @@
     "@anthropic-ai/sdk": "^0.96.0",
     "@mozilla/readability": "^0.6.0",
     "cheerio": "^1.2.0",
-    "jsdom": "^30.0.1",
     "jsonrepair": "^3.14.0",
+    "linkedom": "^0.18.13",
     "openai": "^6.38.0",
     "rss-parser": "^3.13.0"
   },
   "devDependencies": {
-    "@types/jsdom": "^28.0.3",
     "@types/mozilla__readability": "^0.4.2",
     "@types/node": "^20",
     "dotenv": "^17.4.2",
