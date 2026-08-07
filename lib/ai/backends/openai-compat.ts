@@ -63,7 +63,7 @@ function getClient(cfg: OpenAICompatConfig): { client: OpenAI; model: string } {
   const cacheKey = `${baseURL}::${apiKey.slice(-6)}`;
   let client = clientCache.get(cacheKey);
   if (!client) {
-    client = new OpenAI({ apiKey, baseURL });
+    client = new OpenAI({ apiKey, baseURL, maxRetries: 0 });
     clientCache.set(cacheKey, client);
   }
   return { client, model };
@@ -80,7 +80,7 @@ export async function runOpenAICompat(
   const { client, model } = getClient(cfg);
   const started = Date.now();
   const inputChars = opts.systemPrompt.length + opts.userPrompt.length;
-  const timeoutMs = opts.timeoutMs ?? 180_000;
+  const timeoutMs = opts.timeoutMs ?? 120_000;
 
   try {
     const resp = await client.chat.completions.create(
