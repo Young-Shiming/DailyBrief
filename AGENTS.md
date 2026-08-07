@@ -98,3 +98,52 @@ sources.config.json   # SINGLE SOURCE OF TRUTH for the source registry
 - `FORKING.md` — common customizations (LLM provider, sources, layout, styling)
 - `.claude/skills/daily-brief/SKILL.md` — fuller operational reference (Claude Code auto-loads it; other agents can read it directly)
 - `sources.config.json` — see what sources look like in practice
+
+## Custom fork modifications (Young-Shiming, 2026-08)
+
+This fork adds significant features beyond the upstream. When debugging, be aware of these:
+
+### Full-text extraction (`lib/sources/fulltext.ts`)
+- Uses `@mozilla/readability` + `linkedom` (NOT jsdom — incompatible with Node 20+)
+- Called in `scripts/daily.ts` → `enrichFullTexts()` BEFORE AI enrichment
+- Skips: GitHub Trending, HN, V2EX, LinuxDo, X-viral, HF papers, NHK
+- Paywall domain skip: bloomberg.com, wsj.com, ft.com, economist.com
+- Paywall CONTENT detection: 5-language regex patterns (de/en/fr/ja/es) checking first 500 chars for subscription nags
+- `truncateAtSentence()`: never cuts mid-word; finds last `.。!！?？` before maxLen
+
+### AI enrichment changes (`lib/ai/enrich.ts`)
+- Split translation (long excerpt >200 chars) vs summary (short excerpt) paths
+- Translation chunked to max 6 articles per LLM call
+- `normalizeUrl()`: strips tracking params (utm_*, fbclid, gclid, etc.), normalizes case+slashes
+- Two-pass URL matching in `enrichMergedSubgroup()`: full normalized URL → path-only fallback
+- `lang` field attached to enrichment input for multi-language source support
+
+### Digest prompt changes (`lib/ai/prompts.ts`)
+- Rule 7: No cross-category duplicates (same event → one section only)
+- Rule 8/9: Content filtering (skip lifestyle features, entertainment, how-to, pure opinion)
+- Chinese prompt: summary 200-400 chars with detailed structural requirements
+
+### Timeout/retry (`lib/ai/backends/openai-compat.ts`)
+- `maxRetries: 0` on OpenAI client (prevents 18-min SDK retry storms)
+- Pure `setTimeout` + `Promise.race` hard timeout (NOT AbortController — SDK v6 wiring is fragile)
+- Default timeout: 120s per LLM call
+
+### Pipeline (`lib/ai/pipeline.ts`)
+- URL dedup in `generateDailyReport()` before sending to LLM
+- Article limit reduced: tech 15, finance 15, politics 15 (was 25/20/15)
+- Payload size logging for diagnostics
+
+### RSS keyword filter (`lib/sources/rss.ts`)
+- `keywords` option: whitelist filter on title+excerpt (case-insensitive substring match)
+- Applied to Bloomberg Markets with 35 financial terms to filter out lifestyle features
+
+### Multi-language sources (`sources.config.json`)
+- Le Monde (fr), Der Spiegel (de), NHK (ja) — all with `lang` and `locales: ["zh"]`
+- Bloomberg: 35 finance keywords for content filtering
+- NHK: fulltext extraction disabled (short Japanese news briefs; NHK blocks bots)
+
+### Known quirks
+- DeepSeek API can be slow for large payloads (>40KB); the 120s timeout may fire legitimately
+- NHK RSS may not always fetch reliably (geo-blocking suspected)
+- Spiegel+ paywalled articles are detected by content patterns, but false negatives possible
+- `openai` SDK v6.x — `maxRetries` must be set at client creation, not per-request
