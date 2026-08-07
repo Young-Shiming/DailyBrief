@@ -1,6 +1,7 @@
 import { jsonrepair } from "jsonrepair";
 import { runLlm } from "./llm";
 import { extractJson } from "./json-util";
+import { normalizeUrl } from "./enrich";
 import { SYSTEM_PROMPT_DIGEST_EN, SYSTEM_PROMPT_DIGEST_ZH } from "./prompts";
 import { REPORT_LOCALE } from "../sources/registry";
 import type { Category, RawArticle } from "../sources/types";
