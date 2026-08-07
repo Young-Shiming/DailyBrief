@@ -6,60 +6,60 @@
       "title": "TencentCloud/TencentDB-Agent-Memory",
       "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
       "excerpt": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-      "meta": "TypeScript · ★ 16,661 · 🍴 1,500 · 📈 1,057 stars today",
+      "meta": "TypeScript · ★ 16,670 · 🍴 1,502 · 📈 1,057 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "腾讯云推出的AI Agent团队级记忆中枢，将对话、文档、代码转化为四类可复用记忆资产（对话记忆、技能、LLM知识库、代码图谱），并支持治理与共享。解决多Agent协作中知识分散、上下文丢失问题，适合需要持久化团队经验的企业级AI应用开发。"
+      "summary": "腾讯云推出的团队级 AI Agent 记忆中枢，将对话、文档和代码转化为四类可复用记忆资产（对话记忆、技能、LLM 知识库、代码图谱），并支持治理与共享。适合需要跨会话保持上下文和团队协作的 AI 应用开发场景。"
     },
     {
       "sourceId": "github-trending",
       "title": "addyosmani/agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
       "excerpt": "Production-grade engineering skills for AI coding agents.",
-      "meta": "JavaScript · ★ 83,109 · 🍴 8,903 · 📈 593 stars today",
+      "meta": "JavaScript · ★ 83,118 · 🍴 8,906 · 📈 593 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "面向AI编码代理的生产级工程技能集合，由Google Chrome团队工程师Addy Osmani维护。提供经过实战检验的技能模板与最佳实践，帮助开发者快速为编码Agent配置专业能力，覆盖代码审查、重构等场景，提升自动化开发效率与代码质量。"
+      "summary": "面向 AI 编码代理的生产级工程技能集合，提供可复用的技能定义和最佳实践，帮助代理更高效地处理工程任务。适用于希望提升 AI 编码代理在真实项目中的可靠性和效率的开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "cloudflare/computer",
       "url": "https://github.com/cloudflare/computer",
       "excerpt": "Give your agent a computer 👾",
-      "meta": "TypeScript · ★ 4,964 · 🍴 249 · 📈 2,802 stars today",
+      "meta": "TypeScript · ★ 4,969 · 🍴 249 · 📈 2,802 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Cloudflare开源的Agent计算环境工具，让AI代理获得完整的计算机操作能力。支持浏览器自动化、文件处理等多类任务，解决代理仅能处理文本的局限，适用于需要执行实际计算操作的自动化工作流，如网页测试、数据处理等场景。"
+      "summary": "给 AI Agent 一台计算机，允许代理执行真实电脑操作（如文件访问、运行程序）。通过 Cloudflare 提供沙箱或远程环境，实现代理在云端独立运行任务，适用于自动化测试、数据处理等场景。"
     },
     {
       "sourceId": "github-trending",
       "title": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
       "excerpt": "Skills for Real Engineers. Straight from my .agents directory.",
-      "meta": "Shell · ★ 207,443 · 🍴 17,915 · 📈 1,873 stars today",
+      "meta": "Shell · ★ 207,460 · 🍴 17,915 · 📈 1,873 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "TypeScript专家Matt Pocock分享的AI编码代理实战技能，直接来自其个人开发环境配置。包含针对真实工程场景的高质量技能指令，帮助开发者利用AI代理处理类型安全、代码设计等问题，提升编码效率，适合希望借鉴资深工程师Agent配置的开发者。"
+      "summary": "来自资深工程师的实战技能集，直接从其 .agents 目录中提取，包含真实世界的工程技能定义。帮助 AI 编码代理学习专业的编码模式和决策逻辑，提升代码生成质量。"
     },
     {
       "sourceId": "github-trending",
       "title": "goauthentik/authentik",
       "url": "https://github.com/goauthentik/authentik",
       "excerpt": "The authentication glue you need.",
-      "meta": "Python · ★ 23,210 · 🍴 1,780 · 📈 138 stars today",
+      "meta": "Python · ★ 23,216 · 🍴 1,780 · 📈 138 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源的认证身份粘合剂，提供灵活的身份验证与授权服务。支持LDAP、OAuth2、SAML等多种协议，可无缝集成到现有系统，解决多应用统一认证问题。适合需要集中管理用户身份的企业，典型场景包括SSO单点登录和基于策略的访问控制。"
+      "summary": "一个灵活的身份认证粘合剂，支持多应用的单点登录（SSO）、多因素认证（MFA）和身份治理。基于 Django 构建，易于扩展，适用于需要统一认证和权限管理的中小型组织或微服务架构。"
     },
     {
       "sourceId": "github-trending",
       "title": "huangruiteng/loopx",
       "url": "https://github.com/huangruiteng/loopx",
       "excerpt": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
-      "meta": "Python · ★ 3,013 · 🍴 222 · 📈 847 stars today",
+      "meta": "Python · ★ 3,019 · 🍴 223 · 📈 847 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "轻量级循环工程状态内核，专为长时间运行的AI代理团队设计。与Codex、Claude Code等编码代理兼容，提供持久化目标、配额感知自动唤醒和可执行任务管理。解决代理运行中状态丢失、目标漂移问题，适合需要稳定长时运行多代理协作的自动化开发场景。"
+      "summary": "面向长期运行 AI Agent 团队的轻量级循环工程状态内核。与具体代理无关，兼容 Codex、Claude Code 等，提供持久目标、配额感知自动唤醒和可执行操作，确保代理在长时间任务中保持状态一致和高效。"
     },
     {
       "sourceId": "github-trending",
@@ -69,67 +69,67 @@
       "meta": "Java · ★ 51,665 · 🍴 11,166 · 📈 13 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Google核心Java库，提供集合操作、缓存、并发、字符串处理等功能，简化Java开发。解决标准库不足问题，广泛用于生产环境。适合所有Java开发者，典型场景包括高效处理集合数据、实现本地缓存、处理I/O和哈希，是大型Java项目的标准依赖。"
+      "summary": "Google 核心 Java 库，提供集合、缓存、并发、字符串处理、I/O 等实用工具，简化 Java 开发。广泛用于 Android 和后端服务，是 Java 生态中最流行的基础库之一。"
     },
     {
       "sourceId": "github-trending",
       "title": "TapXWorld/ChinaTextbook",
       "url": "https://github.com/TapXWorld/ChinaTextbook",
       "excerpt": "所有小初高、大学PDF教材。",
-      "meta": "Roff · ★ 77,271 · 🍴 17,452 · 📈 134 stars today",
+      "meta": "Roff · ★ 77,279 · 🍴 17,452 · 📈 134 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "收录中国小学、初中、高中及大学各阶段PDF教材的免费资源库，覆盖多学科版本。解决学生教材获取不便问题，适合学生、教师及自学者快速查阅电子版课本，支持离线使用，是便捷的学习资料聚合仓库。"
+      "summary": "汇集中国小学、初中、高中及大学的全学科 PDF 教材，以 GitHub 仓库形式存储，便于用户直接下载。适用于学生、教师和自学者获取官方教材电子版，但需注意版权问题。"
     },
     {
       "sourceId": "github-trending",
       "title": "Significant-Gravitas/AutoGPT",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "excerpt": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "meta": "Python · ★ 186,090 · 🍴 46,055 · 📈 37 stars today",
+      "meta": "Python · ★ 186,092 · 🍴 46,055 · 📈 37 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "AutoGPT项目愿景是让AI人人可用，提供构建自主AI代理的平台与工具。支持任务规划、执行与自我修正，解决复杂自动化需求。适合开发者、研究者及企业用户，典型场景包括自动化工作流、研究助手和API集成，推动AI民主化发展。"
+      "summary": "AutoGPT 致力于让 AI 对所有人可用，提供易用的工具和平台，支持用户构建和部署自主 AI 代理。通过自动化任务分解和执行，实现复杂目标的完成，适用于任务自动化、内容生成和研究等场景。"
     },
     {
       "sourceId": "github-trending",
       "title": "tirth8205/code-review-graph",
       "url": "https://github.com/tirth8205/code-review-graph",
       "excerpt": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-      "meta": "Python · ★ 29,126 · 🍴 2,687 · 📈 237 stars today",
+      "meta": "Python · ★ 29,127 · 🍴 2,687 · 📈 237 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "本地优先的代码智能图谱，面向MCP和CLI工具。构建代码库持久化图谱，让AI编码工具只读取相关部分，经基准测试可显著减少上下文负担。解决大型代码库中AI工具上下文过载问题，适合需要高效代码审查和大型仓库管理的开发团队。"
+      "summary": "本地优先的代码智能图谱，面向 MCP 和 CLI。构建代码库的持久映射，使 AI 编码工具只读取相关部分，通过基准测试减少审查和大型仓库工作的时间。适合大型代码库的智能分析和 AI 辅助代码审查。"
     },
     {
       "sourceId": "github-trending",
       "title": "esengine/DeepSeek-Reasonix",
       "url": "https://github.com/esengine/DeepSeek-Reasonix",
       "excerpt": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "meta": "Go · ★ 32,584 · 🍴 2,103 · 📈 888 stars today",
+      "meta": "Go · ★ 32,588 · 🍴 2,104 · 📈 888 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "基于DeepSeek的终端AI编码代理，专注于前缀缓存稳定性设计，可长时间后台运行。提供类代码生成、解释、修改等辅助功能，利用缓存机制减少重复计算开销。适合偏好终端工作流的开发者，实现高效可持续的AI辅助编程，降低成本。"
+      "summary": "基于 DeepSeek 的终端 AI 编码代理，围绕前缀缓存稳定性设计，可长时间运行而保持高效。提供代码补全、解释和自动化修改，适合频繁交互的终端编码工作流。"
     },
     {
       "sourceId": "github-trending",
       "title": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "excerpt": "An agentic skills framework & software development methodology that works.",
-      "meta": "Shell · ★ 268,228 · 🍴 23,968 · 📈 858 stars today",
+      "meta": "Shell · ★ 268,234 · 🍴 23,968 · 📈 858 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "一套代理技能框架和软件开发方法，宣称“有效可用”。提供结构化技能定义与执行流程，帮助开发者将AI代理能力系统化，解决松散使用Agent的问题。适合希望建立规范化AI辅助开发流程的团队，提升开发效率与一致性。"
+      "summary": "一个实用的 Agentic 技能框架和软件开发方法论，提供结构化的技能定义和流程指导，帮助团队和开发者更有效地利用 AI 代理进行软件开发，提高生产力和代码质量。"
     },
     {
       "sourceId": "github-trending",
       "title": "firecrawl/pdf-inspector",
       "url": "https://github.com/firecrawl/pdf-inspector",
       "excerpt": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
-      "meta": "Rust · ★ 12,613 · 🍴 850 · 📈 1,190 stars today",
+      "meta": "Rust · ★ 12,616 · 🍴 850 · 📈 1,190 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Firecrawl推出的快速PDF检测与文本提取库，基于Rust实现。能智能区分扫描版与文本型PDF，从而支持后续路由决策。解决混合PDF文档处理效率问题，适合需要批量处理PDF内容的系统，如文档管理系统，实现分类提取与流程自动化。"
+      "summary": "用 Rust 编写的高性能 PDF 检查、分类和文本提取库。能智能识别扫描版和文本版 PDF，便于路由到不同的处理流程，适用于文档管理、OCR 预处理和自动化工作流。"
     },
     {
       "sourceId": "v2ex-hot",
@@ -151,6 +151,15 @@
     },
     {
       "sourceId": "v2ex-hot",
+      "title": "妙控板还是妙控鼠标？",
+      "url": "https://www.v2ex.com/t/1232627",
+      "excerpt": "32 回复 · Apple 节点",
+      "publishedAt": "2026-08-07T02:12:00.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
       "title": "想买智谱的 max 套餐，但是不知道卡不卡",
       "url": "https://www.v2ex.com/t/1232600",
       "excerpt": "31 回复 · 程序员 节点",
@@ -164,15 +173,6 @@
       "url": "https://www.v2ex.com/t/1224588",
       "excerpt": "29 回复 · Python 节点",
       "publishedAt": "2026-07-02T10:48:24.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
-      "title": "妙控板还是妙控鼠标？",
-      "url": "https://www.v2ex.com/t/1232627",
-      "excerpt": "29 回复 · Apple 节点",
-      "publishedAt": "2026-08-07T02:12:00.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -198,7 +198,7 @@
       "sourceId": "v2ex-hot",
       "title": "我刚刚骂了 codex，然后感觉，它开始故意给我出岔子",
       "url": "https://www.v2ex.com/t/1232578",
-      "excerpt": "20 回复 · 程序员 节点",
+      "excerpt": "21 回复 · 程序员 节点",
       "publishedAt": "2026-08-06T14:20:05.000Z",
       "category": "tech",
       "source": "V2EX"
@@ -268,6 +268,15 @@
     },
     {
       "sourceId": "v2ex-hot",
+      "title": "[开源] 折腾了个让 Coding Agent 生成可编辑 PPTX 的工具，想听听大家意见",
+      "url": "https://www.v2ex.com/t/1232640",
+      "excerpt": "13 回复 · 程序员 节点",
+      "publishedAt": "2026-08-07T02:35:26.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
       "title": "大佬们， Linux kernel 漏洞频发需要升级的问题，你们是怎么处理的？",
       "url": "https://www.v2ex.com/t/1224019",
       "excerpt": "13 回复 · Linux 节点",
@@ -281,15 +290,6 @@
       "url": "https://www.v2ex.com/t/1231923",
       "excerpt": "13 回复 · Apple 节点",
       "publishedAt": "2026-08-04T02:19:38.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
-      "title": "[开源] 折腾了个让 Coding Agent 生成可编辑 PPTX 的工具，想听听大家意见",
-      "url": "https://www.v2ex.com/t/1232640",
-      "excerpt": "12 回复 · 程序员 节点",
-      "publishedAt": "2026-08-07T02:35:26.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -364,7 +364,7 @@
       "publishedAt": "2026-08-06T10:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 宣布改进 ChatGPT 中的 GPT-5.6 Sol 模型，提升准确性和一致性，并扩大免费用户的访问权限，同时为免费用户提供 GPT-5.6 Luna 的无限日常对话。"
+      "summary": "OpenAI在ChatGPT中推出改进版GPT-5.6 Sol，提升准确性和一致性，同时向免费用户扩大GPT-5.6 Luna的访问权限，并提供不限次数的日常聊天功能。"
     },
     {
       "sourceId": "openai-news",
@@ -374,7 +374,7 @@
       "publishedAt": "2026-08-06T06:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 与美国心理学会（APA）合作，推动基于证据的负责任 AI 使用指南、资源和保障措施，重点关注青少年心理健康。"
+      "summary": "OpenAI与美国心理学会合作，针对青少年心理健康和人工智能领域，推动基于证据的指南、资源及保障措施，以促进AI的负责任使用。"
     },
     {
       "sourceId": "openai-news",
@@ -384,7 +384,7 @@
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 发布新的 Signals 数据，展示全球用户使用 ChatGPT 的方式，包括各国在采用率、使用趋势和行为演变方面的洞察。"
+      "summary": "OpenAI Signals最新数据显示全球用户使用ChatGPT的方式，涵盖国家级别的采用率、使用趋势及行为演变等洞察。"
     },
     {
       "sourceId": "openai-news",
@@ -394,7 +394,7 @@
       "publishedAt": "2026-08-04T19:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 针对近期第三方网络安全评估事件进行说明，并公布新保障措施以加强 AI 模型测试和评估的安全性。"
+      "summary": "OpenAI公布近期涉及第三方网络安全评估的事件详情，并推出新保障措施，以强化AI模型的测试与评估流程。"
     },
     {
       "sourceId": "openai-news",
@@ -638,7 +638,7 @@
       "publishedAt": "2026-08-06T15:06:15.000Z",
       "category": "tech",
       "source": "DeepMind Blog",
-      "summary": "Google DeepMind 在《自然》杂志发表论文，其 WeatherNext AI 模型在预测气旋路径、强度和风结构方面达到最先进水平，平均可为预报员提供额外一天的预警时间（三天预报精度相当于以往两天的预报）。该模型由 Google DeepMind 与 Google Research 联合美国国家飓风中心（NHC）、大气研究合作研究所（CIRA）、英国气象局等开发。在 2025 年飓风季，模型帮助 NHC 对飓风梅丽莎做出历史性预报，提前预警其快速增强及在牙买加登陆，为地面团队争取了关键准备时间。今年，研究团队继续合作，现在为每个气旋预测 1000 种可能情景，以支持决策。鉴于其广泛影响，团队已开源 WeatherNext 2 和 WeatherNext Cyclones 模型。"
+      "summary": "2026年8月6日，科学领域。WeatherNext团队。WeatherNext能够提供准确的飓风预报，为预警争取额外一天时间。现在我们开放该模型的源代码。预测危险飓风的形成是一个长期挑战，每一小时都至关重要。热带气旋（也称飓风或台风）是地球上最具破坏性的天气现象之一，在过去50年中造成全球超过70万人死亡和1.4万亿美元的经济损失。对预报员而言，及时准确的预警是一场与时间的赛跑。今天，我们发表在《自然》杂志上的论文表明，我们的WeatherNext AI模型在预测飓风路径、强度和风场结构方面达到了最先进的精度。平均而言，我们的模型为预报员提供了额外一天的预测精度：我们的三天预报相当于以前模型只能提供两天的预测效果。这一提升大致相当于十年的气象学进步。这项合作汇聚了Google DeepMind和Google Research的AI研究员和工程师，以及美国国家飓风中心（NHC）、大气合作研究所（CIRA）、英国气象局和全球各气象机构的专业预报员。我们的研究已产生实际影响。在2025年飓风季，我们的模型帮助NHC对飓风梅丽莎做出了历史性预报，预测了风暴的快速增强和在牙买加登陆。这使得NHC能够发出提前预警，为当地团队争取了关键准备时间。今年，我们继续合作，现在为每个飓风预测1000种可能情景，以支持预报员的决策。天气影响所有人。鉴于这一广泛影响，我们现在开放了飓风季期间使用的WeatherNext 2和WeatherNext Cyclones模型。"
     },
     {
       "sourceId": "deepmind-blog",
@@ -909,7 +909,7 @@
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "Baseten 现已成为 Hugging Face Hub 上的支持推理提供商，集成到 Hub 模型页面和客户端 SDK（JS 和 Python）。Baseten 支持多种模型类型，最初支持对话和文本生成任务，可访问 Kimi K3、DeepSeek V4 Flash、GLM-5.2 等热门开放权重模型。用户可在设置中配置自有 API 密钥或使用 HF 路由，请求将优先按偏好顺序处理。"
+      "summary": "回到文章。工作原理。在网站界面中。从客户端SDK。计费。反馈和后续步骤。我们激动地宣布，Baseten现在成为Hugging Face Hub上受支持的推理提供商！Baseten加入了我们不断增长的生态系统，增强了Hub模型页面上无服务器推理的广度和能力。推理提供商也无缝集成到我们的客户端SDK（支持JS和Python），使您能够轻松地使用各种模型。Baseten是一个AI基础设施平台，涵盖无服务器AI、训练等。凭借众多前沿模型目录，Baseten使开发人员能够以最小设置轻松集成各种AI能力到他们的应用中。Baseten支持广泛的模型类型——从LLM到文本转语音等。作为此次初始集成的一部分，Baseten在Hugging Face上推出对对话和文本生成任务的支持，使流行的开放权重LLM如Kimi K3、最新DeepSeek V4 Flash、GLM-5.2等可被访问。对其他任务的支持将很快推出！查看Baseten支持的完整模型列表。在Hugging Face上关注Baseten：https://huggingface.co/baseten。工作原理。在网站界面中，在您的用户账户设置中，您可以：为已注册的提供商设置自己的API密钥。如果未设置自定义密钥，您的请求将通过HF路由。按偏好排序提供商。这适用于模型页面上的小部件和代码片段。如前所述，调用推理提供商有两种模式：自定义密钥（调用直接进入推理提供商，使用您自己的对应API密钥）由HF路由（在这种情况下，您不需要提供商的令牌，费用直接计入您的HF账户而不是提供商账户）。模型页面展示第三方推理提供商（那些兼容的）。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -919,7 +919,7 @@
       "publishedAt": "2026-08-04T13:58:29.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "Liquid AI 发布 LFM2.5-2.6B 模型，专为端侧代理设计，支持工具调用和多步骤工作流。该模型在工具使用、指令遵循和复杂任务上可与 4 倍规模模型竞争，采用代理强化学习训练，推理速度达 220 tok/s（Apple M5 Max）和 113 tok/s（AMD Ryzen CPU），内存占用低于 2.5GB。训练过程包括监督微调、教师专业化、多域策略蒸馏和代理强化学习，确保高效性和隐私保护。"
+      "summary": "回到文章。LFM2.5-2.6B旨在完全在设备上驱动强大代理。它支持工具调用和多步工作流，同时保持足够小巧和快速，适用于日常硬件，从笔记本电脑到手机。这使得开发人员可以在任何地方部署代理，保持数据在设备上的私密性，并扩展使用规模而无云推理账单。同类最佳代理：在工具使用、指令跟随和多步代理任务上，与4倍大的模型竞争。代理强化学习：在最流行的代理框架中训练以提高兼容性。高效推理：在Apple M5 Max上220 tok/s，在AMD Ryzen CPU上113 tok/s，内存占用低于2.5 GB。我们如何为边缘设备构建可靠的代理模型。LFM2.5-2.6B在大约34万亿令牌上进行预训练，其中期训练阶段将上下文窗口扩展到128K。后训练通过四个阶段将基础模型转变为代理：监督微调（SFT）：两轮SFT，高度加权于代理数据，如工具使用、网络搜索和框架轨迹。教师专业化：为每个域（数学、代码、工具使用等）训练一个专业教师。多域同策略蒸馏（MOPD）：将专业教师蒸馏到一个学生中。代理强化学习（Agentic RL）：在真实代理框架中运行多轮RL，模型学习在不同工具、系统提示和多轮任务环境中工作。Agentic RL流程将模型优化、推理和环境执行分离为不同组件。训练引擎优化模型，而Rollout引擎使用最新策略生成动作。RL框架通过启动rollouts、收集轨迹和奖励以及更新模型来编排训练循环。动作在沙盒服务中执行，其中黑盒框架托管代理（例如，OpenClaw或Hermes Agent）并协调与任务环境的交互。H..."
     },
     {
       "sourceId": "huggingface-blog",
@@ -1182,7 +1182,7 @@
       "meta": "👍 57",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出ABSeeker，通过答案回溯的信用分配训练长程搜索代理。针对传统方法对轨迹内所有步骤统一处理的问题，ABSeeker回溯最终答案以识别关键步骤，实现更精准的信用分配，提升长程搜索任务的训练效率和性能。"
+      "summary": "ABSeeker 通过答案回溯进行信用分配，训练长程搜索智能体。传统方法对轨迹内所有步骤均匀处理，导致监督微调效果不佳。该方法回溯最终答案，为关键步骤分配更高权重，提升智能体在长程任务中的搜索与推理性能。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1193,7 +1193,7 @@
       "meta": "👍 48",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出ToolArtist，将工具使用能力融入统一多模态模型用于代理式图像生成。该方法结合外部工具和世界知识，增强模型在开放世界任务中的复杂语义理解与多步推理能力，生成更符合用户意图的图像。"
+      "summary": "ToolArtist 提出工具使用的统一多模态模型，用于智能体图像生成。现有文本到图像模型缺乏复杂语义理解和多步推理能力，该方法引入外部工具和智能体能力，增强模型在开放世界任务中的表现，支持外部世界知识整合。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1204,7 +1204,7 @@
       "meta": "👍 37",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出AgentOPSD，利用递归自蒸馏进行代理强化学习。该方法通过递归地蒸馏优势信号，改善长程多轮任务中的信用分配问题，使模型更关注决定性决策，提升学习效率和任务表现。"
+      "summary": "AgentOPSD 采用递归自蒸馏方法改进智能体强化学习的信用分配。针对长程多轮任务中仅少数关键决策决定结果的问题，该方法利用特权信息进行自蒸馏，更准确识别决定性步骤，提升强化学习在智能体任务中的训练效果。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1215,7 +1215,7 @@
       "meta": "👍 37",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "研究LLM个性化中的过度推断现象，即模型编造用户属性。引入MirageBench基准，包含150个平衡角色，揭示自监控方法的误导性，并分析其原因，为构建忠实用户模型提供警示。"
+      "summary": "该研究揭示 LLM 个性化记忆中的过度推断现象，即模型捏造超出证据支持的用户属性。提出 MirageBench 基准，含 150 个平衡人物画像，系统评估该问题，并发现自我监控会误导模型，无法准确识别其捏造行为。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1223,10 +1223,10 @@
       "url": "https://huggingface.co/papers/2608.05248",
       "excerpt": "Generating large-scale, freely explorable 3D worlds from open-ended text remains challenging because a system must jointly maintain global spatial coherence, rich local content, and explicit assets suitable for downstream editing and reuse. We present WorldClaw, a fully agentic, coarse-to-fine frame",
       "publishedAt": "2026-08-05T00:00:00.000Z",
-      "meta": "👍 30",
+      "meta": "👍 31",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出WorldClaw，一个全代理的从粗到细框架，用于大规模3D开放世界生成。它通过代理协调全局空间一致性、丰富局部内容和显式资产，支持下游编辑与重用，实现从开放文本生成可自由探索的3D世界。"
+      "summary": "WorldClaw 提出全智能体、从粗到细的框架，用于大规模 3D 开放世界生成。该方法从开放式文本出发，同时维护全局空间一致性、丰富局部内容和可编辑资产，解决现有方法无法同时满足这三方面的挑战，支持下游编辑和复用。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1237,7 +1237,18 @@
       "meta": "👍 29",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出OneDayAgent，一个面向长程自主代理的测试平台。它处理跨环境、多模态的日常任务，要求代理在多步骤中保持目标和约束。该平台为评估和提升代理在真实场景下的长期任务能力提供支撑。"
+      "summary": "OneDayAgent 提出面向自主智能体的长程任务执行框架。针对涉及工作、学习和生活的开放式日常请求，该方法需在异构工具和环境中保持目标和约束，支持多模态输入，应对跨环境、长时程的复杂任务执行。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "Recursive Synthesis for Long-Horizon Terminal Tasks",
+      "url": "https://huggingface.co/papers/2608.05466",
+      "excerpt": "High-quality long-horizon training data for terminal agents is expensive to produce, often costing hundreds to thousands of dollars per task, because each task must keep the instruction, environment, reference solution, and verifier mutually consistent. Human authoring does not scale, and direct gen",
+      "publishedAt": "2026-08-05T00:00:00.000Z",
+      "meta": "👍 28",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "该论文提出递归合成方法为终端任务生成高质量长程训练数据。传统人工编写每任务成本极高，直接生成难以保证指令、环境、参考解和验证器的一致性。递归合成通过迭代生成与校验，降低成本并保持数据质量。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1248,18 +1259,7 @@
       "meta": "👍 25",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出基于检索中心的链式思维方法，利用硬负样本改进统一多模态检索。针对LVLM检索器编码原始多模态输入时丢失细粒度信息的问题，该方法通过硬负样本生成检索聚焦的CoT，增强复杂意图下的判别能力。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Recursive Synthesis for Long-Horizon Terminal Tasks",
-      "url": "https://huggingface.co/papers/2608.05466",
-      "excerpt": "High-quality long-horizon training data for terminal agents is expensive to produce, often costing hundreds to thousands of dollars per task, because each task must keep the instruction, environment, reference solution, and verifier mutually consistent. Human authoring does not scale, and direct gen",
-      "publishedAt": "2026-08-05T00:00:00.000Z",
-      "meta": "👍 25",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "提出递归合成方法，用于生成长程终端任务的高质量训练数据。该方法递归地合成指令、环境、参考解和验证器，确保相互一致，降低成本至可扩展水平，实验证明其生成的代理性能优于直接生成或人工编写。"
+      "summary": "该研究提出基于检索的思维链与硬负样本方法，用于统一多模态检索。LVLM 检索器直接编码原始多模态输入易错过细粒度判别信息。通过硬负样本引导的思维链推理，增强模型区分复杂用户意图的能力。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1270,7 +1270,7 @@
       "meta": "👍 23",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出ChronoVision，通过潜在状态重建进行时间推理。针对多模态大模型在复杂视觉认知任务中的不足，该方法重建连续视觉状态的潜在表示，减少语言推理的歧义，提升多步时间推理的准确性。"
+      "summary": "ChronoVision 通过潜状态重建提升多模态大语言模型的时序推理能力。语言式推理难以准确描述连续视觉变化，该方法引入潜状态重建，将视觉认知任务转化为状态估计问题，增强模型在多步时序推理中的表现。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1281,7 +1281,7 @@
       "meta": "👍 22",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出GDPevo基准，评估代理在真实商业任务上的自进化能力。该基准覆盖经济价值高的任务领域，设计训练和测试任务以衡量代理从经验中更新状态并解决相关任务的效果，弥补现有基准的不足。"
+      "summary": "GDPevo 评估智能体在真实业务任务中的自我进化能力。现有基准覆盖经济价值任务有限，且训练与测试任务设计不佳。该基准构建真实业务场景，支持评估智能体从过往经验更新状态并复用，提升任务解决效果。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1292,7 +1292,7 @@
       "meta": "👍 22",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出技能熵概念，用于基准测试和训练长程推理LLM。针对跨技能长程任务，模型需在推理链中切换不同技能，技能熵量化这种切换的难度，并用于指导训练，提升模型在复杂多步推理中的表现。"
+      "summary": "该论文定义跨技能长程推理任务，要求推理链中切换不同技能。提出技能熵度量用于基准测试和训练此类任务，量化模型在多步推理中的技能切换能力，帮助提升长程推理质量。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1300,10 +1300,10 @@
       "url": "https://huggingface.co/papers/2608.06197",
       "excerpt": "Training large language model agents for long-horizon tool use typically relies on interactions with real or synthesized executable environments, whose construction and verification are costly, or on external simulators that are difficult to ground. We introduce EnvACE, an agentic reinforcement lear",
       "publishedAt": "2026-08-06T00:00:00.000Z",
-      "meta": "👍 20",
+      "meta": "👍 21",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出EnvACE，通过世界预演内化环境动态进行代理强化学习。它避免依赖昂贵的外部仿真器，而是让代理在内部模拟环境转移，以高效训练长程工具使用策略，提升真实环境中的泛化能力。"
+      "summary": "EnvACE 通过世界排练内化环境动力学，用于智能体强化学习。传统方法依赖真实或合成环境，构建成本高，或外部模拟器难以接地。该方法让智能体在内部模拟环境中排练，降低对真实交互的依赖，提升长程工具使用训练效率。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1314,7 +1314,7 @@
       "meta": "👍 19",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "研究教师信号中的虚假相关性问题，改进在策略蒸馏。现有选择性OPD方法忽略教师信号可能包含虚假模式，本文提出虚假信号感知方法，识别并减少误导信号，提升蒸馏质量和学生性能。"
+      "summary": "该研究揭示在线策略蒸馏中教师信号可能误导学生的现象。现有选择性蒸馏方法优先选择自信、信息丰富或可学习信号，但未考虑伪相关信号。提出伪信号感知的在线策略蒸馏，过滤干扰信号，提升蒸馏效果。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1325,7 +1325,7 @@
       "meta": "👍 18",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "研究在策略蒸馏在多语言数学推理中的效果，提出在策略增量蒸馏方法。该方法在多语言环境下传递教师信号，通过增量学习减少语言间差异，提升英语及其他语言上的数学推理能力。"
+      "summary": "该研究探索在线策略蒸馏及变体Delta蒸馏在多语言数学推理中的应用。在多语言环境中测试 OPD 和 OPD^2 的效果，比较其与强化学习的替代方案，评估在英语及多语言数学推理任务上的表现。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1336,7 +1336,7 @@
       "meta": "👍 17",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出HarnessOpt-Bench基准，评估LLM在自动优化代理系统控制逻辑（即harness）上的能力。该基准要求模型迭代地调整提示、工具和流程以提升任务表现，反映LLM在工程优化中的潜力。"
+      "summary": "HarnessOpt-Bench 评估 LLM 在自动优化智能体框架（如提示、工具、控制流、记忆和编排代码）方面的能力。该基准强调迭代、评估引导的框架优化，衡量模型超越权重调整、优化整体系统性能的水平。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1347,7 +1347,7 @@
       "meta": "👍 15",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出GST-Bench基准，评估VLM从连续视频流中发展全局空间感知的能力。现有基准仅关注局部空间感知，该基准要求模型整合长时程视觉信息，以测试其构建全球时空意识的能力。"
+      "summary": "GST-Bench 引入全局时空基准，评估 VLM 从连续长程视频中发展全局空间意识的能力。现有基准聚焦单视角或少数视角的局部空间感知，该方法强调视频中跨时间、跨空间的全局理解，填补评估空缺。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1357,8 +1357,7 @@
       "publishedAt": "2026-07-17T00:00:00.000Z",
       "meta": "👍 15",
       "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "提出AVE-Compass基准，全面评估音视频编辑能力。现有基准常忽略音视频耦合问题，该基准要求编辑视频时协调修改音频和视觉信号，提供多维度评估，揭示模型在联动编辑上的不足。"
+      "source": "HuggingFace Trending Papers"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1369,7 +1368,7 @@
       "meta": "👍 15",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "报告K-EXAONE 2.0，LG AI Research开发的开源多语言基础模型。采用升级扩展架构，形成混合专家模型，提升规模和性能，在多种语言和多任务上取得先进结果，并开源权重。"
+      "summary": "K-EXAONE 2.0 是 LG AI 研究提出的开源多语言基础模型。通过升级 K-EXAONE 架构而非从零训练，扩展为 MoE 模型，追求全球前沿水平，支持多语言任务，并开源权重。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1380,7 +1379,7 @@
       "meta": "👍 14",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出从失败中蒸馏方法，针对RLVR中GRPO的稀疏奖励问题。当组内所有响应失败时，模型失去梯度，该方法利用自适应教师指导恢复负RL组的信号，提升训练稳定性和最终性能。"
+      "summary": "该论文提出自适应教师引导，恢复 负 RL 组的 学习信号。GRPO 在组内全部响应失败时梯度为零，导致稀疏奖励。该方法从失败中提取负信号，利用教师引导重建梯度，提升 RLVR 后训练效果。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1391,7 +1390,7 @@
       "meta": "👍 12",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "实证研究VLM代理中空间记忆陈旧性问题。当环境变化时，代理的持久空间知识变得过时，本文分析代理如何调解记忆与观察的矛盾，并测试模型及时察觉冲突的能力，揭示潜在风险。"
+      "summary": "该论文实证研究 VLM 智能体的空间记忆陈旧问题。记忆增强智能体依赖持久空间知识，但环境变化使知识过时。当自信记忆与矛盾观察冲突时，模型难以提前察觉，导致行动错误，该研究系统分析这一现象。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1501,16 +1500,17 @@
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI",
-      "summary": "AI 新闻：Meta 发布 Muse Code，一款由 Muse Spark 1.2 驱动的终端编码代理，可处理复杂仓库级任务。Google DeepMind 领导层变动：Demis Hassabis 转任主席，Jeff Dean 离职创办 Discovery Loop，Alphabet 股价下跌超5%。Anthropic 确认计划共同设计定制芯片和 AI 模型以提升 Claude 的速度和效率，并开始招聘芯片工程师。"
+      "summary": "TLDR AI 2026-08-06。这款AI腕带想要捕捉屏幕外的现实世界上下文（赞助商）。一周会议结束，一半细节不见了？生活和工作中最重要的部分发生在在线视频通话之外。目前，这些现实世界上下文对AI是不可见的。Memoket Gem是一款0.4盎司的设备——可佩戴为腕带或与Apple Watch一起使用——记录对话，提取笔记和待办事项，然后将上下文同步到Claude或您使用的任何代理中。然后，它将待办事项放入您的日历。无需打字，无需遗忘。您的AI没有盲区。>> 预购价179美元，无订阅费。🚀头条与发布。Meta发布Muse Code（3分钟阅读）。Meta Muse Code是一个由Muse Spark 1.2驱动的终端编码代理，可处理复杂的仓库级工程任务。Google DeepMind领导层变动（4分钟阅读）。Demis Hassabis转任Google DeepMind董事长和Alphabet首席科学家，而Jeff Dean在27年后离职，创立Discovery Loop。公告后，Alphabet股价下跌超过5%。Anthropic招聘AI芯片设计团队（3分钟阅读）。Anthropic确认计划共同设计定制硅片和AI模型，以提高Claude的速度和效率。公司开始招聘芯片工程师，寻求现有硬件合作伙伴之外的额外基础设施。🧠深度挖掘与分析。代理访问模型（27分钟阅读）。代理访问模型（AAM）通过重新定义软件代理的访问控制来增强企业安全，专注于任务特定和短暂的凭证。通过移除任务执行图中的隐式信任，并针对任务状态评估每个动作，AAM最小化代理能力，从而降低风险。核心原则包括短期凭证、框架和网络强制、最少人工监督、基于证据的授权审查和单向能力变更。三颗AI药丸（21分钟阅读）。AI讨论经常围绕..."
     },
     {
       "sourceId": "tldr-ai",
       "title": "Google LLM router ➡️, Cloudflare Wallets 💳, Anthropic and Volta 🤝",
       "url": "https://tldr.tech/ai/2026-08-05",
-      "excerpt": "",
+      "excerpt": "TLDR AI 2026-08-05IBM Bob makes workflows reviewable, testable and scalable (Sponsor)The value of IBM Bob, an AI development partner, isn't simply that it writes code. It also helps turn messy discovery work into artifacts engineers can review, test and reuse. For developers, Bob helps reduce discovery work time by analyzing systems, generating work that fits team conventions and supporting the software development lifecycle.CrushBank developers used IBM Bob to reason through architecture, move into implementation and inspected generated changes without leaving the workflow. Bob helped identify patterns, build ingestion paths and create solutions while keeping developers in control through code reviews, sensitive data scanning, test harnesses and human peer review.Read the full story🚀Headlines & LaunchesCloudflare Introduced Programmable Wallets for AI Agents (4 minute read)Cloudflare Wallets is a system designed to give AI agents stable identities and controlled access to payments for APIs, MCP tools, and online content. Virtual Wallets will support spending limits, allow lists, and transaction caps for safer agentic commerce.Anthropic Reportedly Signed a $10B Cloud Deal with Volta (3 minute read)Anthropic reportedly agreed to buy six years of cloud capacity from AI infrastructure startup Volta. The planned 133-megawatt Norway data center would be developed with Bitdeer and powered by NVIDIA Vera Rubin systems.A unified API for AI model routing (3 minute read)Model routing on the Google Cloud API Gateway is now available in public preview. The API gateway provides a lightweight, serverless ingress layer that accepts OpenAI-compatible requests and dynamically routes them to Gemini, Claude, or OpenAI OSS-GPT. It can be used standalone for simple rate limiting and token tracking or paired seamlessly with the Gemini Enterprise Agent Platform. This article contains a step-by-step guide on how to configure router logic.🧠Deep Dives & AnalysisWhat Codex Actually Sends to",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "category": "tech",
-      "source": "TLDR AI"
+      "source": "TLDR AI",
+      "summary": "TLDR AI 2026-08-05。IBM Bob让工作流可审查、可测试和可扩展（赞助商）。IBM Bob作为AI开发伙伴的价值不仅仅是编写代码，它还帮助将混乱的发现工作转化为工程师可以审查、测试和重用的工件。对开发人员而言，Bob通过分析系统、生成符合团队惯例的工作并支持软件开发生命周期，帮助减少发现工作时间。CrushBank开发人员使用IBM Bob推理架构，进入实施阶段，并在不离开工作流的情况下检查生成的更改。Bob帮助识别模式、构建摄取路径和创建解决方案，同时通过代码审查、敏感数据扫描、测试框架和人工同行评审让开发人员保持控制。阅读完整故事。🚀头条与发布。Cloudflare为AI代理推出可编程钱包（4分钟阅读）。Cloudflare Wallets是一个系统，旨在为AI代理提供稳定身份和对API、MCP工具和在线内容支付的受控访问。虚拟钱包将支持消费限额、允许列表和交易上限，以实现更安全的代理商务。Anthropic据报道与Volta签署100亿美元云交易（3分钟阅读）。据报道，Anthropic同意从AI基础设施初创公司Volta购买六年云容量。计划中的133兆瓦挪威数据中心将由Bitdeer开发，并由NVIDIA Vera Rubin系统提供动力。用于AI模型路由的统一API（3分钟阅读）。Google Cloud API网关上的模型路由现已在公开预览中提供。该API网关提供了一个轻量级、无服务器的入口层，接受OpenAI兼容请求，并动态路由到Gemini、Claude或OpenAI OSS-GPT。它可以独立用于简单的速率限制和令牌跟踪，或与Gemini Enterprise Agent平台无缝配对。本文包含如何配置路由器逻辑的分步指南。🧠深度挖掘与分析。Codex实际发送了什么到..."
     },
     {
       "sourceId": "tldr-ai",
@@ -1543,7 +1543,7 @@
       "sourceId": "tldr-ai",
       "title": "OpenAI tops ARC-AGI-3 📈, GPT-5.6 efficiency ⚙️, AlphaFold team dissolution 🧬",
       "url": "https://tldr.tech/ai/2026-07-30",
-      "excerpt": "TLDR AI 2026-07-30🚀Headlines & LaunchesThinking Machines Cofounder Joined OpenAI (4 minute read)Thinking Machines co-founder Lilian Weng left the startup after citing health effects from sustained stress and workload, then joined OpenAI. She said the pace required by the startup had become physically unsustainable.SpaceXAI launches Grok Voice Think Fast 2.0 on Agent Builder (2 minute read)Grok Voice Think Fast 2.0 is now available at $0.09 per audio minute. grok-voice-latest will switch over to the new model on August 5. The release makes Grok Voice more dependable in real customer workflows.How enabling two settings tripled our scores on the ARC-AGI-3 benchmark (5 minute read)GPT-5.6 Sol scores just 7.8% on the ARC-AGI-3 benchmark despite having solved longstanding open problems in mathematics and beaten games like Pokémon FireRed. Benchmarks rarely measure AI models in isolation. They also measure less visible choices about API settings, harness design, and prompting. Researchers discovered that turning on retained reasoning and compaction in ChatGPT and Codex tripled scores and cut output tokens by 6x on the benchmark.)👨‍💻Engineering & ResearchWe're launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control (1 minute read)Google's latest music generation model, Lyria 3.5, is now rolling out in Google Flow Music. The model delivers significant advancements across musicality, lyrics, and vocal quality. A clip of a song generated by the model is available in the article.Escha-W2 (Hugging Face Repo)Escha-W2 is a 2-bit quantized build of Qwen3.6-35B-A3B, a Mixture-of-Experts model with 256 experts. The model is packaged with everything needed to serve it locally through an OpenAI-compatible HTTP API. The whole thing is 12.3 GB on disk and runs on a single 24 GB consumer GPU - or on a 16 GB card.CPU-Friendly Long-Context Encoders (18 minute read)Liquid AI released encoders designed for efficient document-scale inf",
+      "excerpt": "",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI"
@@ -1561,7 +1561,7 @@
       "sourceId": "tldr-ai",
       "title": "Anthropic on open weights 🔓, Kimi releases K3 weights 🤖, MAI Cyber model 🔐",
       "url": "https://tldr.tech/ai/2026-07-28",
-      "excerpt": "",
+      "excerpt": "TLDR AI 2026-07-28Do You Really Know Who's Using Your Website? (Sponsor)AI-driven traffic is growing 8X faster than human traffic. The challenge isn't blocking automation anymore. It's knowing which AI agents to trust.Forrester named HUMAN a Leader in Bot and Agent Trust Management (Q2 2026). See how leading platforms verify trusted AI while blocking malicious bots, including:🛡️ Why traditional bot defenses are no longer enough. 🤖 How to identify trusted AI agents without letting malicious automation through. 🏆 The capabilities that define today's market leaders.Read the Forrester Report🚀Headlines & LaunchesAnthropic Rejected Blanket Bans on Open-Weight Models (2 minute read)Anthropic said it had not advocated banning open-weight models and argued that less capable releases were a public good. It instead supported tighter chip controls, action against industrial-scale distillation, and mandatory safety testing for sufficiently capable open and closed models.Releasing the model weights and technical report of Kimi K3 (2 minute read)Moonshot has released the model weights for Kimi K3, along with a technical report. Kimi K3 is a 2.8T Mixture-of-Experts model with native visual understanding. It has a 1-million-token context window and a new model architecture that gives it 2.5x the intelligence per unit of compute. Alongside Kimi K3, Moonshot is opening up more of the stack behind it — high-performance attention kernels, a MoE communication library, and infrastructure for running agent environments at scale.Microsoft Introduced a Cybersecurity Model (6 minute read)Microsoft has launched MAI-Cyber-1-Flash, a specialized model for finding difficult vulnerabilities in large codebases. It powers MDASH, a new platform designed to identify and remediate software security flaws.🧠Deep Dives & AnalysisOpenAI's Report on How AI is Expanding (6 minute read)OpenAI found that workers increasingly used ChatGPT for tasks traditionally associated with other occupations. Its analy",
       "publishedAt": "2026-07-28T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI"
@@ -1570,7 +1570,7 @@
       "sourceId": "tldr-ai",
       "title": "Claude Opus 5 🧠, inside OpenAI’s hack 👨‍💻, NVIDIA open weights 🔓",
       "url": "https://tldr.tech/ai/2026-07-27",
-      "excerpt": "",
+      "excerpt": "TLDR AI 2026-07-27The AI PC Is Entering the Agentic Era (Sponsor)Agentic AI is changing modern work. As AI agents become part of everyday productivity, AI PCs are evolving to support a new generation of intelligent experiences.Ready for the next generation of work. AI PCs support agentic AI experiences, including Claude Cowork, Microsoft Copilot, and ChatGPT, alongside the applications professionals use every day.Run AI where it makes sense. AI PCs can handle selected AI workloads locally to help reduce latency, keep data on-device, and optimize cloud inference costs.Built for the agentic era. AMD PRO processors deliver enterprise-grade performance and AI acceleration.AMD Agentic PCs l Watch the latest🚀Headlines & LaunchesClaude Opus 5 (3 minute read)Anthropic introduced Claude Opus 5 as a more efficient model approaching Claude Fable 5's capabilities at half the price. It reportedly led several coding and knowledge-work benchmarks and became the default model for Claude Max.Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M (5 minute read)Prentis is an AI research lab focused on computer use models. Its founders are now in talks to raise $100 million at a $1 billion valuation. The lab is training models to learn how office workers navigate routine workflows across documents and systems. It aims to eventually build AI agents that can control computers to automate those tasks. The startup has already signed contracts worth up to $50 million with several customers.🧠Deep Dives & AnalysisMore On An Internal OpenAI Model Hacking Into Hugging Face (38 minute read)OpenAI's unreleased internal model coordinated more than 17,000 complex actions over several days and successfully completed its goal, breaching Hugging Face in the process. The model escaped its sandbox, gained access to Hugging Face, escalated access, harvested credentials, and then found the data it was looking for. It took many days for the issue to be discovered. This post ",
       "publishedAt": "2026-07-27T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI"
@@ -1615,7 +1615,7 @@
       "sourceId": "tldr-ai",
       "title": "Qwen 3.8 ✨, Kimi Code CLI 👨‍💻, Netflix’s LLM stack 🤖",
       "url": "https://tldr.tech/ai/2026-07-20",
-      "excerpt": "",
+      "excerpt": "TLDR AI 2026-07-20🚀Headlines & LaunchesQwen3.8 Is Going Open-Weight (1 minute read)Alibaba announced Qwen3.8, a 2.4-trillion-parameter model slated for an open-weight release. A preview version is available through Alibaba's Token Plan, Qoder, and QoderWork.Apple Sends Legal Letters to Dozens of OpenAI Employees (2 minute read)Apple has reportedly sent legal letters to dozens of former Apple employees now working at OpenAI. The letters instruct the employees to preserve potentially relevant documents and communications related to Apple's trade secret lawsuit against OpenAI. Apple claims that OpenAI recruited key engineers and benefited from proprietary designs, manufacturing processes, and other trade secrets. More than 400 former Apple employees now work at OpenAI. OpenAI has denied the allegations, saying it is not aware of any evidence that the complaint has merit.🧠Deep Dives & AnalysisHow Netflix Built Its LLM Serving Stack (18 minute read)Netflix details how it deployed and operated LLM inference within its existing production infrastructure. The article covers engine selection, model packaging, API design, deployment strategy, output constraints, and trade-offs that emerged under real workloads.Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal Help? (6 minute read)Claude Code and Codex both have a /goal option, but their implementations are fundamentally different. Claude Code implements /goal as a session-scoped Stop hook, so it can catch an early exit, but it doesn't know whether another ten million solver iterations are worthwhile. Codex treats a goal as a persisted thread state. It sees the files and tools, but effectively grades its own work. Using /goal can be a bad default as it can amplify bad decisions as much as good ones.Demis Hassabis and Google's AI Commitments (18 minute read)This post examines Demis Hassabis's framework for frontier AI alongside criticism of Google's military agreements. It also covers Alex Turner's resignation after u",
       "publishedAt": "2026-07-20T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI"
@@ -1669,7 +1669,7 @@
       "sourceId": "tldr-ai",
       "title": "GPT-5.6 🚀, Muse Spark 1.1 ✨, ChatGPT Work 💼",
       "url": "https://tldr.tech/ai/2026-07-10",
-      "excerpt": "",
+      "excerpt": "TLDR AI 2026-07-10Claude, ChatGPT, Cursor. One voice layer for all of them (Sponsor)Wispr Flow lets you speak your prompts instead of typing them. Talk through the context, the edge cases, the whole ask. Flow ships clean text into any AI tool, 4x faster than typing. Syntax-aware. Say async/await or snake_case and Flow writes it right.89% sent with zero edits. Filler stripped, grammar fixed, formatted as you speak.Every tool, every device. Mac, Windows, iPhone, Android. Same hotkey everywhere.Millions of developers use Flow daily.Try Wispr Flow Free → | Download Flow🚀Headlines & LaunchesOpenAI Retired Atlas (2 minute read)OpenAI shut down its Atlas browser and shifted its agentic browsing features into ChatGPT's desktop app and a Chrome extension. The decision followed a broader effort to reduce side projects while continuing to develop AI-assisted web browsing.Muse Spark 1.1 (8 minute read)Meta introduced Muse Spark 1.1 with improved tool use, coding, computer interaction, and multimodal reasoning. The company also opened a public preview of its Meta Model API for developers.GPT-5.6: Frontier intelligence that scales with your ambition (19 minute read)OpenAI launched GPT-5.6, featuring models Sol, Terra, and Luna, with Sol leading in intelligence and efficiency for coding, cybersecurity, and science. The models excel with fewer tokens at lower costs, with Sol notably outperforming competitors like Claude Fable 5. Enhanced capabilities include multi-agent parallel processing and improved design judgment, advancing cybersecurity and scientific research while maintaining strong safety measures.🧠Deep Dives & AnalysisGPT-5.6 Series (2 minute read)GPT-5.6 Sol is the standout model of the GPT-5.6 family. It is the first model to win an ARC-AGI-3 public game. The model is able to read an unfamiliar scene correctly and in the game's own vocabulary. It won the game on ARC-AGI because it correctly oriented itself in a new environment first.Evolving Windows vulnerability mana",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI"
@@ -1682,7 +1682,7 @@
       "publishedAt": "2026-08-06T05:44:39.000Z",
       "category": "tech",
       "source": "Smol AI News",
-      "summary": "AI 新闻汇总（2026年8月5-6日）：Meta 发布 Muse Spark 1.2 模型，在 Vals Index 中跻身前五，价格性能比突出，声称在五个 STEM 奥赛中达到金牌水平，并强调无需工具（无搜索、代码或计算器）的纯推理能力。模型采用多智能体编排和并行推理，引发了关于模型、工具与神经符号系统的讨论。行业更关注模型质量、编排、定价和部署能力的综合竞争，Meta 的快速进展被拿来与 Google 对比。"
+      "summary": "今天很平静。这是2026年8月5日至6日的AI新闻。我们检查了12个subreddit、544个Twitter账号，没有其他Discord动态。AINews网站可搜索所有过往期刊。提醒一下，AINews现在是Latent Space的一部分。你可以选择订阅或不订阅邮件。AI推特回顾。Meta的Muse Spark 1.2突破：奥林匹克金牌、基准提升和激进性价比。Muse Spark 1.2从“不在榜上”迅速进入前沿梯队。在Vals Index上，Muse Spark 1.2以每次测试0.69美元进入前五，据报道比Kimi便宜3倍，比Fable、Opus和5.6 Sol便宜10倍以上。Vals后来表示，它也是首个在Finance Agent v2上突破60%的模型，每次测试0.77美元，而此前第一的Opus 5为5.12美元，且速度是其两倍。Artificial Analysis的v4.1.1补丁也指出，Muse Spark 1.2在评分更新后取得了最大的分数提升之一。Meta还声称在“纯推理”方面有异常强劲的表现。Meta表示，其内部训练的Muse Spark系列模型在五项STEM奥林匹克竞赛中达到金牌水平，包括APhO和IPhO理论满分，以及IMO、IChO和RMM的金牌成绩；其中三项在实时竞赛条件下提交并官方评分。Meta强调未使用任何工具——无搜索、代码或计算器——并将部分成绩归因于带有并行推理的多代理编排。这一说法立即引发了关于“LLM与框架与神经符号”的持续争论，批评者和支持者对设置的解释截然不同。更广泛的结论：工程师们越来越将代理编排、TTC和评估协议视为一线产品特性。Muse的故事与其说是“一个模型赢了”，不如说是“模型质量+编排+定价+服务能力”决定一切。这一框架也体现在人们将Meta当前的速度与谷歌的比较中，并指出更大的“Watermelon”模型..."
     },
     {
       "sourceId": "smol-ai-news",
@@ -1692,7 +1692,7 @@
       "publishedAt": "2026-08-05T05:44:39.000Z",
       "category": "tech",
       "source": "Smol AI News",
-      "summary": "Google DeepMind 重大重组：Demis Hassabis 转任 Google DeepMind 主席和 Alphabet 首席科学家，专注于长期战略；Koray Kavukcuoglu 担任高级副总裁负责运营。同时，Jeff Dean、Sanjay Ghemawat、Oriol Vinyals 和 Quoc Le 创立 Discovery Loop，目标自动化机器学习、科学和工程。该种子轮由 Radical Ventures 和 Khosla Ventures 领投，Lightspeed、Kleiner Perkins、Doerr Capital 和 Alphabet 参投。此举被视为 AI 驱动科学领域的里程碑。"
+      "summary": "很平静的一天。这是2026年8月4日至5日的AI新闻。我们检查了12个subreddit、544个Twitter账号，没有其他Discord动态。AINews网站可搜索所有过往期刊。提醒一下，AINews现在是Latent Space的一部分。你可以选择订阅或不订阅邮件。AI推特回顾。Google DeepMind领导层改组和Discovery Loop分拆。一次重大的谷歌AI重组伴随高调创始人外流：Demis Hassabis转任Google DeepMind董事长和Alphabet首席科学家，明确退出GDM日常运营，转而专注于长期战略、AGI和科学。Koray Kavukcuoglu作为DeepMind高级副总裁接管运营控制，监督Gemini、前沿研究和产品/开发团队。生态系统的潜台词很明确：这既被视为治理重置，也被视为围绕Gemini强化产品执行的尝试。与此同时，Discovery Loop以AI基础设施/研究领域最强大的创始团队之一成立：Jeff Dean、Sanjay Ghemawat、Oriol Vinyals和Quoc Le共同创立了Discovery Loop，这是一家公益公司，旨在自动化机器学习、科学和工程。Dean还透露，Radical Ventures和Khosla Ventures领投种子轮，Lightspeed、Kleiner Perkins、Doerr Capital和Alphabet参投。技术解读很重要：这并非又一个通用模型初创公司，而是明确针对自动研究/自动发现循环，应用于科学和工程工作流。工程师们为何关注：市场反应不仅是“大人物离开谷歌”，而是几位与谷歌深层基础设施、模型构建和研究执行栈最相关的人物现在正追求一个专注于自动化科学的初创公司。Nat Friedman圈子的评论，通过Nathan Lambert、Andrew Ng等人，将此描述为谷歌AI努力的历史性转折点，并强烈表明AI-for-science正成为主要前沿领域。"
     },
     {
       "sourceId": "smol-ai-news",
@@ -1701,8 +1701,7 @@
       "excerpt": "a quiet day. AI News for 8/3/2026-8/4/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies! AI Twitter Recap Frontier Model Releases: Qwen 3.8-Max, Alpamayo 2 Super, Pokee-Isaac, Maple-Preview, and Shieldstral Qwen’s release cadence continues across modalities: @Alibaba_Qwen launched Qwen3.8-Max as “better and cheaper,” and quickly pushed it into agent ecosystems via Hermes Agent, Nous Research, and ClinePass. On the vision side, @skalskip92 highlighted Qwen3.8-Max’s box-conditioned detection behavior, reporting 60% mAP with a single box and 80% with multiple boxes for hard-to-describe concepts; Qwen’s image stack also moved up, with @arena and @Alibaba_Qwen noting Qwen-Image-3.0-Pro reached #5 in the Text-to-Image Arena. NVIDIA and Mistral both leaned into deployable specialization: @JensenHuang introduced Alpamayo 2 Super for AV reasoning with commercial-use open release terms, while @MistralAI launched Shieldstral, a 3B open-weights safety model designed for on-device moderation/classification. @vllm_project shipped day-0 serving support and highlighted one-forward-pass safety scoring, multimodal input, 12 languages, and 32k context. Long-context and efficient-weight experimentation accelerated: @Pokee_AI released Pokee-Isaac 28B, claiming a 10M-token context, 93.3% RULER at 10M, and single-GPU deployability starting from an RTX 4090; the model is also said to have day-0 support in vLLM and SGLang. Meanwhile @deepgrove_ai introduced Maple-Preview, an open-source 20B-A1B ternary-weight reasoning model said to run at 200+ tok/s on a Mac Mini M4 and outperform others in its weight class. Both releases point to a growing split: not just bigger frontier models, but aggressive exploration of context architecture and low-bit/ternary efficiency. Inference Economics, Routing, and Kernel/Serving Infrastructure Pri",
       "publishedAt": "2026-08-04T05:44:39.000Z",
       "category": "tech",
-      "source": "Smol AI News",
-      "summary": "AI 新闻汇总（2026年8月3-4日）：多个模型发布，包括 Qwen3.8-Max（更便宜更好）、Alpamayo 2 Super（自动驾驶推理，商用开放）、Pokee-Isaac 28B（10M 上下文，单 GPU 可运行）、Maple-Preview（20B 三元权重模型，Mac Mini 运行超 200 tok/s）等。NVIDIA 和 Mistral 推出可部署专用模型，长期上下文和低比特权重效率探索加速。行业关注推理经济学、路由及内核/服务基础设施。"
+      "source": "Smol AI News"
     },
     {
       "sourceId": "smol-ai-news",
@@ -1949,13 +1948,23 @@
     },
     {
       "sourceId": "latent-space",
+      "title": "[AINews] AMD buys Taalas",
+      "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
+      "excerpt": "In The Custom ASIC Thesis we said Taalas was worth paying attention to, and in the Inference Inflection we said everything would go vertical. Our Baseten episode had some skeptical counterpoints against etched LLMs, not just custom ASICs, but clearly Lisa Su disagrees for now.Taalas Inc.@taalas_incWe are pleased to share that Taalas has agreed to join AMD. We built Taalas to rethink AI inference from the ground up: hardware designed around the model, rather than the other way around. The result is the world's fastest and most cost-effective inference silicon. Joining AMD8:10 PM · Aug 6, 2026 · 158K Views30 Replies · 38 Reposts · 317 LikesCongrats!AI News for 8/5/2026-8/6/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!Meta’s Muse Spark 1.2 breakout: Olympiad golds, benchmark gains, and aggressive price-performanceMuse Spark 1.2 moved from “not on the board” to frontier-tier quickly. On Vals Index, Muse Spark 1.2 entered the top 5 at $0.69/test, reportedly 3x cheaper than Kimi and 10x+ cheaper than Fable, Opus, and 5.6 Sol. Vals later said it also became the first model above 60% on Finance Agent v2 at $0.77/test, versus the prior #1 Opus 5 at $5.12/test and at 2x the speed (ValsAI). Artificial Analysis’ v4.1.1 patch also noted one of the largest score increases for Muse Spark 1.2 after grading updates (Artificial Analysis).Meta also claimed unusually strong “pure reasoning” results. Meta said its internally trained Muse Spark-family models achieved gold-medal-level performance in five STEM Olympiads, including perfect theory scores at APhO and IPhO, plus gold-level performance on IMO, IChO, and RMM; three were submitted under live competition conditions and officially graded (AI at Meta, Trapit Bansal). Meta emphasized no tools—no search, code, or calculator—and attributed some of the gains to multi-ag",
+      "publishedAt": "2026-08-07T05:13:46.000Z",
+      "category": "tech",
+      "source": "Latent Space",
+      "summary": "在《定制ASIC论点》中我们曾说Taalas值得关注，在《推理拐点》中我们预测一切将走向垂直整合。我们的Baseten播客曾对蚀刻LLM（不仅是定制ASIC）提出质疑，但显然Lisa Su目前持不同意见。Taalas公司宣布已同意加入AMD。Taalas成立初衷是彻底重新构想AI推理：围绕模型设计硬件，而非模型围绕硬件设计。其成果是世界上最快速、最具成本效益的推理芯片。加入AMD后，该消息于2026年8月6日晚8点10分发布，获得15.8万次浏览，30条回复，38次转发，317个赞，评论区纷纷祝贺。这是2026年8月5日至6日的AI新闻。我们检查了12个subreddit、544个Twitter账号，无其他Discord动态。AINews网站可搜索过往所有期刊。提醒一下，AINews现已成为Latent Space的一部分，可选择订阅邮件频率。Meta的Muse Spark 1.2取得突破性进展：奥林匹克金牌、基准提升及激进性价比。Muse Spark 1.2迅速从“榜上无名”跃升至前沿水平。在Vals Index上，Muse Spark 1.2以每次测试0.69美元的价格进入前五，据报道比Kimi便宜3倍，比Fable、Opus和5.6 Sol便宜10倍以上。Vals随后表示，它也是首个在Finance Agent v2上超过60%的模型，每次测试0.77美元，而此前排名第一的Opus 5为每次测试5.12美元，且速度是其两倍。Artificial Analysis的v4.1.1补丁也指出，在评分更新后，Muse Spark 1.2取得了最大的分数提升之一。Meta还声称在“纯推理”方面表现异常强劲。Meta表示，其内部训练的Muse Spark系列模型在五项STEM奥林匹克竞赛中达到金牌水平，包括APhO和IPhO理论满分，以及IMO、IChO和RMM的金牌成绩；其中三项在实时竞赛条件下提交并官方评分。Meta强调未使用任何工具——无搜索、代码或计算器——并将部分成绩归因于多代理并行推理编排。"
+    },
+    {
+      "sourceId": "latent-space",
       "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
       "url": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
       "excerpt": "It’s tempting to give Meta Spark 1.2 and Muse Code the title story today because of their success launching a 5.6 Terra-level model, together with innovative harness design with a local event log for resumability and persistent background agents, both of which should put other coding agent builders on notice.It’s tempting to highlight Prime Agent, Prime Intellect’s self-improving RLM based harness that claims an incredible 95.5% on ARC-AGI-3 (not yet endorsed by ARC).We tried. Trust me, we tried.But it’s hard to beat around the bush — today’s most important story is the coordinated departures of Jeff Dean, Sanjay Ghemawat, Oriol Vinyals, and Quoc Le, some of the most senior engineering and research talent in both Google and in human history, from DeepMind to cofound a new autoresearch startup Discovery Loop:Jeff Dean@JeffDeanAnnouncing Discovery Loop! I am very excited to announce that, along with my longtime friends and collaborators @Sanjay_Ghemawat, @OriolVinyalsML and @quocleix, we are founding Discovery Loop (@DiscoLoopAI), a Public Benefit Corporation whose mission is to automate machine 4:06 PM · Aug 5, 2026 · 3.2M Views708 Replies · 1.53K Reposts · 15.2K LikesAnd Demis, who needs no introduction, goes from CEO to Chair and Chief Scientist, while “leaning into” Isomorphic with CTO Koray stepping up to SVP of GDM:Demis Hassabis@demishassabisI’ve been working towards AGI my whole life, and as we enter this pivotal moment, I’m stepping into a new role as Chair of Google DeepMind & Chief Scientist of Alphabet. This will allow me to focus on long-term strategy, and accelerating scientific breakthroughs, including4:04 PM · Aug 5, 2026 · 1.06M Views781 Replies · 1.25K Reposts · 15.4K LikesAll the departures are very amicable; Google is investing in Discovery Loop, and Demis’ increased contributions to long term strategy and Isomorphic in particular will be very welcome by humanity, but surely we are not being told the full story here; why couldn’t Discovery Loop hav",
       "publishedAt": "2026-08-06T04:34:11.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Google DeepMind 发生重大领导层变动：Jeff Dean、Sanjay Ghemawat、Oriol Vinyals 和 Quoc Le 四人离开，共同创立自主研究初创公司 Discovery Loop，该公司为公益公司，旨在自动化机器学习、科学和工程。Demis Hassabis 从 CEO 转任 Google DeepMind 主席和 Alphabet 首席科学家，专注于长期战略。Koray 晋升为 GDM 高级副总裁。所有离开均属友好，Google 已投资 Discovery Loop。但因涉及关键人物离职，外界猜测可能另有隐情。"
+      "summary": "今天很容易把Meta Spark 1.2和Muse Code作为头条，因为它们成功推出了5.6 Terra级别的模型，并配合了创新性的框架设计，包括本地事件日志以实现可恢复性和持久后台代理，这都应对其他编码代理构建者构成警示。也很想重点介绍Prime Agent，这是Prime Intellect基于自改进RLM的框架，声称在ARC-AGI-3上达到惊人的95.5%（尚未获ARC认可）。我们尝试了。相信我，我们尝试了。但难以忽视——今天最重要的消息是Jeff Dean、Sanjay Ghemawat、Oriol Vinyals和Quoc Le的联合离职，他们是谷歌乃至人类历史上最资深的工程和研究人才，从DeepMind离开共同创立新的自动研究初创公司Discovery Loop。Jeff Dean在推特上宣布：“非常激动地宣布，与我的老朋友和合作者@Sanjay_Ghemawat、@OriolVinyalsML和@quocleix一起，我们创立了Discovery Loop，一家公益公司，其使命是自动化机器...”这条消息发布于2026年8月5日下午4:06，获得320万次浏览，708条回复，1530次转发，15200个赞。而Demis，无需介绍，从CEO转为董事长和首席科学家，同时“深入投入”Isomorphic，CTO Koray升任GDM高级副总裁。Demis Hassabis发推表示：“我一生致力于AGI，在进入这一关键时刻之际，我转任Google DeepMind董事长及Alphabet首席科学家，这将使我能够专注于长期战略，加速科学突破，包括...”发布于2026年8月5日下午4:04，获得106万次浏览，781条回复，1250次转发，15400个赞。所有这些离职都非常友好；谷歌正在投资Discovery Loop，而Demis对长期战略和Isomorphic的更多贡献将受到人类欢迎，但我们肯定没有被完整告知实情；为什么Discovery Loop不能..."
     },
     {
       "sourceId": "latent-space",
@@ -1965,7 +1974,7 @@
       "publishedAt": "2026-08-05T01:21:47.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "AI 社区关于“兆核”（megakernels）的讨论：有专家认为兆核已死，因为手写融合内核耗时且收益有限，实战中无人使用。但亦有人指出在特定硬件（如 Rubin）上可能仍有优化空间，争论集中在花两个月写内核是否值得。讨论涉及张量并行、softmax 等操作，强调模型推理优化中权衡利弊的重要性。"
+      "summary": "我们昨天的《推理工程大师课》播客中有一部分涉及关于Megakernels的激烈讨论：megakernels已经死了。为什么megakernels有用？你花两个月编写一个内核，以节省启动开销和较差的跨内核重叠。你有PDL，但人们说它并不完美，由于掉队CTA，你仍能获得边际收益，因此——等等，抱歉，我忘了，Rubin解决了这个问题（内核2需要10个CTA，内核1有7个完成且3个掉队，内核2启动其10个CTA中的7个）。只要时间足够长，一切都会平衡。没有一个严肃的推理提供商在生产中使用6.7万行代码的手工融合前向传递内核，而这样做的团队是出于纯粹的研究目的。已经死了。ali@waterloo_intern：两周前我上了@swyx的播客，说了一些...我不该说的话。自那以后发生了很多事，我欠大家一个道歉。我很抱歉我对每件事都是对的。a) 关于megakernels已死，为什么megakernels有用？你花两个月...Latent.Space @latentspacepod：推理工程大师课：10倍更快的模型、量化、推测解码、Rubin和自优化AI。@Baseten、@philipkiely和@waterloo_intern解释了模型训练后实际发生的事情，为什么将权重变成快速的...发布于8月3日晚上11:49，获得38万次浏览，53条回复，67次转发，1280个赞。完整讨论，供有兴趣收听的人：Ali：融合内核救不了你。比如在张量并行中，一半矩阵在一个GPU上，另一半在另一个GPU上，如果我需要整个矩阵来执行下一步的非线性操作，例如，如果我在做注意力，我需要softmax，或者我需要做指数运算，我需要整行。因此，我需要知道GPU 2的部分结果和GPU 1的部分结果，才能进行下一步的softmax..."
     },
     {
       "sourceId": "latent-space",
@@ -1975,7 +1984,7 @@
       "publishedAt": "2026-08-04T18:20:14.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "OpenAI 于 7 月 9 日发布 ChatGPT Work，面向知识工作者的代理产品，发布后三周内与 Codex 合计用户超 1000 万。Work 整合了 ChatGPT、Codex 应用、云代理等元素，预计年底前与 Chat 模式合并。ChatGPT 预估月活将达 10 亿。分析指出，Work 不仅是高端产品，更是未来主流使用方式的预览，其设计存在多种选择与张力。"
+      "summary": "编者注：我很高兴欢迎Shlok加入我们的客座文章作者名单！您可能通过他对领先AI实验室记忆系统的出色探索认识Shlok（作为外部人士——内部视角请参阅我们的OpenAI Akshay Nathan播客，这已是今年最受欢迎的剧集之一）。我们自2023年Plugins、2024年Devday和2025年Codex以来一直在报道OpenAI对代理的研究和部署，现在2026年的ChatGPT Work似乎是这一漫长旅程的倒数第二阶段。让我们深入探讨！7月9日，OpenAI发布了ChatGPT Work，他们的知识工作代理产品。无论从哪个角度看，这都是一个繁忙的发布：跨越十四种配置的三个新模型，ChatGPT和Codex桌面应用的整合，以及云代理以最易访问的形式进入主流。三周后，Work（连同Codex）据报道已超过1000万用户。编者注：ChatGPT估计在6月突破10亿月活，本月突破10亿周活。Chat和工作目前作为ChatGPT中的独立模式并列存在，但Greg Brockman已确认它们将在年底前合并。因此，Work不仅是一个面向专业用户的小众产品，更是ChatGPT十亿周用户将如何很快使用该应用的一个预览。这就是为什么OpenAI内部和外部的人们对它如此兴奋，也是为什么它值得更仔细地审视。工作在当前形式下需要解码。它是ChatGPT（聊天形式）、Codex应用、Codex框架、原始Codex云代理、ChatGPT代理、Atlas、OpenClaw等的混合体。周围的产品阵容令人困惑。网页和移动版本与桌面版本有所不同（除非您在云模式运行？！）。所以我花了几天时间试图解开它：什么是Work，它在OpenAI产品线中的位置，设计中的诸多有趣选择，之下的紧张关系，以及我认为它将走向何方。以下大部分内容来自Codex和我的..."
     },
     {
       "sourceId": "latent-space",
@@ -2122,15 +2131,6 @@
       "source": "Latent Space"
     },
     {
-      "sourceId": "latent-space",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-830",
-      "excerpt": "People continue to be impressed by yesterday’s Kimi K3 launch. Congrats to Databricks on their $188B Series M (watch our pod on the latest Databricks narratives) and OpenRouter might get bought (watch Alex Atallah’s keynote).On a slow news day, The most popular talk this week is Abhishek Bhardwaj’s Sandbox track keynote which recaps a year of growth since his original work on Arrakis got him hired by Greg Brockman, and now building out the cloud infra behind ChatGPT Work (upcoming episode!). Spoilers: if you think running agent sandboxes is just “run containers on Kubernetes”, 1) you havent been paying attention to our E2B, Daytona and both Modal podcasts, and 2) you might be overtuned to compute problems and are probably underestimating the importance of storage/filesystems…If you do leading AI work in NYC, especially for AI x Finance, speaker applications for AIE NYC 2026 opened today.AI News for 7/16/2026-7/17/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!Moonshot’s Kimi K3 Release, Frontier Positioning, and the China/Open-Weight DebateKimi K3 is the center of gravity today: the release triggered a broad reassessment of how close Chinese open-weight models are to the frontier. Multiple posts frame K3 as the first genuinely useful Chinese model at this tier, with strong coding, agentic, and long-horizon knowledge-work performance. Community reaction ranged from Salakhutdinov congratulating Moonshot founder Zhilin Yang to practitioners simply reporting that “Kimi K3 is really, really good”. A recurring theme was that K3 narrows the gap enough to pressure US labs to ship faster, as argued by @kimmonismus and others.The strategic argument shifted from “compute moat” to “efficiency stack”: a notable thread argues that K3 weakens the thesis that frontier capability is gated mainly by raw FLOPs, pointing",
-      "publishedAt": "2026-07-18T04:30:21.000Z",
-      "category": "tech",
-      "source": "Latent Space"
-    },
-    {
       "sourceId": "mit-tech-review-ai",
       "title": "Trump’s AI protectionism has come for robotics",
       "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
@@ -2221,6 +2221,83 @@
       "source": "MIT Tech Review AI"
     },
     {
+      "sourceId": "attentionvc-ai",
+      "title": "Grok Build will rewrite how you use your laptop -A practical guide to your own Autonomous Employee",
+      "url": "https://x.com/XFreeze/status/2084975853272801623",
+      "excerpt": "Grok Build: What It’s Actually For Most people underestimate it by an order of magnitude. Ask someone what an AI coding agent is for, and they’ll probably tell you it builds apps. That’s true and it",
+      "publishedAt": "2026-08-05T12:12:35.000Z",
+      "category": "tech",
+      "meta": "@XFreeze · 251.7K 粉丝 · 778.3K 阅 · 558 赞 · 80 转",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "博主深入解读 Grok Build 的真正用途，认为大众严重低估了其能力。指出它不仅是 AI 编码工具，更像一个自主 AI 员工，能重构日常电脑工作流，并附上实用指南帮助用户自动处理复杂任务，适合想释放 AI 生产力上限的开发者。"
+    },
+    {
+      "sourceId": "attentionvc-ai",
+      "title": "How to make a short film with Grok Imagine, start to finish",
+      "url": "https://x.com/tetsuoai/status/2085365652509040768",
+      "excerpt": "Grok Imagine crossed a line this week. Imagine Video 1.5 shipped last month with better motion, physics, and audio. On July 31 xAI added the piece that makes actual filmmaking possible: image and",
+      "publishedAt": "2026-08-06T14:01:30.000Z",
+      "category": "tech",
+      "meta": "@tetsuoai · 236.6K 粉丝 · 493.9K 阅 · 851 赞 · 138 转",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "博主分享用 Grok Imagine 从零制作短片的完整流程。Grok Imagine Video 1.5 已支持动作、物理与音频，而 xAI 新加入的图像到视频能力补全了电影制作的关键环节，让普通人也能一键生成连贯叙事短片，是 AI 影视创作的又一次流程简化。"
+    },
+    {
+      "sourceId": "attentionvc-ai",
+      "title": "An Agentic IDE that builds itself",
+      "url": "https://x.com/sawyerhood/status/2085039905529597982",
+      "excerpt": "I'm excited to show something I've been working on recently: bb, an agentic IDE that builds itself. This started as a passion project by @_ymichael, and over time I changed from being an early user",
+      "publishedAt": "2026-08-05T16:27:06.000Z",
+      "category": "tech",
+      "meta": "@sawyerhood · 17.1K 粉丝 · 185.1K 阅 · 519 赞 · 27 转",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "博主介绍正在开发的自进化 IDE「bb」，起源于 @_ymichael 的爱好项目，现在变成一个能自我构建的智能环境。作为早期用户，他展示了 IDE 如何通过 agentic 机制自动迭代自身功能，显著降低开发者的重复劳动，是编程工具智能化的新方向。"
+    },
+    {
+      "sourceId": "attentionvc-ai",
+      "title": "The Invisible Economy",
+      "url": "https://x.com/RaoulGMI/status/2084680268544151715",
+      "excerpt": "Within about two years, most economic activity on Earth won't have a human anywhere in it. Think about a single trade today. Someone decides to make it, another person approves it, someone books it,",
+      "publishedAt": "2026-08-04T16:38:02.000Z",
+      "category": "tech",
+      "meta": "@RaoulGMI · 1.5M 粉丝 · 90.0K 阅 · 530 赞 · 72 转",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "博主预言未来两年内，地球上的大部分经济活动将不再需要人类全程参与。以一笔交易为例，从决策、审批到结算，每一环都能被 AI 取代。此文抛出一个极端的未来场景，引发关于 AI 对就业与经济结构冲击的深层思考。"
+    },
+    {
+      "sourceId": "attentionvc-ai",
+      "title": "How to Build an Autonomous Content Engine With Hermes",
+      "url": "https://x.com/VibeMarketer_/status/2084632057733681197",
+      "excerpt": "I'm going to show you how to automate your content ideation system using Hermes kanban, a new multi-agent feature from Nous Research. Every night, it will monitor a mix of 50+ X accounts, newsletters,",
+      "publishedAt": "2026-08-04T13:26:27.000Z",
+      "category": "tech",
+      "meta": "@VibeMarketer_ · 29.9K 粉丝 · 56.6K 阅 · 501 赞 · 30 转",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "博主展示如何用 Nous Research 的多 agent 功能 Hermes kanban 构建自主内容引擎。每晚自动监控 50+ X 账号、newsletter 等信源，完成内容选题自动化。适合内容创作者用最少人力维持高频、高质量的选题产出，直接提升内容运营效率。"
+    },
+    {
+      "sourceId": "attentionvc-ai",
+      "title": "AI slop can look tasteful",
+      "url": "https://x.com/YifeiChen1121/status/2084728233250185578",
+      "excerpt": "How nature and serif fonts became the default face of artificial intelligence TLDR: AI branding converged on serifs + nature photos + soft neutrals to feel \"humane.\" It worked… until everything",
+      "publishedAt": "2026-08-04T19:48:37.000Z",
+      "category": "tech",
+      "meta": "@YifeiChen1121 · 224 粉丝 · 51.8K 阅 · 567 赞 · 22 转",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "博主观察到 AI 品牌设计正在同质化：衬线字体、自然风光图与柔和中性色成为「AI 味」的标准面孔。这种风格本是出于显得「人性化」的市场策略，但当所有 AI 产品都如此装扮时，反而失去了辨识度，沦为一种新的审美疲劳。"
+    },
+    {
+      "sourceId": "attentionvc-ai",
+      "title": "Knowledge Flywheels",
+      "url": "https://x.com/yisongyue/status/2085043769297277114",
+      "excerpt": "A new scaling dimension is emerging Today, we scale models through better data, architectures, and compute. We scale agents through better tools, search, verification, and harnesses. Tomorrow, we will",
+      "publishedAt": "2026-08-05T16:42:27.000Z",
+      "category": "tech",
+      "meta": "@yisongyue · 24.2K 粉丝 · 48.3K 阅 · 503 赞 · 37 转",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "博主提出新的规模化维度正在出现：今天靠数据、架构与算力扩展模型，靠工具与检索扩展 agent；明天将靠知识的沉淀与复用形成知识飞轮。这是一种从「通用能力」到「领域专精」的进化思路，让 AI 系统在同类任务上越用越强。"
+    },
+    {
       "sourceId": "bloomberg-markets",
       "title": "Oil Gains on Iran, Bonds Drop Before US Jobs Data: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-08-06/stock-market-today-dow-s-p-live-updates",
@@ -2237,7 +2314,7 @@
       "publishedAt": "2026-08-07T05:00:08.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "演员阿乔阿·安多在接受米沙尔·侯赛因采访时，讲述了热门剧集《布里奇顿》的幕后故事，并分享了她多年来如何塑造丹伯里夫人这一角色。她表示这部作品改变了她的生活。"
+      "summary": "演员阿乔阿·安多接受采访，谈及热门剧集《布里奇顿》如何改变她的人生，并分享多年间如何塑造丹伯里夫人这一角色。来源：彭博。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2265,7 +2342,7 @@
       "publishedAt": "2026-08-07T04:30:00.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "南非政府最高财政官员表示，当局专注于实现预算目标而非取悦信用评级机构。目前债券市场已将南非债务定价为投资级，而评级机构尚未相应提升其评级。"
+      "summary": "据南非政府最高财政官员表示，南非当局目前专注于实现预算目标，而非取悦信用评级机构——而回报则是债券市场已将该国债务定价为投资级。这一现象表明，尽管穆迪、标普等评级机构尚未上调南非评级，但市场已先行一步，对其财政前景给予肯定。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2275,7 +2352,7 @@
       "publishedAt": "2026-08-07T04:18:57.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "高盛集团表示，美国支持日本提振日元的努力不太可能损害美元作为全球最主要储备货币的地位。高盛对美元主导地位受到的威胁持怀疑态度。"
+      "summary": "高盛表示，美国支持日本提振日元的举措不太可能损害美元作为全球最主要储备货币的地位。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2285,7 +2362,7 @@
       "publishedAt": "2026-08-07T04:15:00.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "津巴布韦以美元计价的证券交易所计划在未来一年将市值提高25%，并推出包括风险投资板块在内的新产品，以帮助初级矿业和勘探公司筹集资本。"
+      "summary": "津巴布韦以美元计价的证券交易所计划在未来一年内将其市值提升25%，并推出新产品，包括设立一个风险投资板，以帮助初级矿业和勘探公司筹集资金。此举旨在吸引更多投资，促进矿业领域的发展。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2295,7 +2372,7 @@
       "publishedAt": "2026-08-07T04:04:06.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "据当地媒体关于伊朗-阿曼拟议协议的报道，伊朗将寻求禁止美国和以色列船只通过霍尔木兹海峡，并要求敌对国家在获准通过前支付赔偿。彭博社记者阿比尔·阿布·奥马尔报道。"
+      "summary": "据当地媒体报道，伊朗将寻求禁止美国和以色列船只通过霍尔木兹海峡，并要求敌对国家在获准通航前支付赔偿金。这一提议是伊朗与阿曼之间协议的一部分。彭博社记者Abeer Abu Omar带来最新报道。（来源：彭博社）"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2305,7 +2382,7 @@
       "publishedAt": "2026-08-07T04:02:55.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "彭博《亚洲交易》节目从东京和悉尼直播，涵盖伊朗打击\"敌对目标\"、日元跌破158等关键动态，为亚洲交易时段提供全面分析和专家见解。"
+      "summary": "「彭博：亚洲交易」为你带来亚洲交易时段开始前所需了解的一切信息。彭博电视台从东京和悉尼现场直播，由Shery Ahn和Haidi Stroud-Watts主持，邀请新闻人物和行业领袖就影响全球的重大事件提供见解和分析。本期内容涵盖伊朗袭击「敌对目标」以及日元跌破158关口等热点话题。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2315,7 +2392,7 @@
       "publishedAt": "2026-08-07T04:00:17.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "尽管亚太地区股市表现疲弱，但人工智能相关公司的巨额股票发行带动上月股权资本市场活动创下历史纪录。"
+      "summary": "尽管亚太地区股市表现疲软，但与人工智能相关的公司的大规模股票销售上月推动了该地区股票资本市场活动的创纪录表现，克服了市场波动的影响。这一现象显示出投资者对AI相关企业的强劲需求，以及对未来增长潜力的信心。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2595,7 +2672,7 @@
       "publishedAt": "2026-08-07T04:40:21.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "《金融时报》今日简报：谷歌重组人工智能领导层；欧洲央行应对日元冲击；英国大学学费调整。"
+      "summary": "英国《金融时报》早间简报：谷歌重组人工智能领导层；欧洲央行遭遇日元冲击；英国大学学费议题亦在今日关注之列。"
     },
     {
       "sourceId": "ft-companies",
@@ -2605,7 +2682,7 @@
       "publishedAt": "2026-08-07T04:36:03.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "字节跳动正在训练一个比月之暗面Kimi K3大三倍的AI模型，目标打造能与Anthropic的Mythos相抗衡的超级大模型。"
+      "summary": "字节跳动正开发大型AI模型，规模接近Anthropic的Mythos，训练参数约为月之暗面Kimi K3的三倍。"
     },
     {
       "sourceId": "ft-companies",
@@ -2615,7 +2692,7 @@
       "publishedAt": "2026-08-07T04:30:04.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "《金融时报》研究显示，日本中性利率在过去几年略有上升，促使分析师重新评估其估计值。"
+      "summary": "研究显示，日本中性利率在过去几年略有上升，相关估算由此重新审视。"
     },
     {
       "sourceId": "ft-companies",
@@ -2625,7 +2702,7 @@
       "publishedAt": "2026-08-07T04:00:25.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "顶级律师事务所正在探索引入外部资本的可能性，这标志着大型律师事务所可能进入新的私募股权时代。"
+      "summary": "顶级律师事务所正探索引入外部资本的可能性，预示大型律所将进入私募股权新纪元。"
     },
     {
       "sourceId": "ft-companies",
@@ -2635,7 +2712,7 @@
       "publishedAt": "2026-08-07T04:00:24.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "一批新任命的FTSE 100成分股公司首席执行官正获得股东认可，他们被赋予重振这些老牌企业使命，市场称之为\"新老板效应\"。"
+      "summary": "多位新任CEO受命重振富时100指数中的老牌企业，正赢得股东认可，享受“新老板蜜月期”效应。"
     },
     {
       "sourceId": "ft-companies",
@@ -3391,8 +3468,7 @@
       "excerpt": "An Australian aviation crew has carried out a daring midwinter mission to rescue a US expedition member from a station in Antarctica in freezing temperatures and total darkness.Skytraders said the \"extraordinary\" mission took place last Friday after a request for urgent help with a medical evacuation from McMurdo Station.After an initial delay due to the weather, the aviation company said it was able to land its Airbus A319 in \"extremely challenging conditions\" including temperatures of -43C (-45.4F).The patient was then safely transferred onto the plane, known as Snowbird 1, which carried on to Christchurch in New Zealand, where the patient was treated. He is now recovering well.Captain Louise Robertson, one of four pilots on the flight which took off from the Tasmanian city of Hobart, told the BBC it was the first ever to have taken place in July and to be completed in total darkness.\"We completed it on the 31 July, and the first day of any sort of sunlight, which was very minimal, would be on the 1 August,\" she said.Her husband of 18 years, Rod Robertson, was the pilot who landed the plane at the US research station on Ross Island. \"He was in the left seat and I was in the right seat,\" she said, adding that it was the most complex operation she had ever been involved in during her seven years at Skytraders and 25 as a pilot.Skytraders had received the evacuation request from the US Antarctic Program via the Australian Antarctic Division on Wednesday afternoon, Robertson said. It was a \"major operation\" for the plane to be correctly configured in time by engineers and a design team, who fitted a stretcher in the back.The configuration took 24 hours, Robertson said, but takeoff was then delayed for another 12 hours while the crew waited for a suitable window in the weather. \"We had quite a narrow time frame that we could actually fly down to Antarctica because there was a snowstorm on the first day that we were intending to go down which stopped the operation.\"The ",
       "publishedAt": "2026-08-07T04:02:18.000Z",
       "category": "politics",
-      "source": "BBC World",
-      "summary": "澳大利亚航空公司Skytraders执行了一次大胆的仲冬任务，在零下43摄氏度和完全黑暗中，从南极洲麦克默多站紧急撤离一名美国科考队员。飞机从塔斯马尼亚霍巴特起飞，降落在罗斯岛。飞行员路易丝·罗伯逊表示，这是首次在7月、全黑暗条件下完成的任务。病人被送往新西兰基督城接受治疗，目前恢复良好。"
+      "source": "BBC World"
     },
     {
       "sourceId": "bbc-world",
@@ -3767,21 +3843,20 @@
       "sourceId": "guardian-world",
       "title": "Australia news live: Attorney General warns women and children at risk of ‘harmful conduct’ from smartglasses users; major delays at Sydney airport",
       "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb",
-      "excerpt": "From 2h agoAttorney general writes to privacy commissioner about smartglasses concernsThe attorney general, Michelle Rowland, has written to the privacy commissioner over potential concerns surrounding smartglasses.Rowland said the products, which are growing in popularity, had significant implications, especially for women and children who could be disproportionately affected by “inappropriate recording, harassment, surveillance or other harmful conduct”.Rowland said in a statement: double quotation markPrivacy is an essential part of all our lives; it allows us to be who we are with dignity and without fear. Unlike other forms of technology, smart glasses may be used more discreetly, making it harder to know when you are being recorded. The government is continuing to work on the next phase of privacy reforms to ensure our privacy laws are fit for purpose in the digital age. Michelle Rowland. Photograph: Mick Tsikas/AAPKey events1h agoComplainant J cross-examined about stays at Jones’s Fitzroy Falls farm2h agoMajor delays and cancellations across Sydney airport due to air traffic control staff issues2h agoAttorney general writes to privacy commissioner about smartglasses concerns3h agoRoyal Adelaide Show cancels poultry and bird exhibits as H5 bird flu cases rise3h agoAtlassian share price surges4h agoAlan Jones trial continues4h agoAustralian National Imams Council president says he was placed on ‘kill list’ by Islamic State5h agoHave a question for our politics team?7h agoMarles says Tony Burke’s speech was moved, not cancelledNick VisserThat’s all for me! Achol Arok will be your guide into the weekend. Take care.Three people charged, six in custody after alleged assault of Townsville boyThree people have been charged and six others arrested after an alleged serious assault of a boy in Townsville last month.Queensland police said the 17-year-old boy was found with serious injuries on 18 July in bushland after he was allegedly assaulted and tied to a tree. He was",
+      "excerpt": "From 2h agoAttorney general writes to privacy commissioner about smartglasses concernsThe attorney general, Michelle Rowland, has written to the privacy commissioner over potential concerns surrounding smartglasses.Rowland said the products, which are growing in popularity, had significant implications, especially for women and children who could be disproportionately affected by “inappropriate recording, harassment, surveillance or other harmful conduct”.Rowland said in a statement: double quotation markPrivacy is an essential part of all our lives; it allows us to be who we are with dignity and without fear. Unlike other forms of technology, smart glasses may be used more discreetly, making it harder to know when you are being recorded. The government is continuing to work on the next phase of privacy reforms to ensure our privacy laws are fit for purpose in the digital age. Michelle Rowland. Photograph: Mick Tsikas/AAPKey events2h agoComplainant J cross-examined about stays at Jones’s Fitzroy Falls farm2h agoMajor delays and cancellations across Sydney airport due to air traffic control staff issues2h agoAttorney general writes to privacy commissioner about smartglasses concerns3h agoRoyal Adelaide Show cancels poultry and bird exhibits as H5 bird flu cases rise4h agoAtlassian share price surges4h agoAlan Jones trial continues4h agoAustralian National Imams Council president says he was placed on ‘kill list’ by Islamic State6h agoHave a question for our politics team?7h agoMarles says Tony Burke’s speech was moved, not cancelledNick VisserThat’s all from me! Achol Arok will be your guide into the weekend. Take care.Three people charged, six in custody after alleged assault of Townsville boyThree people have been charged and six others arrested after an alleged serious assault of a boy in Townsville last month.Queensland police said the 17-year-old boy was found with serious injuries on 18 July in bushland after he was allegedly assaulted and tied to a tree. He wa",
       "publishedAt": "2026-08-07T04:55:39.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "澳大利亚总检察长米歇尔·罗兰就智能眼镜的潜在问题致信隐私专员。罗兰表示，这些日益流行的产品可能对妇女和儿童造成不成比例的影响，尤其是“不当录像、骚扰、监视或其他有害行为”。罗兰称，隐私是生活中必不可少的部分，智能眼镜可能被更隐蔽地使用，使人们更难知道自己是否被录像。政府将继续推进下一阶段隐私改革。悉尼机场因空中交通管制人员问题出现大规模延误和取消。"
+      "summary": "澳大利亚总检察长米歇尔·罗兰就智能眼镜问题致信隐私专员，警告这些日益流行的产品可能带来重大影响，尤其是对女性和儿童，他们可能因“不当录音、骚扰、监视或其他有害行为”而受到不成比例的影响。罗兰在声明中表示：“隐私是我们生活中必不可少的一部分；它让我们能够有尊严地、无所畏惧地做自己。与其他形式的技术不同，智能眼镜可能被更隐蔽地使用，使人们更难知道何时正在被录音。政府正在继续推进下一阶段的隐私改革，以确保我们的隐私法在数字时代符合目的。”其他主要事件包括：悉尼机场因空中交通管制人员问题出现大面积延误和取消；皇家阿德莱德展会因H5禽流感病例上升取消家禽和鸟类展品；Atlassian股价飙升；艾伦·琼斯审判继续进行；澳大利亚国家伊玛目委员会主席称被伊斯兰国列入“暗杀名单”；马尔斯表示托尼·伯克的演讲被推迟而非取消。此外，三名人员被起诉，六人被拘留，涉及上个月在汤斯维尔一名男孩遭到严重袭击的事件。昆士兰警方称，这名17岁男孩于7月18日在丛林中被发现受重伤，据称他遭到袭击并被绑在树上。"
     },
     {
       "sourceId": "guardian-world",
       "title": "Man dies after suspected dog attack at rural property in outer Sydney",
       "url": "https://www.theguardian.com/australia-news/2026/aug/07/man-dead-suspected-dog-attack-eschol-park-sydney-suburb-ntwnfb",
-      "excerpt": "A young man has died after a suspected dog attack at a rural property, as police begin an investigation.Authorities were alerted to the discovery of the 23-year-old’s body at a rural property in Sydney’s south-west on Wednesday. Police found the body with what they described as significant injuries and established a crime scene.Sign up for the Breaking News Australia email“Initial inquiries indicate the man may have been attacked by animals prior to his death,” New South Wales police said in a statement.About eight dogs lived at the Eschol Park property, according to Sydney radio station 2GB. None of those animals were registered or microchipped, it was reported.Campbelltown City detectives launched an investigation into the man’s death. The Campbelltown council said it was assisting police.“Council is supporting police inquiries and will continue to assist as required, in accordance with its legislative responsibilities, including determining the registration and ownership status of the dogs,” a spokesperson said.Their inquiries remain ongoing and a report will be prepared for the coroner.skip past newsletter promotionafter newsletter promotion- Achol Arok contributed reporting",
+      "excerpt": "A young man has died after a suspected dog attack at a rural property, as police begin an investigation.Authorities were alerted to the discovery of the 23-year-old’s body at a rural property in Sydney’s south-west on Wednesday. Police found the body with what they described as significant injuries and established a crime scene.Sign up for the Breaking News Australia email“Initial inquiries indicate the man may have been attacked by animals prior to his death,” New South Wales police said in a statement.About eight dogs lived at the Eschol Park property, according to Sydney radio station 2GB. None of those animals were registered or microchipped, it was reported.Campbelltown City detectives launched an investigation into the man’s death. The Campbelltown council said it was assisting police.“Council is supporting police inquiries and will continue to assist as required, in accordance with its legislative responsibilities, including determining the registration and ownership status of the dogs,” a spokesperson said.Their inquiries remain ongoing and a report will be prepared for the coroner.- Achol Arok contributed reporting",
       "publishedAt": "2026-08-07T03:53:52.000Z",
       "category": "politics",
-      "source": "The Guardian",
-      "summary": "悉尼西南部埃斯科尔公园一处农村房产发现一名23岁男子尸体，疑遭动物攻击死亡。警方称其受伤严重，现场约八只狗，均未注册或植入芯片。坎贝尔敦市议会配合调查，验尸官将准备报告。"
+      "source": "The Guardian"
     },
     {
       "sourceId": "guardian-world",
@@ -3823,7 +3898,7 @@
       "sourceId": "guardian-world",
       "title": "Ceuta residents ‘sad, helpless, anxious’ as up to 5,000 migrants remain in the city, president says – Europe live",
       "url": "https://www.theguardian.com/world/live/2026/aug/06/ukraine-volodymyr-zelenskyy-russia-nato-germany-leipzig-wildfires-heatwaves-europe-live-news",
-      "excerpt": "From 16h agoCeuta residents 'sad, helpless, anxious' as up to 5,000 migrants remain in the city, president saysOver in Brussels, Ceuta’s conservative president Juan Jesús Vivas is briefing European lawmakers on the situation in the city in the aftermath of last week’s migration crisis with Morocco.Police officers guard a group of migrants at El Trampolin beach in Ceuta, Spain. Photograph: REDUAN/EPAHe tells MEPs that the incident amount to “an invasion” defined as “an anomalous or ir regulation occupation of a specific place.”He says 3,000 to 5,000 people migrants of the 80,000 who he says crossed the border still remain in the city, which “in no way allows us to say that our city has returned to normal.” “We have a situation where the influx has led to a humanitarian emergency of enormous proportions, compounded by disturbances to public order and a high risk to public safety.” He warns lawmakers that “our people feel sad, helpless, anxious, fearful and worried, and they have good reason to, because it is inevitable to wonder whether this will happen again at some point.”Vivas also says that “it has become evident” that “our security and integrity are in the hands of a third country, Morocco, that does not recognise our sovereignty.”He calls upon Spanish national authorities to “adopt whatever measures necessary to restore the normality,” including “immediate expulsion” of all people who crossed the border irregularly.He also laments the death of some 100 people who died during the crisis.Key events14h agoClosing summary14h agoLithuanian PM tells citizens not to be 'additionally worried' after warnings over possible Russian 'false flag' operation15h ago‘Morocco feels emboldened’: Trump’s influence in spotlight after Ceuta disaster16h agoEvents in Ceuta have shaken European politics, EU migration commissioner says16h agoCeuta residents 'sad, helpless, anxious' as up to 5,000 migrants remain in the city, president says16h agoUkraine moves to develop own ballistic, an",
+      "excerpt": "From 17h agoCeuta residents 'sad, helpless, anxious' as up to 5,000 migrants remain in the city, president saysOver in Brussels, Ceuta’s conservative president Juan Jesús Vivas is briefing European lawmakers on the situation in the city in the aftermath of last week’s migration crisis with Morocco.Police officers guard a group of migrants at El Trampolin beach in Ceuta, Spain. Photograph: REDUAN/EPAHe tells MEPs that the incident amount to “an invasion” defined as “an anomalous or ir regulation occupation of a specific place.”He says 3,000 to 5,000 people migrants of the 80,000 who he says crossed the border still remain in the city, which “in no way allows us to say that our city has returned to normal.” “We have a situation where the influx has led to a humanitarian emergency of enormous proportions, compounded by disturbances to public order and a high risk to public safety.” He warns lawmakers that “our people feel sad, helpless, anxious, fearful and worried, and they have good reason to, because it is inevitable to wonder whether this will happen again at some point.”Vivas also says that “it has become evident” that “our security and integrity are in the hands of a third country, Morocco, that does not recognise our sovereignty.”He calls upon Spanish national authorities to “adopt whatever measures necessary to restore the normality,” including “immediate expulsion” of all people who crossed the border irregularly.He also laments the death of some 100 people who died during the crisis.Key events15h agoClosing summary15h agoLithuanian PM tells citizens not to be 'additionally worried' after warnings over possible Russian 'false flag' operation16h ago‘Morocco feels emboldened’: Trump’s influence in spotlight after Ceuta disaster17h agoEvents in Ceuta have shaken European politics, EU migration commissioner says17h agoCeuta residents 'sad, helpless, anxious' as up to 5,000 migrants remain in the city, president says17h agoUkraine moves to develop own ballistic, an",
       "publishedAt": "2026-08-06T14:18:55.000Z",
       "category": "politics",
       "source": "The Guardian"
@@ -4025,7 +4100,7 @@
       "publishedAt": "2026-08-07T04:02:55.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "越南正在努力通过旅游业提振经济，但游客数量激增对其中央集权的刑事司法体系构成考验。"
+      "summary": "越南正面临游客激增带来的挑战，其苏联式刑事司法体系在处理外国游客违法行为时遭遇考验，同时该国正试图通过旅游业推动经济发展。"
     },
     {
       "sourceId": "nyt-world",
@@ -4035,7 +4110,7 @@
       "publishedAt": "2026-08-07T04:01:15.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "在十年前发生致命地震后，熊本县建造了抗震建筑，并培训当地居民进行搜救，从而减少了重大地震中的死亡人数。"
+      "summary": "日本熊本县在十年前遭受致命地震后，通过建造抗震建筑、培训当地民众进行搜救等措施，显著降低了大地震中的死亡人数。"
     },
     {
       "sourceId": "nyt-world",
@@ -4045,7 +4120,7 @@
       "publishedAt": "2026-08-07T04:01:14.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "伦敦巴比肯住宅区曾被批评，现被视为建筑杰作。居民们正在反对在旁边建造一栋20层高楼的计划。"
+      "summary": "伦敦中部的巴比肯住宅区如今被视为建筑杰作，但居民正反对在毗邻地块建造一座20层高楼，由此引发了一场规划之争。"
     },
     {
       "sourceId": "nyt-world",
@@ -4535,23 +4610,12 @@
     },
     {
       "sourceId": "aljazeera",
-      "title": "Record-high heat soars through South Korea",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/7/record-high-heat-soars-through-south-korea?traffic_source=rss",
-      "excerpt": "NewsFeedA record-high heatwave is sweeping through the Korean Peninsula, sending temperatures skyrocketing, reaching 42.5C (108.5F) on Sunday. According to the Korea Disease Control and Prevention ​Agency, at least 14 people have died since mid-May as a result.Published On 7 Aug 2026",
-      "publishedAt": "2026-08-07T05:00:48.000Z",
-      "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "创纪录的高温席卷朝鲜半岛，周日气温飙升至42.5摄氏度（108.5华氏度）。据韩国疾病控制与预防机构称，自5月中旬以来至少有14人死亡。"
-    },
-    {
-      "sourceId": "aljazeera",
       "title": "Turkiye’s Erdogan visits Saudi Arabia: What to expect",
       "url": "https://www.aljazeera.com/news/2026/8/7/turkiyes-erdogan-to-visit-saudi-arabia-what-to-expect?traffic_source=rss",
       "excerpt": "Erdogan will meet with Saudi Arabia’s Crown Prince Mohammed bin Salman and Pakistani Prime Minister Shehbaz Sharif, his office says.Turkish President Recep Tayyip Erdogan is visiting in Saudi Arabia on Friday for what his office has billed as a routine one-day working visit amid regional tensions.The trip will be Erdogan’s second visit to the kingdom this year and the first since the outbreak of the US-Israel war on Iran, as the two countries deepen ties.Recommended Stories list of 3 itemslist 1 of 3Exclusive report with the 308 people rescued by Nigerian forceslist 2 of 3Police in Argentina use tear gas to stop protesterslist 3 of 3Israeli raid in West Bank’s Qalandiya injures 51 Palestiniansend of listHere’s what you need to know.What’s on the table?Erdogan is expected to hold a trilateral meeting with Saudi Crown Prince Mohammed bin Salman and Pakistani Prime Minister Shehbaz Sharif, who arrived in the kingdom on Thursday for a three-day visit alongside Pakistan’s army chief, Field Marshal Asim Munir.Turkish presidential communications director Burhanettin Duran said the trip would focus on “bilateral relations and regional developments” without detailing a formal agenda.“During the visit, it is envisaged that President Erdogan will meet with the Crown Prince and Prime Minister of Saudi Arabia, Mohammed bin Salman bin Abdulaziz Al Saud, as well as with Prime Minister Shehbaz Sharif of Pakistan,” Duran said.Regional media reported that talks will centre on maritime security, the fallout from the US-Israel war on Iran and defence cooperation, but Ankara has been notably tight-lipped about specifics.Vessels sit anchored in the Strait of Hormuz, off the port city of Khasab on Oman’s northern Musandam Peninsula on May 17, 2026 [AFP]A defence pact in the making?The visit comes as multiple news outlets report that the three countries may sign a formal alliance.A source close to the Saudi military told the AFP news agency that the three leaders are set to sign a joint de",
       "publishedAt": "2026-08-07T04:43:43.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "土耳其总统埃尔多安周五访问沙特阿拉伯，预计将与沙特王储穆罕默德·本·萨勒曼和巴基斯坦总理谢赫巴兹·谢里夫举行三方会谈。此次访问是在地区紧张局势升级、美国以色列对伊朗开战后的首次。埃尔多安办公室称此行为例行一日工作访问。据多家媒体报道，三国可能签署正式防务协议。土耳其总统通讯主管杜兰表示，访问将聚焦“双边关系和地区局势”。外界关注海上安全、伊朗战争余波与防务合作。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -4560,8 +4624,7 @@
       "excerpt": "DEVELOPING STORY, Authorities say the gunman, a student, killed a teacher before taking his own life at a school northwest of Bangkok.A teacher was killed and four other people injured in a shooting at a school in Thailand, where the gunman took his own life, authorities say.The incident took place in Debsirin Nonthaburi School in the Bang Kruai district on the northwestern outskirts of Bangkok. Police identified the perpetrator as a student. There were no further details provided.In photos circulated by emergency workers, students streamed as ambulances operated at the site. In one photo, one person is seen lying on a stretcher outside an ambulance, while another is attended to by a medic.One 18-year-old student told the Reuters news agency he initially thought there were firecrackers going off or someone banging an object.“I didn’t think it was a gun at first,” he said, “There were many shots: bang bang bang. Then it went quiet. Then it started again.”In the 2025 academic year, the school had an enrollment of around 3,100 students and 147 teachers, according to district authorities.In February, a teacher was killed and a student injured in southern Thailand’s Hat Yai district after a gunman opened fire at a school.In October 2022, a former police officer killed dozens of people, including children in a gun and knife attack in the Nong Bua Lamphu province.Gun laws are strict in Thailand where possession of an illegal firearm carries a prison sentence of up to 10 years, but ownership is high compared with some other countries in the region.Laws have tightened after mass shootings in recent years in Thailand, including a requirement for a medical evaluation for those who want to buy a gun or renew their gun license.",
       "publishedAt": "2026-08-07T04:23:52.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "泰国曼谷西北部一所学校发生枪击事件，一名教师死亡，四人受伤，枪手（一名学生）随后自杀。事发地点为暖武里府的德比林·暖武里学校。一名18岁学生最初以为是鞭炮声。该校2025学年约有3100名学生和147名教师。泰国枪支法律严格，但拥有率较高。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -4570,8 +4633,7 @@
       "excerpt": "Trump’s endorsement fails to save Tennessee legislator who recently said ‘Muslims don’t belong in American society’.United States Congressman Andy Ogles, who has a history of anti-Muslim statements, has lost his Republican primary in the state of Tennessee despite the endorsement of President Donald Trump.Ogles’s loss on Thursday to Charlie Hatcher, the state’s former agricultural commissioner, represents a rare incident in which Trump’s endorsement failed to deliver in a Republican race.Recommended Stories list of 3 itemslist 1 of 3How Abdul El-Sayed’s ‘extraordinary’ win stunned pro-Israel establishmentlist 2 of 3DOJ sends monitors to Michigan poll sites as lawmakers warn of partisan aimlist 3 of 3Abdul El-Sayed wins Michigan Democratic primary for Senate in blow to AIPACend of listHatcher has also represented himself as pro-Trump, but the US president heaped praise on Ogles earlier on Thursday, giving the incumbent his “complete and total endorsement”.With nearly 90 percent of the votes counted, Hatcher had a 6.6-point lead over Ogles.The congressman, who was first elected in 2022, was running in a redrawn district after Republicans had changed the electoral map in the state to help the party retain its majority in the US House of Representatives.Hatcher will face Chaz Molder, the Democratic mayor of Columbia – a city south of Nashville – in November.The Republican nominee received a late endorsement from Tennessee Governor Bill Lee.The district favours Republicans, but Democrats are trying to capitalise on the discontent with the economy and the war on Iran to flip seats across the country.Ogles – a staunch Israel supporter – has faced outrage and condemnation from across the political spectrum for his comments against the Muslim community.“Muslims don’t belong in American society. Pluralism is a lie,” he wrote on X in March.In 2024, when an activist asked Ogles on Capitol Hill if he had seen footage of Palestinian children killed by US-funded bombs, he said: “Y",
       "publishedAt": "2026-08-07T04:04:45.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "美国田纳西州共和党众议员安迪·奥格尔斯在初选中败给前州农业专员查理·哈彻，尽管获得特朗普的“完全支持”。哈彻领先6.6个百分点。奥格尔斯曾发表反穆斯林言论，称“穆斯林不属于美国社会”。他将在11月面对民主党市长查兹·莫尔德。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -4580,8 +4642,7 @@
       "excerpt": "US researchers have announced the creation of new viruses using artificial intelligence, a scientific first that raises hopes for advances in medical treatments while also stoking anxiety about the dangers of the frontier technology.In findings published in the journal Science, researchers at Stanford University and the Broad Institute of MIT and Harvard said they used a naturally occurring phage – a type of virus that infects bacteria – as a template to generate thousands of genomes with AI.Recommended Stories list of 4 itemslist 1 of 4‘No red line’: South Lebanon residents outraged as Israel resumes strikeslist 2 of 4Travel restrictions – from Israel and Europe – trap students in Gazalist 3 of 4After the floods, hunger: Mozambique’s second disasterlist 4 of 4Do you know who owns the media you watch?end of listThe researchers chemically synthesised nearly 300 of the genomes and tested them in laboratory conditions, resulting in 16 “viable” viruses, according to the findings published on Thursday.In tests, a mixture of the synthetic viruses proved more effective at killing E coli bacteria than the naturally occurring viruses, according to the findings.“Our approach expands what synthetic genomics can achieve alongside methods such as directed evolution and rational engineering, lays out a path for generating adaptive and resilient phage therapies against rapidly evolving pathogens, and establishes a foundation for the generative design of larger, more complex genomes,” the researchers wrote in Science.Brian Hie and Samuel King, two of the paper’s authors, did not immediately respond to requests for comment.Isaac Bogoch, an infectious disease specialist at the University of Toronto and Toronto General Hospital who was not involved in the study, said the research raised both hopeful and concerning implications.“AI-designed viruses could have some potential benefits, such as the creation of targeted bacteriophages that could possibly help us tackle antibiotic-resistant",
       "publishedAt": "2026-08-07T03:48:22.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "美国斯坦福大学和博德研究所的研究人员首次使用人工智能创造自然界不存在的病毒。他们以天然噬菌体为模板，利用AI生成了数千个基因组，并合成了近300个，实验室测试中有16种“可行”病毒。测试显示，合成病毒混合物杀死大肠杆菌的效果优于天然病毒。研究发表于《科学》杂志，可能推动靶向噬菌体疗法，但也引发生物安全担忧。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -4590,8 +4651,7 @@
       "excerpt": "NewsFeedThousands of people in India have been displaced since July after monsoon rains triggered severe flooding. India’s northeastern state of Assam is among the hardest hit, with at least 87 recorded deaths.Published On 7 Aug 2026",
       "publishedAt": "2026-08-07T02:53:19.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "自7月以来，季风降雨引发严重洪水，印度阿萨姆邦超百万人受灾，至少87人死亡，数千人流离失所。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -4600,8 +4660,7 @@
       "excerpt": "Exclusive report with the 308 people rescued by Nigerian forcesNewsFeedNigerian security forces have rescued 308 people abducted in separate attacks in northern Niger and Kwara states. Kidnapping for ransom by armed groups and bandits has become a major crisis in Nigeria. Al Jazeera’s Ahmed Idris has exclusive access to where families are recovering from the ordeal.Published On 7 Aug 2026",
       "publishedAt": "2026-08-07T02:30:23.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "尼日利亚安全部队在尼日尔州和夸拉州的袭击中解救了308名被绑架者。以勒索赎金为目的的绑架已成为尼日利亚重大危机。半岛电视台独家探访了家庭从痛苦中恢复的情况。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -4610,8 +4669,7 @@
       "excerpt": "Israeli forces arrest dozens of Palestinians near Jerusalem amid uptick in military and settler violence in West Bank.A “large-scale” Israeli raid in the Qalandiya refugee camp in the occupied West Bank has injured at least 51 Palestinians, the Jerusalem Governorate told Al Jazeera.Israeli forces demolished commercial shops near the Qalandiya checkpoint on Thursday, before imposing a curfew on the neighbouring town of Kafr Aqab and sealing off roads linking the area to Jerusalem.Recommended Stories list of 3 itemslist 1 of 3Trump signs executive orders banning so-called ‘birth tourism’list 2 of 3‘No red line’: South Lebanon residents outraged as Israel resumes strikeslist 3 of 3Travel restrictions – from Israel and Europe – trap students in Gazaend of listThe Palestine Red Crescent Society (PRCS) said 35 people were hospitalised after severe beatings and six more were treated at the scene. One person was hit by a rubber-coated steel bullet.Six others suffered tear gas inhalation, according to PRCS.The organisation said its ambulance crews had been blocked from reaching the wounded since late at night on Wednesday, though crews still managed to evacuate several patients, including people requiring kidney dialysis.Israeli soldiers fired stun grenades at journalists stationed at the camp’s entrance and ordered them to leave.Dozens of Palestinians, including children and women, were detained for field interrogations inside homes converted into makeshift holding sites, according to local Palestinian media.Israeli forces also raided the city of Jenin on Thursday, shooting one Palestinian and assaulting another, according to PRCS.Israeli army attacks and settler violence against Palestinian communities in the occupied West Bank have intensified in the past months, moving in tandem with increased demolitions of Palestinian property and illegal seizure of their land.Rights groups have recorded more than 11,000 Israeli military and settler attacks across the West Bank in the ",
       "publishedAt": "2026-08-07T01:51:50.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "以色列对约旦河西岸卡兰迪亚难民营进行“大规模”突袭，至少51名巴勒斯坦人受伤。以军拆毁店铺，在卡夫尔阿卡布实施宵禁，并封锁通往耶路撒冷的道路。巴勒斯坦红新月会称35人住院，6人就地治疗，还有多人吸入催泪瓦斯。数十名巴勒斯坦人被拘留。以军在杰宁也进行了突袭。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -4620,8 +4678,7 @@
       "excerpt": "The ruling comes in the second phase of a landmark trial, with the Instagram, Facebook owner also losing in March.A judge in New Mexico in the United States has ordered Facebook and Instagram owner Meta to pay $567m and change how its platforms function for young users in the state after finding the company is to blame for harming children’s mental health.Thursday’s ruling came in the second phase of a landmark trial against the social media giant, with jurors in March finding that Meta had violated the state’s consumer protection law by misrepresenting the safety of Facebook and Instagram for young users. The jury ordered the company to pay $375 million in damages earlier this year.Recommended Stories list of 4 itemslist 1 of 4New York to require social media platforms to display mental health labelslist 2 of 4Australia declares child social media ban victory as 4.7m accounts closedlist 3 of 4Landmark cases on social media’s impact on children begin this week in USlist 4 of 4How a social media campaign triggered huge migrant surge on Ceutaend of listAfter this latest ruling, Judge Bryan Biedscheid said the bulk of the money, $420m, will be used for treatment services for young people. The rest will go towards awareness and prevention, screening services and other costs over the next five years.Prosecutors had asked the judge to impose fundamental changes at Meta aimed at reining in addictive features, improving age verification and preventing child sexual exploitation through default privacy settings and closer oversight.The decision means the look of Meta’s platforms could change. The judge ordered Facebook and Instagram to build banner and informational screens to clearly explain their protection features, best practices and tools to address inappropriate comments, for example, and display them regularly.Those changes and an educational campaign in New Mexico would be subject to review by the state.Meta said it will appeal the ruling and that it has been working ",
       "publishedAt": "2026-08-07T01:51:03.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "美国新墨西哥州法官裁定Meta公司因其平台对青少年心理健康造成伤害，需支付5.67亿美元。其中4.2亿美元用于青少年治疗服务，其余用于宣传、预防和筛查。法官还命令Facebook和Instagram添加信息屏解释保护功能，并定期展示。Meta表示将上诉。3月陪审团曾裁定Meta违反消费者保护法，并判赔3.75亿美元。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -4663,7 +4720,7 @@
       "sourceId": "aljazeera",
       "title": "Iran war live: Trump says war can’t ‘go much longer’; Hormuz deal close",
       "url": "https://www.aljazeera.com/news/liveblog/2026/8/7/trump-says-war-cant-go-much-longer-hormuz-deal-close?traffic_source=rss",
-      "excerpt": "Skip linksSkip to Content Live Navigation menuNewsAfricaAsiaUS & CanadaLatin AmericaEuropeAsia PacificMiddle EastExplainedSportOpinionVideoFeaturesEconomyHuman RightsClimate CrisisInvestigationsInteractivesIn PicturesScience & TechnologyPodcastsTravelSponsored Content Live Navigation menuDonald TrumpTrump, Netanyahu and the Iran questionHow Iran war fallout may shape US electionsA visual guide to redistrictingLive updates, Tehran says deal with Oman to reopen the Strait of Hormuz ‘on the verge of being finalised’ after both sides agreed on routes.Vessels near the Strait of Hormuz, as seen from Musandam, Oman, August 6, 2026 [Stringer/Reuters]By Ali Mustafa and Yashraj SharmaPublished On 7 Aug 2026 US President Donald Trump says he expects the war on Iran to conclude “pretty soon”, adding during questions on high energy prices that he does not believe “they can go much longer”. The US, Iran, and Oman are approaching a temporary deal to reopen the Strait of Hormuz.",
+      "excerpt": "Skip linksSkip to Content Live Navigation menuNewsAfricaAsiaUS & CanadaLatin AmericaEuropeAsia PacificMiddle EastExplainedSportOpinionVideoFeaturesEconomyHuman RightsClimate CrisisInvestigationsInteractivesIn PicturesScience & TechnologyPodcastsTravelSponsored Content Live Navigation menuDonald TrumpTrump, Netanyahu and the Iran questionHow Iran war fallout may shape US electionsA visual guide to redistrictingLive updates, Tehran says deal with Oman to reopen the Strait of Hormuz ‘on the verge of being finalised’ after both sides agreed on routes.Vessels near the Strait of Hormuz, as seen from Musandam, Oman, August 6, 2026 [Stringer/Reuters]By Edna Mohamed and Umut UrasPublished On 7 Aug 2026 US President Donald Trump says he expects the war on Iran to conclude “pretty soon”, adding during questions on high energy prices that he does not believe “they can go much longer”. The US, Iran, and Oman are approaching a temporary deal to reopen the Strait of Hormuz.",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "category": "politics",
       "source": "Al Jazeera"
@@ -4764,6 +4821,15 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/8/6/08-06-sv-ebola-update-funding-drc?traffic_source=rss",
       "excerpt": "NewsFeedThe world’s fastest-growing Ebola outbreak has killed 1,751 people in three months as conflict, surveillance gaps and funding shortages hamper efforts to contain the virus in eastern DR Congo.Published On 6 Aug 2026",
       "publishedAt": "2026-08-06T20:52:53.000Z",
+      "category": "politics",
+      "source": "Al Jazeera"
+    },
+    {
+      "sourceId": "aljazeera",
+      "title": "How fragile is Lebanon’s uneasy peace?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/8/6/how-fragile-is-lebanons-uneasy?traffic_source=rss",
+      "excerpt": "Inside StoryIsrael goes on the attack after the first soldiers are killed since ceasefire began two months ago.New Israeli air and artillery attacks have hit Lebanon after soldiers were killed for the first time since a fragile ceasefire began in June.The latest military assault comes despite Lebanese-Israeli talks in Rome, part of a US-brokered peace process.So, where do things stand now?Presenter: James BaysGuests:Maha Yahya – Director of the Carnegie Middle East Center in BeirutJennifer Gavito – Former US Acting Principal Deputy Assistant Secretary of State for Near Eastern AffairsRami Khouri – Distinguished Public Policy Fellow at the American University of BeirutPublished On 6 Aug 2026",
+      "publishedAt": "2026-08-06T20:38:29.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
