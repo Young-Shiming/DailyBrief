@@ -37,6 +37,13 @@
   4. url 必须严格回填输入值，绝不创造新链接。
   5. 中文优先；英文新闻请将 title 翻译为中文，summary 也用中文。
   6. 如某分类无可用条目，对应 briefs 数组返回 []。
+  7. **禁止跨分类重复**：同一个事件/话题只能出现在一个分类中。如某新闻同时涉及政治和经济，选择最核心的分类放入，另一个分类必须换其他内容。
+  8. **内容筛选（重要）**：以下类型内容必须跳过，不选入任何 briefs：
+     - 生活类特写（美食、旅游、消费品制造流程、生活方式等软性题材）
+     - 娱乐八卦、体育赛事报道
+     - How-to 教程、产品评测、购物推荐
+     - 纯观点专栏（非新闻事件驱动的评论）
+     只选择具有新闻事件驱动、政策变化、市场动态、科技突破等新闻价值的条目。
 
   **summary 写作核心要求（重要！）**：
   - 每条 200-400 字，**杜绝一句话概括**
@@ -82,4 +89,11 @@ Rules:
 5. English throughout. Translate any non-English title and summary to English.
 6. Prefer items with higher importance, cross-source coverage, and time-sensitivity.
 7. If a category has no eligible item, return [] for that briefs array.
-8. For GitHub Trending / Hacker News items in tech_briefs, spend an extra 20-40 words in the summary explaining what the project actually does and why it's worth noting (problem solved, tech used). Readers usually haven't heard of these.`;
+8. **No cross-category duplicates**: the same event/topic must appear in only ONE category. If a story spans politics and finance, place it in the most central category and pick different content for the other.
+9. **Content filter (important)**: skip these content types entirely — do not select for any briefs:
+   - Lifestyle features (food, travel, consumer-product manufacturing, soft human-interest)
+   - Entertainment gossip, sports game recaps
+   - How-to tutorials, product reviews, shopping guides
+   - Pure opinion columns not driven by a news event
+   Only select items with news-event, policy-change, market-move, or tech-breakthrough news value.
+10. For GitHub Trending / Hacker News items in tech_briefs, spend an extra 20-40 words in the summary explaining what the project actually does and why it's worth noting (problem solved, tech used). Readers usually haven't heard of these.`;

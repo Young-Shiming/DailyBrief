@@ -207,7 +207,25 @@ export async function generateDailyReport(
     selectRoundRobin(grouped[c], PER_CATEGORY_LIMIT[c]),
   );
 
-    const userPayload = compact.map((a, i) => ({
+  // Deduplicate by URL — the same article can appear in multiple RSS
+  // feeds or get picked twice in round-robin. Keep first occurrence
+  // (preserves the earlier category assignment).
+  const seenUrls = new Set<string>();
+  const deduped: ArticleInput[] = [];
+  for (const a of compact) {
+    const key = normalizeUrl(a.url);
+    if (!seenUrls.has(key)) {
+      seenUrls.add(key);
+      deduped.push(a);
+    }
+  }
+  if (deduped.length < compact.length) {
+    console.log(
+      `[pipeline] dedup: ${compact.length} → ${deduped.length} articles (${compact.length - deduped.length} duplicate URLs removed)`,
+    );
+  }
+
+  const userPayload = deduped.map((a, i) => ({
       n: i + 1,
       title: a.title,
       url: a.url,
