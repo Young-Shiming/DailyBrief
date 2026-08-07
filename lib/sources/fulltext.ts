@@ -14,6 +14,29 @@ import { Readability } from "@mozilla/readability";
 const DEFAULT_TIMEOUT_MS = 10_000;
 const USER_AGENT = "DailyBrief/1.0 (news aggregator bot; +https://github.com/SiliconOP/DailyBrief)";
 
+/**
+ * Domains with hard paywalls — their article body is behind a login, so
+ * fulltext extraction would only grab a teaser or a subscribe banner.
+ * Skip them and let downstream enrichment fall back to the RSS excerpt.
+ */
+const PAYWALL_DOMAINS = new Set([
+  "bloomberg.com",
+  "wsj.com",
+  "ft.com",
+  "economist.com",
+]);
+
+function isPaywalled(url: string): boolean {
+  try {
+    const host = new URL(url).hostname.replace(/^www\./, "");
+    return PAYWALL_DOMAINS.has(host) || [...PAYWALL_DOMAINS].some(
+      (d) => host.endsWith("." + d),
+    );
+  } catch {
+    return false;
+  }
+}
+
 export interface FullTextResult {
   url: string;
   text: string | null;
@@ -27,6 +50,9 @@ export async function fetchFullText(
   url: string,
   timeoutMs: number = DEFAULT_TIMEOUT_MS,
 ): Promise<string | null> {
+  // Paywalled sources — don't waste a request on a login wall.
+  if (isPaywalled(url)) return null;
+
   try {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), timeoutMs);
