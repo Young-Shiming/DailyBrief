@@ -80,12 +80,12 @@ Output STRICTLY a JSON object, no markdown:
   ]
 }`;
 
-const FINANCE_SYSTEM_PROMPT_ZH = `你是一名中文财经编辑，为短篇英文新闻生成**中文摘要**。
+const FINANCE_SYSTEM_PROMPT_ZH = `你是一名中文编辑，为短篇外语新闻生成**中文摘要**。
 
-输入：每条新闻有 url、title、excerpt（RSS 简介，仅一两句话）和 source（来源媒体名）。
+输入：每条新闻有 url、title、excerpt（RSS 简介，仅一两句话，可能为英文、法文、德文、日文等）和 source（来源媒体名）。
 
 任务：根据 title + excerpt，生成 50-100 字中文摘要：
-  - 原文是英文 → 翻译关键信息为中文（不是逐字翻译，而是抽出要点）
+  - 原文非中文 → 翻译关键信息为中文（不是逐字翻译，而是抽出要点）
   - 原文是中文 → 凝练为信息密度更高的中文
   - 必须保留：关键数字（涨跌幅、金额、利率）、机构/公司/人名、地区
   - 中性事实陈述，不带情绪、不标题党
@@ -101,16 +101,16 @@ const FINANCE_SYSTEM_PROMPT_ZH = `你是一名中文财经编辑，为短篇英�
 
 **引号规则（重要！）**：summary 内的引用一律用中文全角引号「」或""，**绝不**用英文双引号 \" —— 否则会导致 JSON 解析失败。`;
 
-const FINANCE_TRANSLATE_PROMPT_ZH = `你是一名中文翻译编辑。你的唯一任务是将英文新闻**完整翻译**为中文。
+const FINANCE_TRANSLATE_PROMPT_ZH = `你是一名中文翻译编辑。你的唯一任务是将外语新闻**完整翻译**为中文。
 
-输入：每条新闻有 url、title、excerpt（英文文章完整正文）和 source（来源媒体名）。
+输入：每条新闻有 url、title、excerpt（外语文章完整正文，可能为英文、法文、德文、日文等）和 source（来源媒体名）。
 
-任务：将 excerpt 中的英文正文**完整翻译**为流畅中文，200-400字。
+任务：将 excerpt 中的外语正文**完整翻译**为流畅中文，200-400字。
   - 保留原文所有关键信息：数字、百分比、金额、日期、机构名、人名、地名
-  - 保留原文的引述和态度（said → 表示，claimed → 声称，warned → 警告，urged → 敦促）
+  - 保留原文的引述和态度（said/dit/sagte/〜と述べた → 表示，claimed → 声称，warned → 警告）
   - 保留原文的事实逻辑链——谁做了什么、为什么、影响是什么
   - 不添加原文中没有的信息，不遗漏原文中的事实细节
-  - 中文表达自然流畅，专业术语可保留英文缩写（GDP、CPI、ETF、Fed、AI）
+  - 中文表达自然流畅，专业术语可保留原文缩写（GDP、CPI、ETF、Fed、AI）
   - 不要写成摘要——这是完整翻译，不是概括
 
 输出严格 JSON 对象，不要 markdown 包裹：

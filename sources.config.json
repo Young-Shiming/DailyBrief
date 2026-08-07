@@ -630,6 +630,48 @@
     ]
   },
   {
+    "id": "lemonde",
+    "name": "Le Monde（法语）",
+    "type": "rss",
+    "url": "https://www.lemonde.fr/rss/une.xml",
+    "category": "politics",
+    "subcategory": "world",
+    "lang": "fr",
+    "enabled": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "法国第一大报，欧盟核心声音。法语原文通过 AI 翻译为中文。"
+  },
+  {
+    "id": "spiegel",
+    "name": "Der Spiegel（德语）",
+    "type": "rss",
+    "url": "https://www.spiegel.de/schlagzeilen/index.rss",
+    "category": "politics",
+    "subcategory": "world",
+    "lang": "de",
+    "enabled": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "德国主流新闻周刊，欧洲经济引擎视角。德语原文通过 AI 翻译为中文。"
+  },
+  {
+    "id": "nhk",
+    "name": "NHK（日语）",
+    "type": "rss",
+    "url": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "category": "politics",
+    "subcategory": "world",
+    "lang": "ja",
+    "enabled": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "日本放送协会，东亚安全与对华政策重要视角。日语原文通过 AI 翻译为中文。"
+  },
+  {
     "id": "peoples-daily",
     "name": "人民网时政",
     "type": "rss",

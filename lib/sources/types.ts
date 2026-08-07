@@ -26,7 +26,7 @@ export interface SourceDef {
    * source — its content is already in the target language, so an LLM
    * "summary" would just be a slightly-shorter rewrite.
    */
-  lang?: "zh" | "en";
+  lang?: "zh" | "en" | "fr" | "de" | "ja";
   /**
    * Report locales this source participates in. Defaults to ["zh", "en"]
    * (both) when omitted. Set to ["zh"] for Chinese-only sources whose
