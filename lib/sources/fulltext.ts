@@ -69,6 +69,39 @@ function isPaywalled(url: string): boolean {
   }
 }
 
+/**
+ * Paywall / subscription-nag patterns per language. After Readability
+ * extracts the article body, we check the first 500 chars against these
+ * patterns. If we match, the "article" is actually a paywall blocker and
+ * we fall back to the original RSS excerpt.
+ *
+ * Patterns are kept short (2-4 words) so translations / rewordings still
+ * hit. We check only the first 500 chars because a real article won't
+ * lead with "subscribe now" — that's always a paywall.
+ */
+const PAYWALL_CONTENT_PATTERNS: [string, RegExp][] = [
+  // German — Spiegel+, Zeit+, FAZ+, etc.
+  ["de", /SPIEGEL\+|(?:Jetzt|kostenlos)\s+(?:weiterlesen|anmelden)|Abo\s+(?:abschließen|testen)|kostenpflichtig(?:er|e|es)?\s+Inhalt|exklusiv\s+(?:für|nur)\s+(?:Abonnent|Digital)|(?:Digital|Print)[- ]?Abo|Zugang\s+zu\s+allen\s+Artikeln/i],
+  // English — Bloomberg, WSJ, etc. (domain-level skip normally catches these,
+  // but pattern is a safety net for paywall pages that get through)
+  ["en", /(?:subscribe|sign\s*up)\s+(?:now|today|to\s+(?:continue|read))|(?:paid|premium)\s+(?:content|article)|create\s+(?:a|your|free)\s+account\s+to\s+(?:continue|read|access)|this\s+(?:content|article)\s+is\s+(?:for|reserved\s+for)\s+subscriber/i],
+  // French — Le Monde, Le Figaro, etc.
+  ["fr", /(?:abonnez|inscrivez)[- ]vous|réservé\s+(?:aux|à)\s+(?:abonnés|nos)|(?:article|contenu)\s+réservé|poursuivez\s+(?:votre|la)\s+lecture|(?:abonnement|Premium)\s+(?:à|dès)/i],
+  // Japanese — Nikkei, Asahi, etc.
+  ["ja", /(?:有料|会員|購読)(?:記事|限定|登録)|(?:続き|全文)\s*(?:を|は)\s*(?:読む|ご覧).*(?:登録|会員|ログイン)/i],
+  // Spanish — El País, etc.
+  ["es", /(?:suscr[íi]b|reg[íi]str|inicie\s+sesión)\s+(?:ahora|para|y)|(?:contenido|artículo)\s+(?:exclusivo|reservado|solo\s+para)|hazte\s+(?:socio|suscriptor|premium)/i],
+];
+
+function isPaywallContent(text: string, url: string): boolean {
+  if (!text) return false;
+  const head = text.slice(0, 500);
+  for (const [, re] of PAYWALL_CONTENT_PATTERNS) {
+    if (re.test(head)) return true;
+  }
+  return false;
+}
+
 export interface FullTextResult {
   url: string;
   text: string | null;
@@ -117,6 +150,11 @@ export async function fetchFullText(
     // Trim to a reasonable max at a sentence boundary so we never cut
     // mid-word. 2000 chars is ~10x the original 280-char excerpt cap.
     const cleaned = article.textContent.replace(/\s+/g, " ").trim();
+
+    // Reject paywall / login-wall / "subscribe to continue" placeholder
+    // text masquerading as article body (e.g. Spiegel+ premium articles).
+    if (isPaywallContent(cleaned, url)) return null;
+
     return truncateAtSentence(cleaned, 2000);
   } catch {
     return null;

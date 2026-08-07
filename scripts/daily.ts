@@ -297,6 +297,7 @@ async function enrichFullTexts(articles: ArticleInput[]): Promise<void> {
     "linuxdo",
     "attentionvc-ai",
     "huggingface-papers",
+    "nhk",    // NHK RSS items are short Japanese news briefs; fulltext fetches get blocked
   ]);
 
   const candidates = articles.filter(
