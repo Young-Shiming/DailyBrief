@@ -15,6 +15,7 @@ import {
   enrichGithubTrendingSummaries,
   enrichTrendingPapersSummaries,
   enrichXViralSummaries,
+  normalizeUrl,
 } from "../lib/ai/enrich";
 import {
   groupRaw,
@@ -58,7 +59,7 @@ async function enrichGhTrending(articles: ArticleInput[]): Promise<void> {
   const t0 = Date.now();
   const summaries = await enrichGithubTrendingSummaries(gh);
   for (const a of gh) {
-    const s = summaries.get(a.url);
+    const s = summaries.get(normalizeUrl(a.url));
     if (s) a.summary = s;
   }
   console.log(
@@ -111,7 +112,7 @@ async function enrichXViral(articles: ArticleInput[]): Promise<void> {
     })),
   );
   for (const a of xPosts) {
-    const s = summaries.get(a.url);
+    const s = summaries.get(normalizeUrl(a.url));
     if (s) a.summary = s;
   }
   console.log(
@@ -137,7 +138,7 @@ async function enrichTrendingPapers(articles: ArticleInput[]): Promise<void> {
     papers.map((a) => ({ url: a.url, title: a.title, excerpt: a.excerpt })),
   );
   for (const a of papers) {
-    const s = summaries.get(a.url);
+    const s = summaries.get(normalizeUrl(a.url));
     if (s) a.summary = s;
   }
   console.log(
@@ -191,7 +192,7 @@ async function enrichMergedSubgroup(
   const t0 = Date.now();
   const summaries = await enrichFinanceNewsSummaries(toEnrich);
   for (const a of toEnrich) {
-    const s = summaries.get(a.url);
+    const s = summaries.get(normalizeUrl(a.url));
     if (s) a.summary = s;
   }
   console.log(

@@ -10,6 +10,31 @@ interface EnrichInput {
   source?: string;
 }
 
+/**
+ * Normalize a URL for reliable matching between input and LLM output.
+ * LLMs sometimes strip tracking params, add/remove trailing slashes,
+ * or switch http↔https — any mismatch causes the summary to be silently
+ * dropped. Normalizing both sides closes the gap.
+ */
+export function normalizeUrl(url: string): string {
+  try {
+    const u = new URL(url);
+    // Strip tracking / analytics params that LLMs routinely drop
+    const STRIP_PARAMS = new Set([
+      "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
+      "ref", "ref_src", "ref_url", "source", "fbclid", "gclid",
+      "mc_cid", "mc_eid", "_ga", "_gl",
+    ]);
+    for (const p of STRIP_PARAMS) u.searchParams.delete(p);
+    // Normalize: trailing slash, lowercase host
+    let normalized = u.toString();
+    if (normalized.endsWith("/")) normalized = normalized.slice(0, -1);
+    return normalized.toLowerCase();
+  } catch {
+    return url.trim().toLowerCase();
+  }
+}
+
 const GH_SYSTEM_PROMPT_ZH = `你是一名技术编辑，负责为 GitHub Trending 项目写中文介绍。
 
 输入：每个项目有 owner/repo 名 + 一行英文 description（可能没有）。
@@ -285,7 +310,7 @@ async function runEnrichment(
     }
 
     for (const s of parsed.summaries ?? []) {
-      if (s.url && s.summary) result.set(s.url, s.summary.trim());
+      if (s.url && s.summary) result.set(normalizeUrl(s.url), s.summary.trim());
     }
 
     console.log(
