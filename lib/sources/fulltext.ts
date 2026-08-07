@@ -11,6 +11,38 @@
 import { parseHTML } from "linkedom";
 import { Readability } from "@mozilla/readability";
 
+/**
+ * Truncate text at the last sentence boundary before `maxLen`, so we
+ * never cut a word (or a sentence) in half. Falls back to hard truncation
+ * if no boundary is found in the last 20% of the string.
+ */
+function truncateAtSentence(text: string, maxLen: number): string {
+  if (text.length <= maxLen) return text;
+
+  // Search backwards from maxLen for a sentence-ending character
+  // followed by a space (or end of string).
+  const searchStart = Math.floor(maxLen * 0.8);
+  const slice = text.slice(0, maxLen);
+  const boundary = slice.search(/[.。!！?？](?:\s|$)(?!\w)/);
+
+  // Find the LAST sentence boundary in our range
+  let lastIdx = -1;
+  const re = /[.。!！?？](?=\s|$)/g;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(slice)) !== null) {
+    if (m.index >= searchStart || lastIdx >= searchStart) {
+      lastIdx = m.index + 1; // include the punctuation
+    } else {
+      lastIdx = m.index + 1;
+    }
+  }
+
+  if (lastIdx > 0) return text.slice(0, lastIdx).trim();
+  // Fallback: hard truncation at last space before maxLen
+  const lastSpace = slice.lastIndexOf(" ");
+  return lastSpace > 0 ? slice.slice(0, lastSpace) : slice;
+}
+
 const DEFAULT_TIMEOUT_MS = 10_000;
 const USER_AGENT = "DailyBrief/1.0 (news aggregator bot; +https://github.com/SiliconOP/DailyBrief)";
 
@@ -82,10 +114,10 @@ export async function fetchFullText(
 
     if (!article?.textContent) return null;
 
-    // Trim to a reasonable max — enough for the LLM to work with, but
-    // not so long that it blows up the prompt payload. 2000 chars is ~10x
-    // the current 280-char excerpt cap.
-    return article.textContent.replace(/\s+/g, " ").trim().slice(0, 2000);
+    // Trim to a reasonable max at a sentence boundary so we never cut
+    // mid-word. 2000 chars is ~10x the original 280-char excerpt cap.
+    const cleaned = article.textContent.replace(/\s+/g, " ").trim();
+    return truncateAtSentence(cleaned, 2000);
   } catch {
     return null;
   }

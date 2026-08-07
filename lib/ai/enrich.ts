@@ -288,6 +288,10 @@ async function runEnrichment(
       if (s.url && s.summary) result.set(s.url, s.summary.trim());
     }
 
+    console.log(
+      `[enrich] ${scope}: ${result.size}/${payload.length} items enriched`,
+    );
+
     // Diagnostic: if we got back substantially fewer entries than asked for,
     // dump the raw LLM output so the cause is visible without re-running.
     // Common reasons: provider max_tokens too low → truncated JSON, model
@@ -354,20 +358,24 @@ export async function enrichFinanceNewsSummaries(
   const shortItems = items.filter((it) => (it.excerpt ?? "").length <= LONG_THRESHOLD);
 
   const result = new Map<string, string>();
+  const TRANSLATE_CHUNK_SIZE = 6; // small chunks → fewer JSON errors, easier to debug
 
-  // Full articles → complete Chinese translation
+  // Full articles → complete Chinese translation (in chunks)
   if (longItems.length > 0) {
-    console.log(
-      `[enrich] translating ${longItems.length} full-text articles…`,
-    );
-    const payload = longItems.map((it) => ({
-      url: it.url,
-      title: it.title,
-      source: it.source ?? "",
-      excerpt: (it.excerpt ?? "").slice(0, 2000),
-    }));
-    const translated = await runEnrichment(payload, PROMPTS.translate, "finance translation");
-    for (const [k, v] of translated) result.set(k, v);
+    for (let i = 0; i < longItems.length; i += TRANSLATE_CHUNK_SIZE) {
+      const chunk = longItems.slice(i, i + TRANSLATE_CHUNK_SIZE);
+      console.log(
+        `[enrich] translating chunk ${Math.floor(i / TRANSLATE_CHUNK_SIZE) + 1}/${Math.ceil(longItems.length / TRANSLATE_CHUNK_SIZE)} (${chunk.length} articles)…`,
+      );
+      const payload = chunk.map((it) => ({
+        url: it.url,
+        title: it.title,
+        source: it.source ?? "",
+        excerpt: (it.excerpt ?? "").slice(0, 2000),
+      }));
+      const translated = await runEnrichment(payload, PROMPTS.translate, "finance translation");
+      for (const [k, v] of translated) result.set(k, v);
+    }
   }
 
   // Short blurbs → summary (paywalled sources, or fulltext fetch failed)
