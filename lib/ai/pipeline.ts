@@ -46,8 +46,8 @@ export interface ArticleInput extends RawArticle {
 }
 
 const PER_CATEGORY_LIMIT: Record<Category, number> = {
-  tech: 25,
-  finance: 20,
+  tech: 15,
+  finance: 15,
   politics: 15,
 };
 

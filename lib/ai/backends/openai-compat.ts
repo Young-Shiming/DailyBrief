@@ -83,12 +83,15 @@ export async function runOpenAICompat(
   const timeoutMs = opts.timeoutMs ?? 120_000;
 
   try {
-    // SDK-level timeout is passed to the HTTP layer, but SDK v6 may not
-    // enforce it reliably across all providers. Promise.race + AbortController
-    // gives us a hard wall-clock cutoff that always fires.
-    const ac = new AbortController();
-    const timer = setTimeout(() => ac.abort(), timeoutMs);
-    const resp = await Promise.race([
+    // Hard wall-clock timeout via Promise.race + setTimeout — the simplest
+    // possible timeout that cannot break across SDK versions or providers.
+    // AbortController / signal are avoided because OpenAI SDK v6 wiring is fragile.
+    const hardTimeout = (ms: number): Promise<never> =>
+      new Promise((_, reject) => {
+        setTimeout(() => reject(new Error(`LLM request timed out after ${ms / 1000}s`)), ms);
+      });
+
+    const resp = (await Promise.race([
       client.chat.completions.create(
         {
           model,
@@ -96,28 +99,13 @@ export async function runOpenAICompat(
             { role: "system", content: opts.systemPrompt },
             { role: "user", content: opts.userPrompt },
           ],
-          // Explicit max_tokens — most providers default low (DeepSeek 4096,
-          // some MiniMax variants 2048). A 16-item batch enrichment routinely
-          // exceeds 4K output tokens once you count Chinese chars + JSON
-          // structure, and silent truncation made it through with just 1/16
-          // entries parseable. 8192 covers all observed daily batches with
-          // generous headroom. Match the explicit value Anthropic SDK uses.
           max_tokens: 8192,
-          // Don't force JSON mode — not all OpenAI-compat providers support
-          // response_format=json_object, and our prompts + jsonrepair already
-          // handle the slop.
+          stream: false,
         },
-        { timeout: timeoutMs, signal: ac.signal },
+        { timeout: timeoutMs },
       ),
-      new Promise<never>((_, reject) => {
-        timer.unref?.();
-        ac.signal.addEventListener("abort", () =>
-          reject(new Error(`LLM request timed out after ${timeoutMs / 1000}s`)),
-          { once: true },
-        );
-      }),
-    ]) as Awaited<ReturnType<typeof client.chat.completions.create>>;
-    clearTimeout(timer);
+      hardTimeout(timeoutMs),
+    ])) as OpenAI.Chat.Completions.ChatCompletion;
     const text = (resp.choices[0]?.message?.content ?? "").trim();
     const durationMs = Date.now() - started;
     logLlmCall({
