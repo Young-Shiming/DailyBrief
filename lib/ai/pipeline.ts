@@ -151,10 +151,14 @@ async function callOnce(userPayloadJson: string): Promise<DailyReport> {
           "候选新闻（JSON 数组，共 " + userPayloadJson.length + " 字符）：",
           userPayloadJson,
         ].join("\n");
+  console.log(`[pipeline] calling LLM — payload ${(userPayloadJson.length / 1024).toFixed(1)} KB, timeout 120s`);
+  const t0 = Date.now();
   const { text } = await runLlm({
     systemPrompt: SYSTEM_PROMPT_DIGEST,
     userPrompt,
+    timeoutMs: 120_000,
   });
+  console.log(`[pipeline] LLM responded in ${((Date.now() - t0) / 1000).toFixed(1)}s — ${text.length} chars`);
   const cleaned = extractJson(text);
   let parsed: Partial<DailyReport>;
   try {
