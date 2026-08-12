@@ -202,9 +202,9 @@ async function enrichMergedSubgroup(
 
   // Multi-pass URL matching: LLMs often tweak URLs slightly (encode/decode,
   // drop query params, etc.). Try full normalized match first, then fall
-  // back to path-only match for the stragglers.
+  // back to path-only match, then title-based fuzzy match.
   let matched = 0;
-  const unmatched: string[] = [];
+  const unmatchedArticles: ArticleInput[] = [];
   for (const a of toEnrich) {
     // Pass 1: full normalized URL match
     let s = summaries.get(normalizeUrl(a.url));
@@ -226,14 +226,41 @@ async function enrichMergedSubgroup(
       a.summary = s;
       matched++;
     } else {
-      unmatched.push(a.url);
+      unmatchedArticles.push(a);
     }
   }
-  if (unmatched.length > 0) {
+  if (unmatchedArticles.length > 0) {
     console.warn(
-      `[daily] ${unmatched.length} articles failed URL matching — URLs:`,
-      unmatched,
+      `[daily] ${unmatchedArticles.length} articles failed URL matching — retrying individually:`,
+      unmatchedArticles.map((a) => a.url),
     );
+    // Individual retry: send each unmatched article to the LLM one at a
+    // time. This is the most reliable fallback — no URL confusion across
+    // articles, minimal payload, fast response. A single slow/timing-out
+    // article only affects itself, not its neighbors.
+    for (const a of unmatchedArticles) {
+      try {
+        const singleRetry = await enrichFinanceNewsSummaries([{
+          url: a.url,
+          title: a.title,
+          excerpt: a.excerpt,
+          source: a.source,
+          lang: sourceLangMap.get(a.sourceId) ?? "en",
+        }]);
+        // Direct match — only one entry in the payload, so the first
+        // value in the map is our translation regardless of URL drift.
+        if (singleRetry.size > 0) {
+          a.summary = [...singleRetry.values()][0];
+          matched++;
+          console.log(`[daily] individual retry matched: ${a.title.slice(0, 50)}`);
+        } else {
+          console.warn(`[daily] individual retry empty for: ${a.title.slice(0, 50)}`);
+        }
+      } catch (e) {
+        const msg = e instanceof Error ? e.message : String(e);
+        console.warn(`[daily] individual retry failed for "${a.title.slice(0, 50)}": ${msg}`);
+      }
+    }
   }
   console.log(
     `[daily] enrichment done in ${((Date.now() - t0) / 1000).toFixed(1)}s, matched ${matched}/${enrichmentInput.length}`,

@@ -385,25 +385,15 @@ export async function enrichFinanceNewsSummaries(
   const shortItems = items.filter((it) => (it.excerpt ?? "").length <= LONG_THRESHOLD);
 
   const result = new Map<string, string>();
-  const TRANSLATE_CHUNK_SIZE = 6; // small chunks → fewer JSON errors, easier to debug
 
-  // Full articles → complete Chinese translation (in chunks)
+  // Full articles → complete Chinese translation with progressive retry.
+  // DeepSeek can be slow with large payloads (>40 KB); a single timeout
+  // would silently kill an entire chunk of 4-6 articles. When a chunk
+  // returns fewer results than requested, we retry the missing items in
+  // progressively smaller batches (2 → 1) to isolate the problematic
+  // article and let the rest through.
   if (longItems.length > 0) {
-    for (let i = 0; i < longItems.length; i += TRANSLATE_CHUNK_SIZE) {
-      const chunk = longItems.slice(i, i + TRANSLATE_CHUNK_SIZE);
-      console.log(
-        `[enrich] translating chunk ${Math.floor(i / TRANSLATE_CHUNK_SIZE) + 1}/${Math.ceil(longItems.length / TRANSLATE_CHUNK_SIZE)} (${chunk.length} articles)…`,
-      );
-      const payload = chunk.map((it) => ({
-        url: it.url,
-        title: it.title,
-        source: it.source ?? "",
-        lang: it.lang ?? "en",
-        excerpt: (it.excerpt ?? "").slice(0, 2000),
-      }));
-      const translated = await runEnrichment(payload, PROMPTS.translate, "finance translation");
-      for (const [k, v] of translated) result.set(k, v);
-    }
+    await enrichTranslationWithRetry(longItems, result);
   }
 
   // Short blurbs → summary (paywalled sources, or fulltext fetch failed)
@@ -423,6 +413,99 @@ export async function enrichFinanceNewsSummaries(
   }
 
   return result;
+}
+
+/**
+ * Translate `items` in batches, with progressive size reduction on undercount.
+ *
+ * Strategy:
+ *   1. First pass: chunk size 4 (smaller = less timeout risk, fewer items lost on failure)
+ *   2. If a chunk comes back with fewer results than sent: collect the missing
+ *      URLs (by comparing normalized input URLs against output keys) and retry
+ *      them in pairs (size 2).
+ *   3. If size-2 retry still undercounts: retry the remainders individually.
+ *
+ * This is self-healing — a single slow article no longer poisons its neighbors.
+ */
+async function enrichTranslationWithRetry(
+  items: EnrichInput[],
+  result: Map<string, string>,
+): Promise<void> {
+  const CHUNK_SIZE = 4; // was 6; reduced to lower timeout risk with large payloads
+  const RETRY_CHUNK_SIZE = 2;
+  const MAX_RETRY_ROUNDS = 2; // safety valve — avoid infinite loops on systemic failures
+
+  // First pass: chunked translation
+  const missed: EnrichInput[] = [];
+  for (let i = 0; i < items.length; i += CHUNK_SIZE) {
+    const chunk = items.slice(i, i + CHUNK_SIZE);
+    const chunkIdx = Math.floor(i / CHUNK_SIZE) + 1;
+    const totalChunks = Math.ceil(items.length / CHUNK_SIZE);
+    console.log(
+      `[enrich] translating chunk ${chunkIdx}/${totalChunks} (${chunk.length} articles)…`,
+    );
+    const payload = chunk.map((it) => ({
+      url: it.url,
+      title: it.title,
+      source: it.source ?? "",
+      lang: it.lang ?? "en",
+      excerpt: (it.excerpt ?? "").slice(0, 2000),
+    }));
+    const translated = await runEnrichment(payload, PROMPTS.translate, "finance translation");
+
+    // Merge results and track which input items didn't get a translation back
+    for (const [k, v] of translated) result.set(k, v);
+
+    const missingInChunk = chunk.filter(
+      (it) => !translated.has(normalizeUrl(it.url)),
+    );
+    if (missingInChunk.length > 0) {
+      console.warn(
+        `[enrich] chunk ${chunkIdx}: ${missingInChunk.length}/${chunk.length} items missing from LLM output — queued for retry`,
+      );
+      missed.push(...missingInChunk);
+    }
+  }
+
+  // Progressive retry: pairs → singles
+  let round = 0;
+  while (missed.length > 0 && round < MAX_RETRY_ROUNDS) {
+    round++;
+    const retrySize = round === 1 ? RETRY_CHUNK_SIZE : 1;
+    const nextMissed: EnrichInput[] = [];
+
+    for (let i = 0; i < missed.length; i += retrySize) {
+      const batch = missed.slice(i, i + retrySize);
+      console.log(
+        `[enrich] retry round ${round} (size=${retrySize}): ${batch.length} article(s)…`,
+      );
+      const payload = batch.map((it) => ({
+        url: it.url,
+        title: it.title,
+        source: it.source ?? "",
+        lang: it.lang ?? "en",
+        excerpt: (it.excerpt ?? "").slice(0, 2000),
+      }));
+      const retried = await runEnrichment(payload, PROMPTS.translate, "finance translation retry");
+      for (const [k, v] of retried) result.set(k, v);
+
+      const stillMissing = batch.filter(
+        (it) => !retried.has(normalizeUrl(it.url)),
+      );
+      if (stillMissing.length > 0) {
+        nextMissed.push(...stillMissing);
+      }
+    }
+    missed.length = 0;
+    missed.push(...nextMissed);
+  }
+
+  if (missed.length > 0) {
+    console.warn(
+      `[enrich] ${missed.length} article(s) still missing after ${MAX_RETRY_ROUNDS} retry rounds — giving up. URLs:`,
+      missed.map((it) => it.url),
+    );
+  }
 }
 
 /**
