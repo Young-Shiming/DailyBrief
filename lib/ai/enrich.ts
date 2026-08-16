@@ -300,7 +300,11 @@ async function runEnrichment(
     const { text } = await runLlm({
       systemPrompt,
       userPrompt,
-      timeoutMs: 240_000,
+      // 120s matches the digest call. The old 240s meant a single hung
+      // DeepSeek request cost 4 minutes, and the progressive retry loop
+      // (pairs → singles) re-paid the full 240s on every leg — a handful of
+      // slow chunks could push the enrichment stage past 10 minutes.
+      timeoutMs: 120_000,
     });
     const cleaned = extractJson(text);
 

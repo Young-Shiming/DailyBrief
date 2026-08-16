@@ -239,7 +239,9 @@ async function callOnce(
   const { text } = await runLlm({
     systemPrompt: SYSTEM_PROMPT,
     userPrompt,
-    timeoutMs: 240_000,
+    // 120s matches the digest call; 3 attempts × 240s could otherwise hold
+    // the pipeline for up to 12 minutes on a persistently failing watchlist.
+    timeoutMs: 120_000,
   });
   const cleaned = extractJson(text);
   let parsed: Partial<TradingCommentary>;

@@ -334,12 +334,12 @@ async function enrichFullTexts(articles: ArticleInput[]): Promise<void> {
   if (candidates.length === 0) return;
 
   console.log(
-    `[daily] fetching full text for ${candidates.length} articles (concurrency=5, timeout=10s)…`,
+    `[daily] fetching full text for ${candidates.length} articles (concurrency=10, timeout=10s)…`,
   );
   const t0 = Date.now();
 
   const urls = candidates.map((a) => a.url);
-  const results = await fetchFullTextBatch(urls, 5, 10_000);
+  const results = await fetchFullTextBatch(urls, 10, 10_000);
 
   const textMap = new Map(
     results.filter((r) => r.text).map((r) => [r.url, r.text!]),
@@ -376,13 +376,24 @@ async function main() {
   // so the LLM has more than a 1-sentence excerpt to work with.
   await enrichFullTexts(articles);
 
-  // Enrich GH Trending, papers, finance news, and politics with summaries.
-  await enrichGhTrending(articles);
-  await enrichTrendingPapers(articles);
-  await enrichFinanceNews(articles);
-  await enrichPolitics(articles);
-  await enrichAiNews(articles);
-  await enrichXViral(articles);
+  // Enrich all independent summary phases concurrently. Each phase targets a
+  // disjoint slice of `articles` (by sourceId / category:subcategory), so they
+  // never mutate the same item and can safely run in parallel. Previously these
+  // six phases ran serially, so DeepSeek latency multiplied across them and the
+  // whole enrichment stage routinely blew past 10 minutes; running them as one
+  // wave collapses wall-clock to roughly the slowest single phase.
+  const tEnrich = Date.now();
+  await Promise.all([
+    enrichGhTrending(articles),
+    enrichTrendingPapers(articles),
+    enrichFinanceNews(articles),
+    enrichPolitics(articles),
+    enrichAiNews(articles),
+    enrichXViral(articles),
+  ]);
+  console.log(
+    `[daily] all enrichment done in ${((Date.now() - tEnrich) / 1000).toFixed(1)}s`,
+  );
 
   // Trading signals: Yahoo fetch + indicators + commentary. Non-fatal —
   // if it errors, we still ship the news digest.
