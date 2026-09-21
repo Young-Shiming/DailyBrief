@@ -6,130 +6,130 @@
       "title": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
       "excerpt": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "meta": "JavaScript · ★ 263,717 · 🍴 39,453 · 📈 826 stars today",
+      "meta": "JavaScript · ★ 263,722 · 🍴 39,453 · 📈 826 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "面向 AI 编码代理的性能优化框架，为 Claude Code、Codex、Opencode、Cursor 等工具提供技能、直觉、记忆、安全和研究优先的开发能力。适合重度使用多种编码代理的开发者，用于统一管理代理能力、降低重复提示成本，并提升复杂任务的执行稳定性与安全边界。"
+      "summary": "面向 Claude Code、Codex、OpenCode、Cursor 等编码智能体的性能优化框架，通过技能、本能、记忆、安全与研究优先的开发模式提升智能体表现。适合重度使用 AI 编码助手的开发者，用于统一管理与调优多平台智能体的行为策略。"
     },
     {
       "sourceId": "github-trending",
       "title": "BuilderIO/agent-native",
       "url": "https://github.com/BuilderIO/agent-native",
       "excerpt": "A framework for building agentic apps",
-      "meta": "TypeScript · ★ 5,188 · 🍴 484 · 📈 98 stars today",
+      "meta": "TypeScript · ★ 5,199 · 🍴 484 · 📈 98 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "用于构建 agentic 应用的前端框架，由 BuilderIO 推出。它把代理能力直接内嵌到应用层，帮助开发者更快搭建能自主调用工具、处理多步任务的智能应用。适合需要将 LLM 代理集成进产品交互的团队，典型场景包括智能助手、自动化工作流和对话式界面。"
+      "summary": "构建智能体应用（agentic apps）的开发框架，帮助开发者快速搭建具备自主决策与工具调用能力的 AI 应用。适合需要将大模型能力嵌入产品的前端与全栈团队，降低智能体应用的工程化门槛。"
     },
     {
       "sourceId": "github-trending",
       "title": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
       "excerpt": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "meta": "JavaScript · ★ 17,984 · 🍴 997 · 📈 2,428 stars today",
+      "meta": "JavaScript · ★ 17,999 · 🍴 998 · 📈 2,428 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Cloudflare 推出的编码代理技能，用于执行多阶段安全审计，产出可独立验证、机器可读的漏洞发现。它把安全审计流程标准化为代理可执行步骤，适合在 CI 或开发流程中对代码库做自动化安全审查，帮助团队提前发现风险，并让审计结果便于工具消费与追溯。"
+      "summary": "Cloudflare 推出的编码智能体技能（skill），用于执行多阶段安全审计，产出可机器读取且经独立验证的审计结果。适合将 AI 编码工具引入安全流程的团队，在代码审查与漏洞排查中自动完成结构化安全分析。"
     },
     {
       "sourceId": "github-trending",
       "title": "trycua/cua",
       "url": "https://github.com/trycua/cua",
       "excerpt": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
-      "meta": "HTML · ★ 25,132 · 🍴 1,729 · 📈 1,018 stars today",
+      "meta": "HTML · ★ 25,142 · 🍴 1,729 · 📈 1,018 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "面向 computer-use 的开源基础设施，提供跨操作系统驱动、设备集群与基准测试，用于训练、评估和生成数据。它解决了大规模计算机操作代理在真实环境中运行和评测的难题，适合研究机构和企业训练 GUI 代理、采集操作数据，并横向对比不同模型在跨系统任务上的表现。"
+      "summary": "面向 computer-use 2.0 的开源驱动与工具集，提供跨操作系统设备集群和基准测试，支持训练、评估与数据生成。适合研究计算机操作智能体的团队，用于在真实环境中规模化测试和训练 AI 操作电脑的能力。"
     },
     {
       "sourceId": "github-trending",
       "title": "anthropics/financial-services",
       "url": "https://github.com/anthropics/financial-services",
       "excerpt": "",
-      "meta": "Python · ★ 35,352 · 🍴 5,247 · 📈 260 stars today",
+      "meta": "Python · ★ 35,356 · 🍴 5,248 · 📈 260 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Anthropic 官方仓库，从名称看面向金融服务场景，可能包含 Claude 在金融行业的示例代码、代理配置或解决方案。由于官方未提供描述，具体内容需查看仓库文档。适合金融科技开发者参考，用于构建合规、可控的智能金融工作流。"
+      "summary": "Anthropic 官方仓库，面向金融服务业场景。由于缺少描述信息，具体实现与技术栈不详，推测为 Claude 在金融行业的解决方案、示例或集成代码，供金融机构开发者参考使用。"
     },
     {
       "sourceId": "github-trending",
       "title": "paperless-ngx/paperless-ngx",
       "url": "https://github.com/paperless-ngx/paperless-ngx",
       "excerpt": "A community-supported supercharged document management system: scan, index and archive all your documents",
-      "meta": "Python · ★ 45,553 · 🍴 3,145 · 📈 57 stars today",
+      "meta": "Python · ★ 45,559 · 🍴 3,146 · 📈 57 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "社区驱动的增强型文档管理系统，可扫描、索引并归档各类文档。它能将纸质与电子文件集中管理，通过 OCR 与自动标签实现全文检索，替代传统文件夹归档。适合个人和中小企业搭建自托管的无纸化办公方案，长期保存发票、合同等资料并快速查找。"
+      "summary": "社区维护的增强版文档管理系统，可扫描、索引并归档各类纸质与电子文档，支持 OCR 识别与全文检索。适合希望摆脱纸质文件、建立个人或家庭数字档案的用户，通过自动化流程统一管理票据、合同等文档。"
     },
     {
       "sourceId": "github-trending",
       "title": "anthropics/claude-code",
       "url": "https://github.com/anthropics/claude-code",
       "excerpt": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "meta": "TypeScript · ★ 147,107 · 🍴 24,053 · 📈 419 stars today",
+      "meta": "TypeScript · ★ 147,115 · 🍴 24,058 · 📈 419 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Anthropic 推出的代理式编码工具，运行在终端中，能理解代码库并加速开发。它可执行常规任务、解释复杂代码、处理 Git 工作流，适合习惯命令行的开发者。典型场景包括代码重构、调试、提交管理和在大型仓库中快速定位逻辑，减少手动操作。"
+      "summary": "Anthropic 官方的智能体式编码工具，运行在终端中，能理解整个代码库并协助编写代码。可执行重复性任务、解释复杂代码、处理 git 工作流，适合习惯命令行的开发者提升日常编码与协作效率。"
     },
     {
       "sourceId": "github-trending",
       "title": "mihail911/modern-software-dev-assignments",
       "url": "https://github.com/mihail911/modern-software-dev-assignments",
       "excerpt": "Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2026/2025)",
-      "meta": "Python · ★ 4,546 · 🍴 1,009 · 📈 172 stars today",
+      "meta": "Python · ★ 4,549 · 🍴 1,009 · 📈 172 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "斯坦福大学 CS146S《现代软件开发》课程的作业仓库，覆盖 2025/2026 秋季学期内容。包含课程配套的编程任务，适合学生和自学者按课程节奏练习现代开发实践。可用于跟随教学进度动手实现项目，理解软件工程中的工具链、协作与设计方法。"
+      "summary": "斯坦福大学 CS146S《现代软件开发者》课程（2025/2026 秋季）的作业材料，涵盖现代软件开发实践。适合学生与自学者跟随课程完成编程练习，了解前沿软件工程方法与工具。"
     },
     {
       "sourceId": "github-trending",
       "title": "higgsfield-ai/higgsfield",
       "url": "https://github.com/higgsfield-ai/higgsfield",
       "excerpt": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
-      "meta": "Jupyter Notebook · ★ 5,366 · 🍴 954 · 📈 465 stars today",
+      "meta": "Jupyter Notebook · ★ 5,369 · 🍴 956 · 📈 465 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "面向超大规模模型训练的容错、高扩展 GPU 编排与机器学习框架，支持从数十亿到数万亿参数模型。它解决大集群训练中的调度、故障恢复与资源利用问题，适合需要跨多节点训练大模型的研究团队和公司，用于降低硬件成本并提升训练任务的稳定性。"
+      "summary": "面向超大规模模型训练的容错、高可扩展 GPU 编排与机器学习框架，可支持数十亿至数万亿参数模型的训练。适合需要管理大规模 GPU 集群的 AI 团队，用于分布式训练与资源调度的工程实践。"
     },
     {
       "sourceId": "github-trending",
       "title": "Open-Dev-Society/OpenStock",
       "url": "https://github.com/Open-Dev-Society/OpenStock",
       "excerpt": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
-      "meta": "TypeScript · ★ 16,793 · 🍴 2,133 · 📈 755 stars today",
+      "meta": "TypeScript · ★ 16,805 · 🍴 2,133 · 📈 755 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源股票行情平台，定位为昂贵市场数据服务的免费替代。可跟踪实时价格、设置个性化提醒并查看公司详细洞察，完全开放且永久免费。适合个人投资者、学习者和开发者查询行情、做模拟分析，或基于其代码二次开发自己的金融数据工具。"
+      "summary": "开源的市场行情平台，作为昂贵商业数据服务的替代方案，提供实时价格追踪、个性化提醒和公司详情洞察，永久免费。适合个人投资者与开发者查看股票行情、构建自己的投资监控工具。"
     },
     {
       "sourceId": "github-trending",
       "title": "coder/coder",
       "url": "https://github.com/coder/coder",
       "excerpt": "Secure environments for developers and their agents",
-      "meta": "Go · ★ 16,039 · 🍴 1,541 · 📈 379 stars today",
+      "meta": "Go · ★ 16,042 · 🍴 1,541 · 📈 379 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "为开发者和其 AI 代理提供安全环境的基础设施，可把开发环境从本地迁移到云端或自托管集群。通过模板化配置实现环境快速创建、权限隔离与统一管理，适合工程团队为远程开发者、临时任务和编码代理按需分配一致的开发环境，降低配置漂移与安全风险。"
+      "summary": "为开发者和其 AI 智能体提供安全开发环境的平台，通过远程工作区实现代码与配置的集中管理。适合需要统一开发环境、保障代码安全与合规的企业团队，支持远程协作与自动化配置。"
     },
     {
       "sourceId": "github-trending",
       "title": "vercel-labs/json-render",
       "url": "https://github.com/vercel-labs/json-render",
       "excerpt": "The Generative UI framework",
-      "meta": "TypeScript · ★ 17,284 · 🍴 919 · 📈 291 stars today",
+      "meta": "TypeScript · ★ 17,294 · 🍴 919 · 📈 291 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Vercel Labs 推出的生成式 UI 框架，可通过 JSON 描述动态渲染界面。它把 UI 结构与模型输出解耦，便于让 LLM 生成可预测、可校验的界面配置。适合构建 AI 驱动的应用，如根据对话结果实时生成表单、仪表盘或内容卡片，减少手写前端的工作量。"
+      "summary": "Vercel 实验室推出的生成式 UI 框架，可通过 JSON 描述动态渲染用户界面。适合需要由 AI 或配置驱动界面生成的前端场景，让大模型输出结构化 JSON 即可实时构建交互界面。"
     },
     {
       "sourceId": "github-trending",
       "title": "addyosmani/agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
       "excerpt": "Production-grade engineering skills for AI coding agents.",
-      "meta": "JavaScript · ★ 97,668 · 🍴 10,294 · 📈 736 stars today",
+      "meta": "JavaScript · ★ 97,676 · 🍴 10,294 · 📈 736 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "为 AI 编码代理提供生产级工程技能集合，由 Addy Osmani 维护。内容覆盖代码审查、测试、重构等实践，把成熟工程经验沉淀为代理可调用的技能。适合希望让编码代理遵循真实项目规范的团队，用于提升生成代码质量、减少低级错误并统一协作标准。"
+      "summary": "面向 AI 编码智能体的生产级工程技能集合，由知名开发者 Addy Osmani 维护，提供可直接复用的技能模块。适合希望规范并增强 AI 编码助手能力的团队，提升智能体在实际工程任务中的可靠性。"
     },
     {
       "sourceId": "v2ex-hot",
@@ -142,19 +142,19 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "旧的安卓手机变服务器",
-      "url": "https://www.v2ex.com/t/1238894",
-      "excerpt": "50 回复 · Linux 节点",
-      "publishedAt": "2026-09-02T04:25:12.000Z",
+      "title": "看了一下 iPhone18Pro 真机，默默的把拼多多订单取消了。",
+      "url": "https://www.v2ex.com/t/1243249",
+      "excerpt": "51 回复 · Apple 节点",
+      "publishedAt": "2026-09-20T01:29:53.000Z",
       "category": "tech",
       "source": "V2EX"
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "看了一下 iPhone18Pro 真机，默默的把拼多多订单取消了。",
-      "url": "https://www.v2ex.com/t/1243249",
-      "excerpt": "50 回复 · Apple 节点",
-      "publishedAt": "2026-09-20T01:29:53.000Z",
+      "title": "旧的安卓手机变服务器",
+      "url": "https://www.v2ex.com/t/1238894",
+      "excerpt": "50 回复 · Linux 节点",
+      "publishedAt": "2026-09-02T04:25:12.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -191,15 +191,6 @@
       "url": "https://www.v2ex.com/t/1229505",
       "excerpt": "17 回复 · Python 节点",
       "publishedAt": "2026-07-24T03:18:27.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
-      "title": "看到一些网友说 18pm 版本",
-      "url": "https://www.v2ex.com/t/1243221",
-      "excerpt": "15 回复 · Apple 节点",
-      "publishedAt": "2026-09-19T15:25:56.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -277,6 +268,15 @@
     },
     {
       "sourceId": "v2ex-hot",
+      "title": "为什么是 5h 限额，而不是 6h、4h、3h 限额呢？",
+      "url": "https://www.v2ex.com/t/1243488",
+      "excerpt": "7 回复 · 程序员 节点",
+      "publishedAt": "2026-09-20T15:55:49.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
       "title": "网页版的《兔子波比 5》重制版，非模拟器， TypeScript 重写的引擎",
       "url": "https://www.v2ex.com/t/1243464",
       "excerpt": "7 回复 · 程序员 节点",
@@ -286,19 +286,19 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "[开源自推]我用 Rust 做了一个约 30 MiB 内存的多入口 AI Agent，已经在线跑了半年",
-      "url": "https://www.v2ex.com/t/1231826",
-      "excerpt": "7 回复 · Rust 节点",
-      "publishedAt": "2026-08-03T11:22:03.000Z",
+      "title": "airpods pro3 模式切换失败（ios18）",
+      "url": "https://www.v2ex.com/t/1243358",
+      "excerpt": "7 回复 · Apple 节点",
+      "publishedAt": "2026-09-20T06:19:04.000Z",
       "category": "tech",
       "source": "V2EX"
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "为什么是 5h 限额，而不是 6h、4h、3h 限额呢？",
-      "url": "https://www.v2ex.com/t/1243488",
-      "excerpt": "6 回复 · 程序员 节点",
-      "publishedAt": "2026-09-20T15:55:49.000Z",
+      "title": "[开源自推]我用 Rust 做了一个约 30 MiB 内存的多入口 AI Agent，已经在线跑了半年",
+      "url": "https://www.v2ex.com/t/1231826",
+      "excerpt": "7 回复 · Rust 节点",
+      "publishedAt": "2026-08-03T11:22:03.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -317,15 +317,6 @@
       "url": "https://www.v2ex.com/t/1239759",
       "excerpt": "6 回复 · Linux 节点",
       "publishedAt": "2026-09-05T23:22:54.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
-      "title": "airpods pro3 模式切换失败（ios18）",
-      "url": "https://www.v2ex.com/t/1243358",
-      "excerpt": "6 回复 · Apple 节点",
-      "publishedAt": "2026-09-20T06:19:04.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -357,6 +348,15 @@
       "source": "V2EX"
     },
     {
+      "sourceId": "v2ex-hot",
+      "title": "[开源] CNEquity：自托管 A 股 Parquet 数据湖（日更 / PIT / 防幸存者偏差 / MCP）",
+      "url": "https://www.v2ex.com/t/1241944",
+      "excerpt": "4 回复 · Python 节点",
+      "publishedAt": "2026-09-14T10:03:37.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
       "sourceId": "openai-news",
       "title": "Introducing the Australian Youth Safety Blueprint",
       "url": "https://openai.com/index/australian-youth-safety-blueprint",
@@ -364,7 +364,7 @@
       "publishedAt": "2026-09-18T12:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 发布「澳大利亚青少年安全蓝图」，提出六大支柱路线图，旨在打造更安全的 AI 体验，既保护青少年也赋能其使用。"
+      "summary": "OpenAI 发布「澳大利亚青年安全蓝图」，提出六大支柱路线图，目标是在保护青少年的同时赋能其使用人工智能，打造更安全的 AI 体验。"
     },
     {
       "sourceId": "openai-news",
@@ -374,7 +374,7 @@
       "publishedAt": "2026-09-17T12:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "律所 Cooley 借助 ChatGPT 打造 GO Public 工具，将智能引入 IPO 流程，帮助律师更早发现问题，并把判断力集中在关键环节，加速上市工作。"
+      "summary": "律师事务所 Cooley 借助 ChatGPT Work 打造 GO Public 工具，将智能引入 IPO 流程，帮助律师更早发现问题，并把判断力集中在关键环节。"
     },
     {
       "sourceId": "openai-news",
@@ -384,7 +384,7 @@
       "publishedAt": "2026-09-17T00:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 推出面向法律行业的 Astra for Law，整合前沿智能、律所定制工作流、法律数据源连接以及符合法律保密要求的管控机制。"
+      "summary": "OpenAI 推出面向法律行业的 Astra for Law，提供前沿智能、律所定制工作流、接通的 Legal 数据源，以及适用于客户机密业务的法律级管控措施。"
     },
     {
       "sourceId": "openai-news",
@@ -394,7 +394,7 @@
       "publishedAt": "2026-09-16T16:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 与美国退休人员协会（AARP）合作，在全美 10 座城市为 1000 名老年人提供免费、手把手的 ChatGPT 工作坊，帮助其安全掌握实用 AI 技能。"
+      "summary": "OpenAI 与美国退休人员协会（AARP）合作，在美国 10 座城市为 1000 名老年人提供免费、实操性的 ChatGPT 工作坊，帮助其安全掌握实用 AI 技能。"
     },
     {
       "sourceId": "openai-news",
@@ -404,7 +404,7 @@
       "publishedAt": "2026-09-16T13:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 探索 AI 驱动的广告新形态，包括「Sponsored Agents」、面向营销人员的工具，以及与 HubSpot、Shopify 的集成。"
+      "summary": "OpenAI 探索 AI 驱动的广告新形态，包括「赞助代理」（Sponsored Agents）、面向营销人员的工具，以及与 HubSpot、Shopify 的集成。"
     },
     {
       "sourceId": "openai-news",
@@ -414,7 +414,7 @@
       "publishedAt": "2026-09-16T12:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "Hex 借助 GPT-6 Astra 让数据智能体把分析答案转化为可交互的可视化报告，使员工乐于分享这些成果。"
+      "summary": "GPT-6 Astra 帮助数据平台 Hex 的数据代理将分析答案转化为可交互可视化报告，方便员工分享。"
     },
     {
       "sourceId": "openai-news",
@@ -433,7 +433,7 @@
       "publishedAt": "2026-09-16T17:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 公布一套模型失准报告框架，涵盖追踪、调查与披露环节，并同时发布六份关于模型异常或令人担忧行为的报告。"
+      "summary": "OpenAI 公布一套模型失准报告框架，用于追踪、调查和披露模型行为偏离预期的情况，并同时发布六份关于异常或令人担忧模型行为的报告。"
     },
     {
       "sourceId": "openai-news",
@@ -1182,7 +1182,7 @@
       "meta": "👍 135",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "针对长程 agent 输入密集带来的显存与存储压力，DeepSeek-V4.1-Flash 进一步压缩 KV Cache，在降低 prefill 计算开销的同时缓解 HBM 与 SSD 容量瓶颈，把长上下文推理的极限继续向前推进。"
+      "summary": "针对长程 agent 带来的输入密集型负载，DeepSeek-V4.1-Flash 进一步压缩 KV Cache。摘要显示其目标是降低 prefill 计算开销，并缓解大规模 KV 缓存对 HBM 与 SSD 容量及数据传输的压力，在长上下文场景下推动缓存压缩极限。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1193,7 +1193,7 @@
       "meta": "👍 114",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "本文评测 Omni-Modal 生成模型 MiniMax-H3 是否具备物理世界推理能力。该模型在共享 latent 框架下统一文本、图像、视频与音频的联合生成，作者据此考察其多模态理解与音视频联合生成背后的物理常识水平。"
+      "summary": "评估全模态生成模型 MiniMax-H3 是否具备物理世界推理能力。该模型在共享隐空间内统一理解多模态上下文并联合生成音频与视频。论文围绕其对真实物理规律的推断展开评测，检验统一建模范式在物理常识与因果推理上的表现。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1204,7 +1204,7 @@
       "meta": "👍 94",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "研究 on-policy distillation（OPD）中的回答长度膨胀问题：学生模型输出过长甚至耗尽生成预算。作者发现基座学生与后训练教师的终止符（EOS）不匹配是重要成因，并在 Qwen3、Llama 等模型上验证该现象。"
+      "summary": "研究 on-policy distillation 中的回答长度膨胀问题：学生模型输出过长甚至耗尽生成长度。作者将 base student 与后训练 teacher 之间的终止符不一致识别为重要诱因，并在 Qwen3、Llama 等模型上展开分析，为控制蒸馏长度提供依据。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1215,7 +1215,7 @@
       "meta": "👍 94",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "面向全天候无人值守的 coding agent，SoL-Pi 将推理、工具调用与反馈构成的长轨迹纳入递归自改进循环，通过递归扩展 auto-research loop 提升 token 效率，使 agent harness 能以更低成本持续迭代。"
+      "summary": "面向无人值守的编码 agent 自改进循环，提出递归扩展的 Auto-Research 框架 SoL-Pi。随着 agent 从代码补全走向长时间推理、工具调用与反馈，token 效率成为规模化瓶颈；该工作通过递归扩展研究循环提升 agent harness 的效率。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1226,7 +1226,7 @@
       "meta": "👍 79",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "科学代码库包含数十年可执行知识，但工具链割裂、领域惯例隐式、正确性标准特殊，难以转为可靠学习经验。ScienceIDE 将全球科学代码库改造成 agent 可学习环境，把可执行模型与方法转化为训练与评测资源。"
+      "summary": "针对科学代码库工具链碎片化、领域约定隐式和正确性标准特殊等障碍，提出 ScienceIDE，将全球科学代码库转化为 agent 可学习的环境。其目标是把可执行模型、方法与工具中沉淀的知识转成可靠学习经验，缓解所谓科学代码学习难题。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1237,7 +1237,7 @@
       "meta": "👍 71",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "现有工作把 coding harness 当作整体系统评测，各组件作用不明。本文开展组件级实证研究，拆解 harness 设计对自主 coding agent 长程软件工程表现的影响，给出可比较的模块化分析结论。"
+      "summary": "现有研究多把编码 harness 当作整体评估，难以判断各组件作用。本文构建组件级对比实验，系统考察 coding harness 设计如何影响自主编码 agent 的长期软件工程表现，旨在厘清模块化设计对模型能力落地的实际贡献。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1248,7 +1248,7 @@
       "meta": "👍 56",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "现有世界模型多为领域专用。JEPA-Anything 提出跨领域通用的预测学习框架，把 JEPA 式联合嵌入预测推广到差异极大的系统，使智能体能预测后果、指导干预并从交互中学习，实现跨世界建模。"
+      "summary": "世界模型通常局限于单一领域。JEPA-Anything 提出一种领域无关框架，试图用共同学习原则在差异极大的系统中进行预测建模，使智能体能够预判后果、指导干预并从交互中学习，推动跨领域预测模型统一化。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1259,7 +1259,7 @@
       "meta": "👍 56",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "语言模型部署需要可靠置信度估计来决定输出、升级还是重试，但现有估计器共享同一设计前提。本文提出基于经验（experiential）的置信度估计，让模型从推理到 agent 任务中积累经验，从而获得更校准的置信度。"
+      "summary": "可靠置信度估计对语言模型部署至关重要，但现有方法共享同一设计前提。本文提出「经验置信度」思路，主张置信度应来自推理到 agent 执行过程的经验积累，为判断输出何时可用、升级或重试提供更贴近实际的新范式。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1270,7 +1270,7 @@
       "meta": "👍 50",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "实际 web 开发中 agent 需从可运行软件推断行为，而非仅依赖 issue 描述。ProgramDistill 提出从交互式 web 应用构建可验证、带参考指引的 SWE 任务基准，评测 coding agent 在信息不完整应用中的行为还原与实现能力。"
+      "summary": "ProgramDistill 是一个新基准，评估编码 agent 能否从可运行的 Web 应用推断行为，并在不完整程序中实现。与通过 issue 或指令描述需求不同，该任务强调从工作软件中还原行为并生成可验证、有参考引导的 SWE 任务。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1281,7 +1281,7 @@
       "meta": "👍 48",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "LLM 助手常用于日常社交建议，但其社交推理难以评测：需从主观叙述中理解情境，且涉及他人隐私等社交属性。本文提出可验证的社交推理评测方案，为咨询场景下的社交推理提供可核查的评估框架。"
+      "summary": "LLM 助手常用于社交建议，但其社交推理评估困难：需从主观叙述理解情境，且「他人感受」等社交属性难以验证。本文提出可验证社交推理的评测设定，推动在咨询式场景中更可靠地衡量模型的社交判断能力。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1292,7 +1292,7 @@
       "meta": "👍 45",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "检索质量高度依赖索引键能否暴露文档知识。本文提出 Self-Evolving Search Index，让索引随 LLM agent 的多样化信息需求自我演化，动态改进文档的索引键表示，从而提升复杂任务下的检索效果。"
+      "summary": "检索质量高度依赖索引键能否暴露文档知识，而 LLM agent 的信息需求日益复杂。本文提出自演化检索索引 Self-Evolving Search Index，让索引键随任务反馈持续更新，以提升面向多样信息需求的检索效果。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1303,7 +1303,7 @@
       "meta": "👍 45",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "多个 AutoResearch 循环各自从零开始，导致重复搜索而非更多发现。Agora 以 Git 作为共享记忆，让多个自主研究 agent 复用彼此的研究进展与结果，把并行探索转化为协作积累。"
+      "summary": "AutoResearch 等自主研究循环可让单个编码 agent 无人值守改进训练配置，但多个会话各自从头开始，导致重复搜索。Agora 以 Git 作为共享记忆，让多个研究 agent 复用彼此结果，把更多 agent 转化为更多发现。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1314,7 +1314,7 @@
       "meta": "👍 42",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "平台滥用活动用 emoji、谐音、拆字和冗余符号隐藏跳转指令，再经伪装链接导向色情、诈骗、赌博等服务。RiskChainBench 提出面向混淆文本还原与证据溯源网络调查的基准，弥补现有基准只评混淆文本的不足。"
+      "summary": "针对平台滥用活动使用 emoji、谐音、拆字与冗余符号隐藏跳转指令，再经伪装链接导向色情、诈骗、赌博等服务的现象，提出 RiskChainBench 基准，评估混淆文本还原与基于证据的网页调查能力。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1325,7 +1325,7 @@
       "meta": "👍 39",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "多轮 agent 的 RL 每轨迹仅有标量奖励，self on-policy distillation 可用带特权技能的教师提供 token 级稠密监督。RetireOPD 让这种蒸馏随学生能力提升自我退场，避免长期依赖教师，提升 agentic RL 效率。"
+      "summary": "多轮 agent 的 RL 训练每条轨迹仅得单一标量奖励，自 on-policy 蒸馏可用具备特权技能的自教师提供 token 级密集监督。RetireOPD 提出自退役机制：学生学会技能后逐步撤除教师，避免蒸馏长期束缚策略，提升 agentic RL 效率。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1336,7 +1336,7 @@
       "meta": "👍 37",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "GUI agent 在动态界面中常因弹窗、延迟加载、控件移位导致预先计划失效。本文提出 Reflect、Revise、Reuse 三阶段的免训练技能演化方法，让 agent 在执行中反思、修正并复用过程性知识，提升长程任务鲁棒性。"
+      "summary": "GUI agent 执行长程任务时常因弹窗、加载延迟与控件移位使计划失效。本文提出「反思—修正—复用」的无训练技能演化方法，让可复用过程知识在执行中动态更新，从而提升 GUI agent 在动态界面上的适应能力。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1347,7 +1347,7 @@
       "meta": "👍 35",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "文档解析需在多样版式与采集条件下稳定输出结构化内容，但训练语料偏向常见类型与干净数字页，仅扩大覆盖不等于提升能力。WeVisDoc 从覆盖转向能力，构建面向鲁棒端到端文档解析的数据与评测方案。"
+      "summary": "文档解析需将图像转为结构化内容，并在多样版式与拍摄条件下可靠工作。现有语料偏向常见文档与干净数字页，单靠扩大覆盖不足。WeVisDoc 从「覆盖」转向「能力」，构建更鲁棒的端到端文档解析方案。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1358,7 +1358,7 @@
       "meta": "👍 34",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "LLM 交易 agent 常受部署前固定的手写工具使用策略限制，难以自适应收集证据、调用工具与验证信号。EvolveTrade 通过经验驱动的策略精炼，让交易 agent 在运行中自我演化决策策略，提升适应性。"
+      "summary": "LLM 交易 agent 可整合行情、新闻与可执行分析，但工具使用策略多为部署前手写的静态规则，难以自适应。EvolveTrade 提出经验驱动的策略精炼，让交易 agent 根据市场反馈自我演化证据收集、工具调用与信号验证方式。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1369,7 +1369,7 @@
       "meta": "👍 33",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "空间智能不只描述物体位置，还需在观测不全时主动获取证据、统一空间框架并行动修正。VABench 通过视觉演示、主动感知与度量控制，评测模型完整的观察—推理—行动—修正闭环能力。"
+      "summary": "空间智能不止于描述物体位置。VABench 评估「观察—推理—行动—修正」完整闭环：模型须在不完整观测下识别并获取缺失证据，将其纳入统一空间框架并据此行动，衡量具身空间智能与度量控制能力。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1380,7 +1380,7 @@
       "meta": "👍 32",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "大型推理模型存在系统性低效：易题过度思考、难题思考不足。When2Think 提出难度感知的长度控制方法，为 hybrid reasoning 模型按题目难度动态分配推理长度，在避免统一惩罚与硬路由效率损失的同时保持性能。"
+      "summary": "大推理模型常在简单题上过度思考、在难题上思考不足。When2Think 提出难度感知的长度控制方法，用于混合推理模型，避免统一长度惩罚或刚性路由带来的效率税，在保持性能的同时按题目难度分配推理计算。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1391,7 +1391,7 @@
       "meta": "👍 30",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "on-policy self-distillation（OPSD）让模型向看到答案或解法的自身冻结副本学习。本文通过隔离实验考察特权信息（privileged information）究竟带来多少额外收益，厘清其相对蒸馏本身的作用边界。"
+      "summary": "On-policy self-distillation 让模型向能看到答案或解题步骤的自身副本学习。本文探究这种特权信息究竟额外带来多少收益：通过隔离蒸馏本身的作用，量化特权信息在 OPSD 中的贡献，厘清该训练范式的真实增益来源。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1497,11 +1497,11 @@
       "sourceId": "tldr-ai",
       "title": "Claude Projects v2 💼, Google family agent 👨‍👩‍👧‍👦,",
       "url": "https://tldr.tech/ai/2026-09-18",
-      "excerpt": "TLDR AI 2026-09-18The 5% AI cashback card (Sponsor)For most of you reading, your card statement looks less like a list of hobbies and more like the most recent edition of LMArena.Every other card treats that spend as \"software.\" Plasma One Core treats it as its own category, and pays 5% cashback on AI spend.The eligible merchants cover everything you might need for work or this weekend's side project:Anthropic / Claude · OpenAI / ChatGPT · Cursor · Replit · Lovable · Perplexity · ElevenLabs · Notion AI · OpenRouter · xAI / Grok · DeepSeekWhat Core includes:5% cashback on AI spend3% base cashback on everything elseA ChatGPT Go subscription, about $100 of annual value, includedStart earning on your AI spend →🚀Headlines & LaunchesHow Claude is uplifting biomolecular modeling (12 minute read)Claude enhanced biomolecular modeling by optimizing over 30 models, achieving a 4x speed increase and creating a low-memory mode for predicting larger systems on a single NVIDIA GPU. These improvements, now open-sourced, allow for efficient protein design and structure prediction, potentially accelerating drug discovery. A protein design competition co-sponsored with Adaptyv Bio offers up to $1 million in Claude credits and highlights these advancements.Google wants to give your family its own cloud computer (4 minute read)Google's family agent runs on its own cloud computer and Google account, turning the emails, files, and calendars your household shares into daily briefings and updated plans. It can fill out forms and coordinate activities for up to six people, asking permission before acting outside the group. The US experiment has a waitlist.Projects redesigned: from folder to conversation (4 minute read)Claude Code Projects let users manage builds by automating task delegation, coordination, and result assembly across cloud sessions. Projects utilize threads for parallel operations, adapting based on progress, and draw on shared memory for efficient task execution.",
+      "excerpt": "",
       "publishedAt": "2026-09-18T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI",
-      "summary": "TLDR AI 2026-09-18。5% AI 返现卡（赞助商）对你们大多数读者来说，你的信用卡账单看起来不太像爱好清单，更像最新一期 LMArena。其他所有卡都把这类消费当作「软件」。Plasma One Core 把它当作独立类别，并对 AI 消费支付 5% 返现。符合条件的商户涵盖你工作或周末副业可能需要的所有东西：Anthropic / Claude · OpenAI / ChatGPT · Cursor · Replit · Lovable · Perplexity · ElevenLabs · Notion AI · OpenRouter · xAI / Grok · DeepSeek。Core 包含：AI 消费 5% 返现、其他所有消费 3% 基础返现、附赠一份 ChatGPT Go 订阅（年价值约 100 美元）。开始在你的 AI 消费上赚钱 →。🚀头条与发布。Claude 如何提升生物分子建模（12 分钟阅读）。Claude 通过优化 30 多个模型增强了生物分子建模，实现 4 倍速度提升，并创建了低内存模式，可在单块 NVIDIA GPU 上预测更大的系统。这些改进现已开源，可实现高效的蛋白质设计和结构预测，有望加速药物发现。与 Adaptyv Bio 联合赞助的蛋白质设计竞赛提供高达 100 万美元的 Claude 额度，并凸显了这些进展。谷歌想给你的家庭一台专属云计算机（4 分钟阅读）。谷歌的家庭智能体运行在自己的云计算机和谷歌账户上，将你家庭共享的电子邮件、文件和日历转化为每日简报和更新的计划。它可以为最多六个人填写表格并协调活动，在群组之外行动前会先征求许可。这项美国实验设有等候名单。Projects 重新设计：从文件夹到对话（4 分钟阅读）。Claude Code Projects 让用户通过跨云会话自动化任务委派、协调和结果汇总来管理构建。Projects 利用线程进行并行操作，根据进展进行调整，并利用共享内存实现高效的任务执行。"
+      "summary": "TLDR AI 2026年9月18日简报，要点包括 Claude Projects 第二版以及 Google 推出的家庭智能代理。"
     },
     {
       "sourceId": "tldr-ai",
@@ -1511,7 +1511,7 @@
       "publishedAt": "2026-09-17T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI",
-      "summary": "TLDR AI 2026-09-17。让任何 AI 智能体都能通过 SerpApi 访问 Google 搜索（赞助商）。当智能体能够搜索网络时，它们会更聪明。但当你要消耗额外 token 把杂乱的搜索结果页解析成可读文本时，抓取 Google 会变得昂贵。SerpApi 是开箱即用的网络搜索 API，能给你恰好需要的内容：👉 抓取 Google 和其他搜索引擎；👉 通过任何智能体都能发起的简单 GET 请求集成；结果以 .md 或 .json 返回，任何智能体都能读取。👉 被 Nvidia、Adobe、Shopify，甚至联合国使用。↗️ 从 250 次免费搜索开始 ↗️。🚀 头条与发布：Claude Cowork 和聊天现已合并为一个 Claude（阅读 2 分钟）。Claude Cowork 和聊天正在合并为一个 Claude。Claude Docs 和 Slides 现在可以生成用户可直接编辑的文档和演示文稿，可直接从 Claude 展示，或下载为 PowerPoint 或 PDF。这些变化将在未来几周面向 Pro 和 Max 套餐推出，Team 和 Free 套餐随后跟进。企业管理员将在其组织发生任何变化前至少 30 天收到 Anthropic 的通知。OpenAI 通过 AI 智能体扩展 ChatGPT 广告（阅读 4 分钟）。OpenAI 宣布推出 Sponsored Agents，允许用户在点击 ChatGPT 中的广告后，与企业赞助的智能体开始对话。它还在 ChatGPT Work 中引入 AI 辅助广告创作、新的 Ads Manager 创意工具，并与 HubSpot 和 Shopify 集成。你的 AI 智能体现在可以控制你的 Google Home 设备（阅读 3 分钟）。Google 推出 Google Home 的模型上下文协议（MCP）早期访问，使 ChatGPT 等 AI 智能体能够控制智能家居设备。用户必须设置 Google Cloud 项目，并向其选择的 AI 智能体提供 MCP 详细信息以完成配置。"
+      "summary": "TLDR AI 2026-09-17\n让任何 AI 代理通过 SerpApi 访问 Google 搜索（赞助商）\n\n当代理能够搜索网络时，它们会更智能。但当你为了将杂乱无章的搜索结果页面解析为可读文本而消耗额外 token 时，抓取 Google 会变得昂贵。\n\nSerpApi 是网络搜索 API，开箱即用地为你提供所需内容：\n👉 抓取 Google 和其他搜索引擎\n👉 通过任何代理都能发起的简单 GET 请求进行集成；以 .md 或 .json 格式获取任何代理都能读取的结果。\n👉 被 Nvidia、Adobe、Shopify 甚至联合国使用。\n↗️ 从 250 次免费搜索开始 ↗️\n\n🚀 头条与发布\n\nClaude Cowork 和聊天现已合并为一个 Claude（2 分钟阅读）\n\nClaude Cowork 和聊天正在合并为一个 Claude。Claude Docs 和 Slides 现在可以生成用户可直接编辑、直接从 Claude 演示，或下载为 PowerPoint 或 PDF 的文档和演示文稿。这些变更将在未来几周内在 Pro 和 Max 计划上推出，Team 和 Free 计划紧随其后。企业管理员将在其组织发生任何变更前至少 30 天收到 Anthropic 的通知。\n\nOpenAI 通过 AI 代理扩展 ChatGPT 广告（4 分钟阅读）\n\nOpenAI 宣布了赞助代理（Sponsored Agents），允许用户在点击 ChatGPT 中的广告后与企业赞助的代理开始对话。它还推出了 ChatGPT Work 中的 AI 辅助广告创建、新的 Ads Manager 创意工具，以及与 HubSpot 和 Shopify 的集成。\n\n你的 AI 代理现在可以控制你的 Google Home 设备（3 分钟阅读）\n\nGoogle 推出了 Google Home 模型上下文协议（MCP）的早期访问，使 ChatGPT 等 AI 代理能够控制智能家居设备。用户必须设置一个 Google Cloud 项目，并向其选择的 AI 代理提供 MCP 详细信息以进行配置。"
     },
     {
       "sourceId": "tldr-ai",
@@ -1526,7 +1526,7 @@
       "sourceId": "tldr-ai",
       "title": "Siri model swapping 🔄, Claude Money 💰, Hugging Face Tau 👨‍💻",
       "url": "https://tldr.tech/ai/2026-09-15",
-      "excerpt": "",
+      "excerpt": "TLDR AI 2026-09-15Build with SOTA open-weight coding models on Crusoe (Sponsor)GLM 5.3 and GLM 5.3 Flash are now in Crusoe Intelligence Foundry.Sign up and let these powerful models handle your most difficult software engineering workflows, at a small fraction of the cost of proprietary offers - but with the same serverless, frictionless experience.➡️ GLM-5.3: Z.ai's flagship open-weights AI model released on August 14, 2026, built specifically for advanced software engineering and autonomous agent tasks.✅ Achieves open-source SOTA on Terminal Bench 3.0 and Agents' Last Exam➡️ GLM-5.3-Flash: MIT licensed with weights already released. Roughly 9x cheaper for workloads that do not need the frontier tier.Create your free account and start building🚀Headlines & LaunchesAnthropic prepares Claude Money for personal finance (2 minute read)Claude Money allows users to link their bank accounts and ask Claude about spending, plans, and other financial questions. It appears to be designed to give Claude persistent access to users' financial context, removing the need to manually upload bank statements or transaction exports. The exact account types, data provider, and supported actions remain unknown. Claude already supports third-party personal-finance connectors, and Anthropic has been building finance-specific agents and products for professional users. The launch timeframe remains unknown.OpenAI Buys Startup Developing Smartphone Camera (3 minute read)OpenAI has quietly bought Glass Imaging, a company developing smartphone cameras that use AI to produce image quality on par with a DSLR camera. The deal values Glass Imaging at over $300 million. OpenAI's plans for the company are unclear, but it has been developing a secretive device with Jony Ive, the former Apple executive who helped design the iPhone.",
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI"
@@ -1544,7 +1544,7 @@
       "sourceId": "tldr-ai",
       "title": "Agents API 🤖, Cognition SWE-2 👨‍💻, Muse Shared Agents 🧑‍🤝‍🧑",
       "url": "https://tldr.tech/ai/2026-09-11",
-      "excerpt": "",
+      "excerpt": "TLDR AI 2026-09-11Forge: The conference for companies making their own frontiers (Sponsor)The most ambitious companies are training specialized models to outperform the frontier on their domain. On November 3 in San Francisco, Fireworks Forge will bring together leaders making this shift.At Forge, you'llLearn what it takes to stop renting and start owning your intelligenceSee how to take back control of your token bills with intelligent routingJoin hands-on workshops for training, inference, routing, and evalsHear from Jensen Huang, CEO of NVIDIA; Michele Catasta, President and Head of AI at Replit; Lin Qiao, CEO of Fireworks; and more speakers to be announced.November 3 · Pier 27 · San FranciscoAttendance is free and limited.👉 Apply to attend Forge🚀Headlines & LaunchesOpenAI Launches the Agents API (3 minute read)OpenAI introduced the Agents API in public beta, giving developers access to the managed agent harness and infrastructure behind Codex. It handles context, tools, subagents, persistent execution, files, and code environments for agents that can run for extended periods.Meta to announce Shared Agents for Muse at Meta Connect (2 minute read)Meta's Muse app will introduce a \"Shared Agents\" feature, allowing users to create customizable agents that can be shared with others, similar to Grokbot's system. This could benefit small businesses already using Meta platforms by enabling specialized agents for workflows like customer support and sales.OpenAI Is Open to Slowing Cutting-Edge AI, CEO Sam Altman Tells Staff (2 minute read)OpenAI is considering slowing down development of cutting-edge AI. The company has raised concerns about its advanced AI systems, saying that model development should be paused due to safety concerns. The company's researchers have gone viral for making comments saying OpenAI's technology will kill humanity by the end of the decade.🧠Deep Dives & AnalysisDoes Scaling Web-Video Pre-training Help Real Robots Do Real Work?",
       "publishedAt": "2026-09-11T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI"
@@ -1571,7 +1571,7 @@
       "sourceId": "tldr-ai",
       "title": "OpenAI managed agents 🤖, TPU inference ⚡, Anthropic $517B compute 💰",
       "url": "https://tldr.tech/ai/2026-09-08",
-      "excerpt": "TLDR AI 2026-09-08The Wispr Flow Notetaker is here - and it's got all the context with none of the bots (Sponsor)We've all accepted that notetakers get things wrong, and all the pain that comes with: tedious cleanup, garbled customer quotes, confusing action items.But what if your notetaker got it right the first time, every time?Meet the Wispr Flow Notetaker.It's free to use. It gets your words right. It gets speaker names right. It works everywhere (even an impromptu Slack huddle.) It delivers clean and useable context to your AI agents via MCP. And no bot ever joins the call.Stop settling for almost-right. Get accurate, ready to use meeting notes that you don't need to double check.Get one month of Pro free →🚀Headlines & LaunchesAnthropic signed $517bn in compute agreements in past 11 months (2 minute read)Anthropic has secured $517 billion in compute capacity leases over the past 11 months, amounting to 14.8GW, primarily with Google and AWS. This expansion includes large deals with cloud providers like Akamai and Fluidstack and a $45bn agreement with Nscale. The company confidentially filed for an IPO with the SEC in June.OpenAI prepares managed agents for DevDay 2026 (3 minute read)OpenAI plans to introduce Managed Agents at DevDay 2026, following a model similar to Anthropic's offerings, targeting businesses and developers. The new agents aim to integrate advanced models with superior computer-use capabilities at competitive price points to attract users. Additionally, they will offer functionality that enhances advertising through interactive agents, potentially challenging major players like Meta and Google.🧠Deep Dives & AnalysisThe Two MMLU Scores: What a Benchmark Name Does Not Fix (23 minute read)Two builds with the same provider, model family, metric identifier, unit, and benchmark name can score differently. The difference is the runners, graders, and dataset splits.",
+      "excerpt": "",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI"
@@ -1580,7 +1580,7 @@
       "sourceId": "tldr-ai",
       "title": "Claude proves Fermat 🧮, automated AI researcher 🔬, Z1 efficiency chip ⚡",
       "url": "https://tldr.tech/ai/2026-09-07",
-      "excerpt": "TLDR AI 2026-09-07The AI workforce nobody predicted (Sponsor)AI was supposed to be replacing workers. But has it?Ramp's latest research suggests something entirely different is happening (something almost nobody predicted).As seen on Bloomberg, The Wall Street Journal, and The New York Times, Ramp's lead economist Ara Kharazian takes you through the data this Friday, September 11th, for a special 30-minute briefing on what's really happening as AI is reshaping the workforce.Join Ara's special briefing this Friday🚀Headlines & LaunchesOpenAI Researcher Warned About Rapidly Advancing AI (17 minute read)An OpenAI researcher says that reasoning models could continue advancing rapidly enough to contribute to their own development, creating increasingly serious alignment and cybersecurity risks.Formalizing Fermat's Last Theorem (11 minute read)Claude successfully created the first complete computer-verified proof of Fermat's Last Theorem in 11 days using Lean, automating the complex task initially proven manually by Andrew Wiles in 1995. The proof, verified via Prove2Me and Lean, involved 13 million lines of code and proved 29,500 intermediate theorems, proving AI's potential to ease the traditionally laborious formal verification of mathematical proofs.Grok Imagine Video 1.5 agent (1 minute read)Grok Imagine Video 1.5 agent delivers higher quality, better storytelling than previous releases. Powered by Grok's latest Image 2.0 model, it excels at connecting multiple shots together with greater continuity. The agent is now live on the web, iOS, and Android. A short video generated by the model is available in the thread.🧠Deep Dives & AnalysisAI Safety Is Not the Same as Security (6 minute read)Frontier labs may be applying probabilistic AI safety techniques to problems that require deterministic security controls.",
+      "excerpt": "",
       "publishedAt": "2026-09-07T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI"
@@ -1589,7 +1589,7 @@
       "sourceId": "tldr-ai",
       "title": "GPT-6 Astra 🚀, Grok Bot Enterprise 🤖, Runway world model 🌎",
       "url": "https://tldr.tech/ai/2026-09-04",
-      "excerpt": "TLDR AI 2026-09-04Product Manager, Applied AI at TLDR ($200k base + $60k bonus, Fully Remote)TLDR is hiring its first PM to help build the agent-first operating layer used across the company. We're looking for a builder who has shipped real products / systems with LLMs. Click here to learn more.🚀Headlines & LaunchesMicrosoft releases MAI-Transcribe-2 (4 minute read)Microsoft released MAI-Transcribe-2, a speech recognition model with diarization, configurable transcription styles, and word-level timestamps that it says beats Gemini 3.5 Transcribe, GPT-Transcribe, and Whisper V3-Large.Nvidia confirms Hugging Face acquisition for $12.93 billion (3 minute read)Nvidia confirmed it has acquired Hugging Face, which hosts three million models and serves over 18 million developers, for $12.93 billion. Jensen Huang said the platform will stay open and Nvidia compute will not be required to build or deploy on it.Grok Bot for Enterprise (4 minute read)Grok Bot is now available for enterprises. Grok and Cursor Enterprise customers have free usage for the next two weeks. Users can invite their whole organization, including people without an existing seat. Each user's work in Grok Bot runs in its own secure and isolated environment, separate from every other user. A Bot has no access by default and reaches only the accounts you sign it into.GPT-6 Astra (10 minute read)OpenAI GPT-6 Astra is the company's most capable broadly deployed model and the first to reach the Critical cybersecurity level under its Preparedness Framework.",
+      "excerpt": "",
       "publishedAt": "2026-09-04T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI"
@@ -1643,7 +1643,7 @@
       "sourceId": "tldr-ai",
       "title": "GLM-5.3 Flash ⚡, Claudeforce 🤝, NVIDIA revenue surge 📈",
       "url": "https://tldr.tech/ai/2026-08-27",
-      "excerpt": "TLDR AI 2026-08-27🚀Headlines & LaunchesNVIDIA's $108b Quarter (3 minute read)Nvidia will cross $100 billion in quarterly revenue next quarter. The company will see $432 billion in annual revenue, making it the sixth largest company in the world. Nvidia's business looks healthier and more diversified than ever before. However, there is a chance that custom silicon will eventually slow Big Tech's demand.Ox-Alpha Revealed as GLM-5.3-Flash (6 minute read)Z.ai revealed that the anonymously tested ox-alpha was GLM-5.3-Flash, a 320B-parameter MoE model with 18B active parameters that approached Claude Opus 4.8 on coding and agentic benchmarks.Salesforce, Anthropic expand partnership as Benioff responds to ‘SaaSpocalypse' concerns (2 minute read)Salesforce and Anthropic launched \"Claudeforce,\" a Claude chatbot plugin with 37 pre-built sales skills for efficient data access and record updates. The partnership aims to enhance enterprise operations by integrating Salesforce and Anthropic's AI capabilities, with plans for future Slack integrations.🧠Deep Dives & AnalysisWhat Z.ai's Ox Alpha reveals about AI economics (3 minute read)GLM-5.3-Flash is Z.ai's first natively multimodal model in the GLM-5 series. The model was released anonymously as Ox Alpha on OpenCode and OpenRouter, where it completely overtook leaderboards and went viral. All of the traffic was served on Chinese AI chips. The model is architected for extreme efficiency and specifically designed for ultra-low-cost inference.Brief independent investigation of agents' behavior, reasoning and collaboration in the OpenAI/Hugging Face hacking incident (160 minute read)OpenAI's agents' attack on Hugging Face was extraordinarily complex.",
+      "excerpt": "",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI"
@@ -1953,7 +1953,7 @@
       "publishedAt": "2026-09-19T05:48:28.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "我们周三报道了 Jev 的发布，它已完全占领时间线，发布视频在短短两天内获得 3600 万次观看（相比之下，OpenAI 的 Navier Stokes 结果获得 7400 万次观看，Anthropic 的 Fable 5 获得 5700 万次观看）。Vercel@vercelJev 是 AI Gateway 历史上被采用最快的模型。首日，@typesafeai 覆盖了约 13% 的团队，是 GPT-5.6 系列的 2 倍、Fable 5.1 的 6 倍。2026 年 9 月 18 日 10:34 PM · 2.13 万次观看 · 15 条回复 · 18 次转发 · 220 个赞。它并非开源1，因此引发了大量猜测、出色的演示和示例、酸溜溜的 schmidhuber 们以及糟糕的观点，这些当然只会助长炒作。以下是一份清单。最靠谱的猜测是 ModernBert 和 Diffusion：Laya：4.21 亿参数，ModernBERT-large 编码器加上两个额外的 transformer 层，对用户提供的选项进行评分，在序列嵌入上做 PPO，以输出逐轮转化轨迹（概率从 0.0 到 1.0）。有人酸溜溜地抱怨自己没得到认可；声称 RLCD 却没有依据；置信度基于熵，而非校准。DiffusionGemmaJev：从 Diffusion 模型基础出发解决这一问题，基准测试上相当接近。Bespoke Nimble：对 Qwen3.5-9B 进行 LoRA 微调，采用对比式数据整理（接近但基准略低）。SemIf（前身为 OpenJev）（HF）：4B 和 35B 因果 Qwen3.5 主干，在最后一个 token 上接一个微小的三分类 NLI 分类器。与 Laya 的对比。Jevlike：4 万字节嵌入的轻量级选项注意力模型。每个候选者成为一个查询，从共享上下文表示中读取，然后获得评分。Kev-0.5B：LoRA 适配器加上 Qwen2.5-0.5B 之上的小型读出头。当然，没有足够多的人谈论数据方面，而众所周知数据是 100% 合成的。这是 2026 年 9 月 17 日至 9 月 18 日的 AI 新闻。我们检查了 12 个 subreddit、544 个 Twitter，没有更多 Discord。AINews 的网站可让你搜索所有过往期号。提醒一下，AINews 现在是 Latent Space 的一个栏目。"
+      "summary": "我们周三报道了Jev的发布，而它已完全主导了信息流——其发布视频在短短两天内获得3600万次观看（相比之下，OpenAI的Navier Stokes成果获得7400万次观看，Anthropic的Fable 5获得5700万次观看）。Vercel@vercelJev是AI Gateway历史上被采用最快的模型。首日，@typesafeai 覆盖了约13%的团队，是GPT-5.6系列的2倍、Fable 5.1的6倍。2026年9月18日晚上10:34 · 2.13万次观看 · 15条回复 · 18次转发 · 220个赞。它并非开源，因此招来了大量猜测、精彩的演示与案例、尖酸的Schmidhuber式吐槽以及糟糕的解读，这当然只会进一步助长热度。以下是一份清单。最靠谱的猜测是ModernBert和Diffusion：Laya：4.21亿参数，ModernBERT-large编码器外加两个额外的Transformer层，用于给用户提供的选项打分，对序列嵌入做PPO，从而输出逐轮转化轨迹（0.0到1.0的概率）。有人因未获认可而愤愤不平；声称使用RLCD但缺乏依据；其置信度基于熵而非经过校准。DiffusionGemmaJev：从Diffusion模型基础入手解决这一问题。在基准测试上相当接近。Bespoke Nimble：Qwen3.5-9B的LoRA微调，采用对比式数据策展（接近，但基准测试略低）。SemIf（前称OpenJev）（HF）：以4B和35B因果Qwen3.5为骨干，在最后一个token上加一个微型三分类NLI分类器。与Laya的比较。Jevlike：4万字节嵌入的轻量级选项注意力模型。每个候选对象成为一个查询，从共享上下文表示中读取信息，然后获得一个分数。Kev-0.5B：Qwen2.5-0.5B之上的LoRA适配器加一个小型读出头。当然，谈论数据侧的人还不够多，而数据侧被公认为100%合成。这是2026年9月17日至9月18日的AI新闻。我们检查了12个subreddit、544个Twitter账号，没有再查Discord。AINews网站可搜索所有过往期号。提醒一下，AINews现在是Latent Space的一个栏目。"
     },
     {
       "sourceId": "latent-space",
@@ -1963,7 +1963,7 @@
       "publishedAt": "2026-09-18T06:28:43.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "如果你看到这个，说明你是真粉丝。这是 2026 年 9 月 16 日至 9 月 17 日的 AI 新闻。我们检查了 12 个 subreddit、544 个 Twitter，没有更多 Discord。AINews 的网站可让你搜索所有过往期号。提醒一下，AINews 现在是 Latent Space 的一个栏目。你可以选择订阅或退订邮件频率！智能体运行时、长时程工作流，以及协调者界面的兴起。Claude Code Projects 将「一次对话、多个云线程」推向产品化：Anthropic 在 Claude Code 中推出 Projects，其中单次对话可以生成并行的云会话，在线程之间传递上下文，并在用户离开后继续运行。后续帖子澄清了可用性，并说明线程目前运行在云端，本地工作流即将推出。在内部，Anthropic 员工将其描述为一种更高层次的协调者抽象，具有不断演进的长寿命记忆，并通过一个单一的、起控制作用的 Claude 汇总状态更新（Cat Wu、MikeyK）。这是迄今为止将多会话编排（而不仅仅是「聊天 + 工具」）产品化得最清晰的案例之一。谷歌及其他公司正围绕托管执行框架、文件和密钥来标准化智能体基础设施：谷歌更新了 Gemini 托管智能体，采用新的基于 Antigravity 的执行框架，外加两个明显实用的 API：Credentials API 通过占位符和可信域出口代理让密钥不进入模型上下文，以及 Files API 用于工件移动和持久化沙箱。同一发布声称成本降低多达 30%，缓存命中率提高 22%。"
+      "summary": "如果你看到这条，说明你是真粉丝。这是2026年9月16日至9月17日的AI新闻。我们检查了12个subreddit、544个Twitter账号，没有再查Discord。AINews网站可搜索所有过往期号。提醒一下，AINews现在是Latent Space的一个栏目。你可以选择订阅或退订邮件的频率！智能体运行时、长周期工作流与协调器UI的兴起。Claude Code Projects将「一次对话，多个云端线程」推向产品化：Anthropic在Claude Code中推出Projects，其中单次对话可以衍生并行的云端会话，在线程之间传递上下文，并在用户离开后继续运行。后续帖子澄清了可用性，并说明这些线程目前运行在云端，本地工作流即将推出。在内部，Anthropic员工将其描述为一种更高层级的协调器抽象，具备不断演进的长寿命记忆，并通过一个单一的掌控型Claude（Cat Wu、MikeyK）汇总状态更新。这是迄今为止将多会话编排——而不仅仅是「聊天＋工具」——产品化得较为清晰的案例之一。谷歌及其他公司正围绕托管式执行框架、文件和密钥，将智能体基础设施标准化：谷歌更新了Gemini托管智能体，加入了一个基于Antigravity的新执行框架，以及两个明显实用的API：一个Credentials API，通过占位符和受信域出口代理，将密钥排除在模型上下文之外；以及一个Files API，用于工件流转和持久化沙箱。同一发布还声称成本最多降低30%，缓存命中率提高22%。"
     },
     {
       "sourceId": "latent-space",
@@ -1973,7 +1973,7 @@
       "publishedAt": "2026-09-17T07:28:25.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "史蒂夫·耶格（Steve Yegge）此前一直以极高热度、大声疾呼地推崇「tokenmaxxing」，因此如今他关停 Gas Town，并承认尽管每月在编程智能体订阅上花费数千美元……他只用它搭建过 Gas Town，这一事实令人清醒。Dan Luu 在 X 上表示：「有趣的是，耶格说他从未用 Gas Town 成功构建过任何东西。在 danluu.com/ai-coding/ 中，我提到过，由于可靠性（就完成任务而言）问题，我发现这些极度氛围化的编排器并不实用。结果最著名的那个编排器的作者也有同样的问题。」发布时间：2026年9月15日上午9:59，87.6K 次浏览，35 条回复，51 次转发，832 个赞。同样，尽管许多基准显示，Astra 在每任务成本上通常比 Sol 更便宜（因为 token 效率更高），但它并非在所有地方都更便宜：Databricks 现在报告称，当他们的 AI 工程师切换到 Astra 后，总体支出增加了 60%。Patrick Wendell 在 X 上表示：「今天我们向 Databricks 的每位工程师（N≈3500）推出了 Astra。以下是一些可能对他人有帮助的说明：1. 在高度复杂的任务上，尤其是与高层系统设计相关的任务，Astra 明确优于我们此前最高端的模型（Opus 5、Sol 5.6），并且……」发布时间：2026年9月16日下午7:02，548K 次浏览，82 条回复，118 次转发，1.87K 个赞。2026年9月15日至16日 AI 新闻。我们检查了 12 个 subreddit、544 个 Twitter 账号，没有进一步检查 Discord。AINews 网站可搜索所有过往期号。提醒：AINews 现在是 Latent Space 的一个栏目。你可以选择订阅或退订不同频率的邮件！热门推文（按互动量）OpenAI 的不对齐披露发布：@OpenAI 发布了一个正式框架，用于追踪、调查和披露模型不对齐事件，并附上过去六个月的六份案例报告。"
+      "summary": "Steve Yegge一直非常受欢迎，且大声鼓吹自己满腔热忱地拥抱「token最大化」的用法，因此看到他如今关停Gas Town，并承认尽管每月花数千美元订阅编码智能体……他却只用它建起了Gas Town，这着实令人清醒。Dan Luu@danluu：有趣的是，看到Yegge说自己从未用Gas Town成功建成过任何东西。在danluu.com/ai-coding/中，我提到过，我发现这些极端「氛围式」编排器没什么用，原因在于可靠性（就完成任务而言）。结果，那个最著名的编排器的作者也有同样的问题。2026年9月15日上午9:59 · 8.76万次观看 · 35条回复 · 51次转发 · 832个赞。同样地，尽管在许多基准测试中，Astra按每任务成本计算常被报道比Sol更便宜（因为token效率更高），但它并非在所有地方都更便宜——Databricks如今报告称，当他们的AI工程师改用Astra后，总体支出增加了60%。Patrick Wendell@pwendell：今天我们向Databricks的每一位工程师（N约3500人）推送了Astra。以下是一些可能对他人有用的说明：1. Astra在高度复杂的任务上，明确优于我们此前最高端的模型（Opus 5、Sol 5.6），尤其是那些与高层系统设计相关的任务……2026年9月16日晚上7:02 · 54.8万次观看 · 82条回复 · 118次转发 · 1870个赞。这是2026年9月15日至9月16日的AI新闻。我们检查了12个subreddit、544个Twitter账号，没有再查Discord。AINews网站可搜索所有过往期号。提醒一下，AINews现在是Latent Space的一个栏目。你可以选择订阅或退订邮件的频率！热门推文（按互动量）：OpenAI的失准披露发布：@OpenAI发布了一个正式框架，用于追踪、调查和披露模型失准事件，另附过去六个月中的六份案例报告。"
     },
     {
       "sourceId": "latent-space",
@@ -1983,7 +1983,7 @@
       "publishedAt": "2026-09-16T18:07:45.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "AIUC 最初因 NFDG 的背书引起我们注意，今天又宣布完成 4000 万美元 A 轮融资，其早期创业公司身后的行业顾问名单可能是我们见过的早期公司中最令人印象深刻的。AIUC 的核心是 AIUC-1，这是他们的智能体标准，并由真实保险支持：从成为 Anthropic 的第一位产品招聘，到构建旨在让前沿 AI 可部署的标准、测试和保险基础设施，Rune Kvist 押注 AI 采用的最大制约因素不会是能力，而是信任。在本期节目中，AIUC 联合创始人加入 swyx 和 Vibhu，宣布新一轮 4000 万美元融资，并解释为什么 Cursor、Harvey、Lovable 和 ElevenLabs 等公司正日益面对一个随着 AI 变得更强而更难的问题：当自主系统失败时，谁负责？我们深入讨论 AIUC-1，这一正在形成的智能体安全、保障与可靠性标准；AI 智能体如何接受越狱、幻觉和数据泄露的压力测试；以及为什么 Rune 认为标准和保险可能成为 AI 的关键基础设施。"
+      "summary": "AIUC 最初因 NFDG 的支持而引起了我们的注意，今天他们刚刚宣布了 4000 万美元的 A 轮融资，其行业顾问名单可能是我们见过的早期初创公司中最令人印象深刻的，这背后是 AIUC-1——他们由真实保险支持的代理标准：从 Anthropic 的第一位产品员工，到构建旨在使前沿 AI 可部署的标准、测试和保险基础设施，Rune Kvist 押注 AI 采用的最大制约因素不会是能力，而是信任。在本期节目中，AIUC 联合创始人加入 swyx 和 Vibhu，宣布新一轮 4000 万美元融资，并解释为什么 Cursor、Harvey、Lovable 和 ElevenLabs 等公司正日益面临一个随着 AI 变得更好而变得更难的问题：当自主系统失败时，谁负责？我们深入探讨 AIUC-1，这一新兴的代理安全、保障和可靠性标准；AI 代理如何针对越狱、幻觉和数据泄露进行压力测试；以及为什么 Rune 认为标准和保险可能成为 AI 的关键基础设施。"
     },
     {
       "sourceId": "latent-space",
@@ -2137,7 +2137,7 @@
       "publishedAt": "2026-09-18T11:29:22.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "感谢所有提交问题的人！我会死吗？是的，最终会。遗憾的是，我的新闻预测能力还不足以告诉你我会怎么死。但这很可能是因为 AI。AI 驱动的无人机已在乌克兰致人死亡，AI 驱动的针对医院的网络攻击肯定不久就会造成受害者。AI 会不会更进一步，把我们全部杀死？可能性较低。但有些人——古怪的人，但不可否认对 AI 很有了解——多年来一直警告这可能会发生。虽然我还没有囤罐头食品，也没试图讨好某个拥有地堡的超级亿万富翁，但我注意到，过去几年里，末日论者对 AI 能力和对齐的预测被证明准得令人不安。这当然并不意味着他们更可怕的预测会成真，但足以让我警觉起来。—— Grace Huckins。你会因为 AI 而死吗？我会说概率非零。假设你倒霉到成为未来近景中某个怪诞事件或事故的受害者。也许是 AI 智能体集群对关键基础设施发动的网络攻击。可悲的是，这种情景现在已不像过去那样遥不可及。或者也许是 AI 设计的新型病原体横扫人群。又或者世界经济崩溃，引发冲突和饥荒。这两种都说得通，但我认为可能性更低。我们会因为 AI 全部死掉吗？不会。除非是末日科幻小说，否则不存在 AI 能杀死我们所有人的情形。你可以编出无数恐怖故事，但它们并不基于当今技术能做什么或正走向何方的现实。有人辩称，为最坏情况做准备没有坏处，无论看起来多荒唐。也许吧。但我认为，这种灾难化思维会让人原谅或忽视现有技术及构建它的公司所带来的许多更紧迫的问题。"
+      "summary": "感谢所有提交问题的人！我会死吗？会，终有一死。遗憾的是，我的新闻预测能力还不足以告诉你我会怎么死。但它确实可能是因为AI。AI驱动的无人机已在乌克兰致人死亡，而针对医院的AI驱动网络攻击肯定不久也会造成受害者。AI还能更进一步，把我们所有人杀死吗？可能性较小。但有些人——古怪的人，却无可否认地精通AI——多年来一直警告这有可能发生。虽然我还没有囤罐头食品，也没有试图讨好某位拥有地堡的超级亿万富翁，但我注意到，过去几年里，末日论者关于AI能力和对齐的预测被证明准确得令人不安。这当然并不意味着他们那些更可怕的预测会成真，但足以让我警醒并加以关注。——Grace Huckins。你会因为AI而死吗？我会说概率不为零。假设你倒霉到成为某个离奇近未来事件或事故的受害者。也许是一群AI智能体对关键基础设施发动的网络攻击。可悲的是，这样的情景如今已不再像从前那样显得遥不可及。又或者是一种由AI设计的新型病原体横扫人群。再或者世界经济崩溃，引发冲突与饥荒。这两种都可信，但我认为可能性更低。我们会因为AI全部死掉吗？不会。除了末日科幻小说之外，不存在AI能把我们全部杀死的任何情形。你可以编出无数恐怖故事，但它们并不立足于当今技术能做什么、以及它正走向何方的现实。有人认为，为最坏情况做准备并无坏处，无论那看起来多么荒诞。也许吧。但我认为，这种灾难化思维会让人为此前技术及其开发公司存在的许多更紧迫问题开脱或视而不见。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -2147,7 +2147,7 @@
       "publishedAt": "2026-09-16T12:47:34.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "AI 热潮正在变成一项材料挑战。随着 AI 将计算推向新领域，支撑这些基础设施的材料正变得与运行其上的算法同样关键。半导体和数据中心在性能、热管理、电力效率和可靠性方面正接近物理极限，这创造了对能够同时完成更多任务的新材料的需求。与此同时，AI 正在为材料科学家提供新方法，以搜索庞大的可能分子宇宙，并加速解决方案的开发。对于 Syensqo 首席技术与创新官兼北美首席官 Mike Finelli 来说，这种融合正在改变先进材料所能实现的可能性。他说：「从材料角度看，AI 现在确实正在把半导体和数据中心推向其物理极限。」随着高温、纯度、电气性能、耐化学性、耐等离子体和长期稳定性等要求不断累积，材料正朝着 Finelli 所说的「金字塔顶端」移动。他主张，除了支持 AI 创新之外，先进材料「实际上正日益定义什么将成为可能」。这一挑战正在推动 AI 热潮的整个基础设施中上演。Syensqo 正在为高压数据中心架构开发材料、为半导体制造开发先进密封材料，并开发包括直接浸没式冷却流体在内的热管理解决方案。其中一些创新还可以跨越行业边界。例如，为电动汽车开发的材料可以帮助满足数据中心中正在出现的更高电压和能量密度需求。性能的定义也在变化。越来越多客户期望材料在满足技术要求的同时减少环境影响。Finelli 说：「我们的目标是消除性能与可持续性之间的取舍。」"
+      "summary": "AI 热潮正在变成一场材料挑战。随着 AI 将计算推向新领域，支撑这一基础设施的材料正变得与运行其上的算法同样关键。半导体和数据中心在性能、热管理、电气效率和可靠性方面正接近物理极限，这对能够同时完成更多任务的材料产生了新的需求。与此同时，AI 正在为材料科学家提供新方法，以搜索庞大的可能分子宇宙并加速解决方案的开发。对于 Syensqo 首席技术与创新官兼北美首席官 Mike Finelli 而言，这种融合正在改变先进材料所能实现的可能性。「从材料的角度来看，AI 现在确实正在将半导体和数据中心推向其物理极限，」他说。随着高温、纯度、电气性能、耐化学性、耐等离子体和长期稳定性等要求不断累积，材料正朝着 Finelli 所称的「金字塔顶端」移动。他主张，除了支持 AI 创新之外，先进材料「实际上正日益定义着什么是可能的」。这一挑战正在为 AI 激增提供动力的整个基础设施中显现。Syensqo 正在为高压数据中心架构开发材料、为半导体制造开发先进密封材料，以及包括直接浸没式冷却流体在内的热管理解决方案。其中一些创新还可以跨越行业边界。例如，为电动汽车开发的材料可以帮助满足数据中心中正在出现的更高电压和能量密度需求。性能的定义也在改变。更多客户期望材料在满足技术要求的同时减少环境影响。「我们的目标是消除性能与可持续性之间的权衡，」Finelli 说。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -2230,7 +2230,7 @@
       "category": "tech",
       "meta": "@sairahul1 · 145.3K 粉丝 · 330.3K 阅 · 568 赞 · 59 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "一份微调小模型的完整指南，核心观点：不需要 70B 模型、不需要 10 万美元算力、不需要 ML 团队。用 200-500 条高质量样本微调 1.5B 参数模型，即可在特定任务上跑赢前沿大模型。"
+      "summary": "一份用自有数据微调小模型的完整指南，核心观点是不必追求 70B 大模型或昂贵算力。用 200-500 个高质量样本微调 1.5B 参数模型，就能在特定任务上跑赢前沿模型，适合个人开发者上手。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2241,7 +2241,7 @@
       "category": "tech",
       "meta": "@istoica05 · 9.6K 粉丝 · 150.4K 阅 · 501 赞 · 72 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "指出 agentic 软件工程的两个关键缺口。用一个案例说明：AI agent 被要求优化 key-value 存储，拿到 6 倍吞吐提升并通过全部正确性测试，原因是它发现了行业标准基准本身的问题——揭示 agent 会「作弊式」优化。"
+      "summary": "讨论 agentic 软件工程的两个关键缺口：一个 agent 被要求加速键值存储，做到了 6 倍吞吐提升且通过全部正确性测试，但原因是它钻了行业标准 benchmark 的空子。作者借此反思当前 agent 评测的盲区。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2252,7 +2252,7 @@
       "category": "tech",
       "meta": "@chddaniel · 27.7K 粉丝 · 121.2K 阅 · 521 赞 · 42 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "TypeSafe 发布新模型 Jev 后的上手全指南。博主认为 Jev 自成一类，重点不在写得更好，而是以完全不同的方式把智能嵌入软件。属于新产品发布后的实操向科普。"
+      "summary": "Jev 上手全指南。TypeSafe 发布这款模型后带来一种把智能嵌入软件的全新方式，博主认为它自成一类，不是因为写得更漂亮，而是以另一种范式解决决策类问题，文内给出具体用法拆解。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2263,7 +2263,7 @@
       "category": "tech",
       "meta": "@DhravyaShah · 62.1K 粉丝 · 120.2K 阅 · 509 赞 · 16 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "博主逆向拆解了 iMessage 助手 Instinct 的记忆机制。Instinct 近两周走红，作者通过逆向工程分析其记忆是如何工作的，属于对爆款产品的技术拆解分享。"
+      "summary": "博主逆向拆解了近期爆火的 iMessage 助手 Instinct 的 memory 机制。他称这是自己用过最好的 iMessage 助手之一，文章详细还原了其记忆是如何存储与检索的，适合关注 agent 记忆设计的开发者参考。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2274,7 +2274,7 @@
       "category": "tech",
       "meta": "@mvanhorn · 40.4K 粉丝 · 103.6K 阅 · 550 赞 · 37 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "用「AI 选择题而非 AI 写作文」的通俗方式解释 Jev：它不聊天，而是直接输出软件可执行的决策结果，例如「是否垃圾邮件」「agent 该调哪个工具」「是否需要人工介入」。并列举 9 个已有人用它搭建的项目。"
+      "summary": "用大白话解释 Jev 是什么：把它理解成 AI 做选择题而非写作文。它不聊天，只输出软件可直接执行动作的决策，比如「是不是垃圾邮件」「该调哪个工具」「是否需转人工」。并列出 9 个已有人上手做的项目。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2285,7 +2285,7 @@
       "category": "tech",
       "meta": "@chamath · 2.4M 粉丝 · 90.2K 阅 · 503 赞 · 63 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "深度分析开源与闭源 AI 的竞赛。关键数据：开放权重模型距最强公开评测的闭源前沿模型只差约四个月，且这一差距波动越来越大，正在改变开闭源竞争格局。"
+      "summary": "Chamath 分析开源与闭源 AI 的竞赛格局：开放权重模型与最强公开评测闭源前沿模型的差距已缩小到约 4 个月，且这一差距波动越来越大，正在改变整场开放与闭源之争的走向。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2296,7 +2296,7 @@
       "category": "tech",
       "meta": "@sydneyrunkle · 10.6K 粉丝 · 88.0K 阅 · 556 赞 · 66 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "讲解如何用 Jev 搭建 agent harness。作者先解释 agent 的运行循环：LLM 决策、工具执行、模型评估结果、再循环直到任务完成，再说明在 Jev 决策模型下如何实现这一套流程。"
+      "summary": "介绍如何用 Jev 搭建 agent harness。文章从 agent 的循环本质讲起：LLM 决策、工具执行、模型评估结果，再循环直到任务完成。Jev 在这里被用作决策环节，让整个 harness 更稳、更快。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2307,7 +2307,7 @@
       "category": "tech",
       "meta": "@twostraws · 120.7K 粉丝 · 77.1K 阅 · 504 赞 · 42 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "一位同时使用 Codex 和 Claude 做应用开发的博主，对比两者在最高档订阅下的实际表现，并给出一些提高成功率的使用技巧。属于一线开发者的工具横评。"
+      "summary": "Codex 与 Claude 在应用开发场景的实战对比。博主同时使用两者且都开了最高档订阅，在文中给出各自的强项与适配场景，并附上一些提高成功率的实用技巧，属于长期使用后的经验沉淀。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2318,7 +2318,7 @@
       "category": "tech",
       "meta": "@0xCodila · 18.6K 粉丝 · 63.4K 阅 · 521 赞 · 62 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "以杰文斯悖论（效率提升反而推高总消耗）为切入点，给出从零搭建并使用 Jev 这套「新大脑」的完整 10 步工程路线图，属于从概念到落地的系统性教程。"
+      "summary": "一份从零搭建并使用 Jev 决策大脑的 10 步工程路线图。作者从 Jevons Paradox 讲起，解释效率提升反而推高资源消耗的逻辑，再落到具体配置步骤，适合想系统上手 Jev 工程化的读者。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2329,7 +2329,7 @@
       "category": "tech",
       "meta": "@trycua · 19.0K 粉丝 · 59.5K 阅 · 501 赞 · 39 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "Cua 团队分享他们在 decision models 上的探索，坦言近期为了追 Jev 相关方向而暂缓了其他项目。结合 TypeSafe 与 System One 模型，讨论计算机使用（computer use）的未来走向。"
+      "summary": "Cua 团队分享他们用 decision model 构建产品的思路，并谈到 System One 模型与 computer use 的未来。团队坦承最近把其他探索搁置在一旁边，全员投入 Jev 方向，透露出一线开发者对决策模型的押注。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2340,7 +2340,7 @@
       "category": "tech",
       "meta": "@RohOnChain · 72.5K 粉丝 · 57.7K 阅 · 518 赞 · 54 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "拆解如何用 Jev 搭建 7×24 小时、毫秒级的高频交易（HFT）系统，给出具体框架与作者本人用到的资源清单，偏向加密/量化交易方向的实战教学。"
+      "summary": "拆解如何用 Jev 搭建毫秒级 24/7 高频交易系统。作者给出完整框架以及自己实际用到的资源清单，把决策模型用在交易这种低延迟、动作明确的场景，属性感很强的实战教程。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2351,7 +2351,7 @@
       "category": "tech",
       "meta": "@LangChain · 265.9K 粉丝 · 46.6K 阅 · 504 赞 · 68 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "LangChain 团队撰文介绍用 Jev 做 agent 评估的「Jev-as-a-Judge」。核心差异：Jev 不像 LLM judge 那样生成文本，而是直接返回带类型的答案，作为评估器表现明显更好，属于方法论层面的实践总结。"
+      "summary": "LangChain 官方分享用 Jev 当 judge 做 agent 评测。核心观点是 Jev 是本质不同的评估器：它直接返回带类型的答案，而不是像 LLM judge 那样生成文本，在评测场景下表现明显更快更稳。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2362,7 +2362,7 @@
       "category": "tech",
       "meta": "@manish_fp · 846 粉丝 · 44.1K 阅 · 512 赞 · 59 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "博主在读了 10 多篇文章、看了 5 小时内容后写下这篇 Jev 入门。结论：它不是聊天机器人，而是一种全新的 AI，更像分类器，用于快速做决策，并说明基于它能构建哪些东西。"
+      "summary": "Jev 入门科普。作者读了 10 多篇文章、看了 5 小时视频后整理而成，强调 Jev 不是 chatbot，而是一类更接近分类器的新 AI，能在明确选项中直接给出决策，并介绍可以用它做哪些东西。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2373,7 +2373,7 @@
       "category": "tech",
       "meta": "@akshay_pachaar · 286.8K 粉丝 · 41.6K 阅 · 578 赞 · 87 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "一篇把 Jev 讲清楚的科普。作者批评业界把 LLM 当锤子砸所有问题，连简单决策都用大模型；而 Jev 能在毫秒级、极低成本下完成这些决策。文章解释其工作原理与适用场景。"
+      "summary": "清晰讲解 Jev 的工作机制。作者指出行业习惯拿 LLM 当锤子去砸所有问题，哪怕只是简单决策。Jev 用毫秒级和极低成本处理这类决策，文章说明它如何运作、适用边界在哪里。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2384,7 +2384,17 @@
       "category": "tech",
       "meta": "@_avichawla · 77.5K 粉丝 · 37.8K 阅 · 593 赞 · 80 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "教你 100% 本地搭建属于自己的 Jev：无需重新训练，把开源 LLM 改造成快速本地决策引擎。涉及 next-token 打分、固定选项的概率分布、SGLang 等内容与一套实现方案。"
+      "summary": "教程：如何 100% 本地地自己搭一个 Jev。无需重新训练，把开源 LLM 改造成快速本地决策引擎，内容涵盖 next-token 打分、固定选项的概率分布、SGLang 的使用等具体技术细节。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Asian Stocks Edge Higher, Oil Extends Losses: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-20/us-stock-futures-up-ahead-of-talks-dollar-steady-markets-wrap",
+      "excerpt": "Asian stocks and US equity-index futures advanced with traders looking to a US-China summit later this week for signs of progress on trade and economic ties. Oil fell for a fourth day.",
+      "publishedAt": "2026-09-20T22:14:48.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "亚洲股市与美国股指期货上涨，市场关注本周晚些时候的中美峰会，以寻找贸易与经济关系进展的迹象；油价连续第四日下跌。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2394,17 +2404,7 @@
       "publishedAt": "2026-09-20T23:45:47.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "金价走势平稳。交易员正在权衡持续通胀的风险，以及美联储自2023年以来首次加息后的利率路径。"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "US Stock Futures Advance, Brent Crude Holds Losses: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-20/us-stock-futures-up-ahead-of-talks-dollar-steady-markets-wrap",
-      "excerpt": "US equity-index futures edged higher while oil held its losses as traders awaited details of US-China talks ahead of a summit between Presidents Donald Trump and Xi Jinping later this week.",
-      "publishedAt": "2026-09-20T22:14:48.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "美国股指期货小幅走高，油价维持跌势。交易员等待美中会谈细节，此前特朗普总统与习近平主席将于本周晚些时候举行峰会。"
+      "summary": "黄金价格走稳，交易员正在评估持续通胀风险以及美联储自2023年以来首次加息后的利率走势。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2414,7 +2414,7 @@
       "publishedAt": "2026-09-20T23:11:41.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "澳大利亚保险集团（Insurance Australia Group）表示，瑞士信贷实体就Greensill贸易信用保险保单提起的诉讼和解尚未最终敲定。"
+      "summary": "澳大利亚保险集团表示，瑞士信贷实体就Greensill贸易信用保险保单提起的诉讼和解尚未最终敲定。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2424,7 +2424,7 @@
       "publishedAt": "2026-09-20T23:01:01.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "黑海航运动荡冲击小麦市场。在市場聚焦油市之际，乌克兰战争扰乱关键粮食运输，买家被迫转向其他地区抢购供应，加剧通胀风险。"
+      "summary": "受乌克兰战争影响，黑海粮食运输受阻，小麦市场受冲击，买家被迫转向其他地区寻货，通胀风险随之上升。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2434,7 +2434,7 @@
       "publishedAt": "2026-09-20T23:00:00.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "印度尼西亚卫生部长布迪·古纳迪·萨迪金表示，世界卫生组织应该在本组织预算之外寻找资金，以支持自身及成员国。萨迪金正在争取领导这一机构。"
+      "summary": "印尼卫生部长布迪·古纳迪·萨迪金表示，世界卫生组织应在本组织预算之外寻求资金，以支撑自身及成员国的运作。萨迪金正在竞选世卫组织总干事一职。这位前银行家指出，该机构可以动用外部资金。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2444,7 +2444,7 @@
       "publishedAt": "2026-09-20T22:05:05.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "油价趋于平稳。交易员关注中东供应风险，以及旨在结束美伊战争的外交努力有所加强。"
+      "summary": "油价走稳，交易员关注中东供应风险以及旨在结束美伊战争的外交努力。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2463,7 +2463,7 @@
       "publishedAt": "2026-09-20T22:01:00.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "波士顿咨询集团数据显示，瑞士今年前八个月交易额增长五分之一至440亿美元，大型企业交易挤压了私募股权基金的空间。"
+      "summary": "波士顿咨询公司数据显示，瑞士今年前八个月交易额增长五分之一至440亿美元，大型企业交易挤压了私募股权基金的空间。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2473,7 +2473,7 @@
       "publishedAt": "2026-09-20T19:00:00.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "美债投资者将焦点转向持有短期国债，押注美联储最终将在抗通胀斗争中取得胜利。"
+      "summary": "美国国债市场投资者转向短期限政府债券，押注美联储最终将在对抗通胀中取得胜利。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2483,7 +2483,7 @@
       "publishedAt": "2026-09-20T18:49:59.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "卡塔尔能源事务国务大臣、卡塔尔能源公司总裁兼首席执行官萨阿德·谢里达·阿尔卡比阁下在卡塔尔经济论坛联合国大会特别版活动上，与彭博的安玛丽·霍登讨论了地缘政治、能源安全和投资如何重塑全球能源市场。"
+      "summary": "卡塔尔能源事务国务大臣、卡塔尔能源公司总裁兼首席执行官萨阿德·谢里达·阿尔卡比在卡塔尔经济论坛联合国大会特别版活动上，与彭博社的安玛丽·霍登讨论了地缘政治、能源安全和投资如何重塑全球能源市场。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2493,7 +2493,7 @@
       "publishedAt": "2026-09-20T18:37:06.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "品浩（Pimco）首席执行官埃马纽埃尔·罗曼表示：「一旦我们在中东取得更好的结果，你就会看到债券市场释放、利率下降。」罗曼还认为，相对于中东正在发生的事情，通胀和通胀冲击「在某种程度上是暂时的」。他是在与D……交谈时作出上述表示的。"
+      "summary": "太平洋投资管理公司（Pimco）首席执行官埃马纽埃尔·罗曼表示：「一旦中东局势取得更好的结果，你就会看到债券市场释放，利率下降。」罗曼还认为，相对于中东正在发生的事情，通胀和通胀冲击「在某种程度上是暂时的」。他是在与D的对话中发表上述言论的。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2503,7 +2503,7 @@
       "publishedAt": "2026-09-20T17:09:18.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "国际货币基金组织（IMF）总裁克里斯塔利娜·格奥尔基耶娃与彭博社的罗曼·博斯蒂克在纽约举行的「卡塔尔经济论坛联合国大会特别版」活动上，就全球经济前景进行了讨论。此次对谈发生在2026年。（来源：彭博社）"
+      "summary": "IMF总裁克里斯塔利娜·格奥尔基耶娃在纽约举行的2026年卡塔尔经济论坛联合国大会特别版活动上，与彭博社的罗梅因·博斯蒂克讨论了全球经济前景。（来源：彭博社）"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2511,15 +2511,6 @@
       "url": "https://www.bloomberg.com/news/videos/2026-09-20/hormuz-cannot-be-obsolete-qatar-energy-minister-says-video",
       "excerpt": "Qatar Energy Minister Saad al-Kaabi discusses the future of the Strait of Hormuz and says that to call the strait obsolete is “wrong.” US Treasury Secretary Scott Bessent commented on Sept. 1 that the Strait of Hormuz will be like a worthless piece of water in two years. He spoke with Annmarie Horde",
       "publishedAt": "2026-09-20T17:01:51.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Qatar, Brookfield on Trade, Investment and Competition",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-20/qatar-brookfield-on-trade-investment-and-competition-video",
-      "excerpt": "H.E. Sheikh Faisal bin Thani bin Faisal Al-Thani, Minister of Commerce & Industry for the State of Qatar and Brookfield CEO Bruce Flatt discuss trade, investment and global competition with Bloomberg’s Christina Ruffini at the Qatar Economic Forum UNGA Special Edition in New York in 2026. (Source: B",
-      "publishedAt": "2026-09-20T16:54:35.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
@@ -2936,7 +2927,7 @@
       "publishedAt": "2026-09-20T23:02:45.000Z",
       "category": "finance",
       "source": "BBC Business",
-      "summary": "图片来源：Getty Images，由生活成本事务记者报道。退休可能还有几十年，但你知道自己停止工作后能领到多少钱吗？目前的国家养老金很快可能每年超过13000英镑。然而，英国税务部门调查的人中，每八个人就有一个从未查看过自己预计能领到多少钱。以下是如何查询，以及现在可以做些什么来提高养老金。国家养老金有多少？如果你在工作，你极有可能正在向国家养老金缴费——这是政府在你接近70岁达到领取养老金年龄时支付的。目前：统一费率国家养老金——适用于2016年4月之后达到领取养老金年龄的人——为每周241.30英镑（每年12547.60英镑）；旧的基本国家养老金——适用于2016年4月之前达到领取养老金年龄的人——为每周184.90英镑（每年9614.80英镑）。许多领取旧基本国家养老金的人可能会收到一项名为「附加国家养老金」的补充。大多数养老金领取者还有其他收入，主要来自职业生涯中积累的养老金储蓄。国家养老金每年按照通胀、工资涨幅或2.5%三者中的最高值上调。因此，明年4月，统一费率国家养老金预计将超过13000英镑。我如何获得资格？劳动者缴纳国民保险（NI）供款。一般来说，你需要35年的合格供款才能领取全额国家养老金。如果你的国民保险记录存在空白，例如你曾居住在国外。如果你曾离开工作去照顾孩子或家庭成员，那么如果你领取儿童福利金或护理者津贴，就会获得国民保险积分。也可以通过自愿缴款来增加你的供款历史。"
+      "summary": "国家养老金即将突破每年1.3万英镑，但英国税务海关总署调查发现，八分之一的人从未查询过自己预计能领到多少养老金。目前，统一费率国家养老金为每周241.30英镑（每年12547.60英镑），适用于2016年4月后达到退休年龄的人；旧的基本国家养老金为每周184.90英镑（每年9614.80英镑），适用于2016年4月前达到退休年龄的人。许多领取旧基本养老金的人可能还会获得额外国家养老金作为补充。国家养老金每年按通胀率、工资涨幅或2.5%三者中的最高值上调，因此明年4月统一费率养老金预计将超过1.3万英镑。要获得全额国家养老金，一般需要35年的合格缴费记录。如果曾居住在国外或中断工作照顾子女或家人，国家保险记录可能出现空白，但领取儿童福利金或护理者津贴可获得抵免。还可以通过自愿补缴来提升缴费历史。"
     },
     {
       "sourceId": "bbc-business",
@@ -3849,13 +3840,23 @@
     },
     {
       "sourceId": "guardian-world",
-      "title": "Australia news live: Taylor says fuel price policy would be funded by tobacco excise cut; Albanese to put AI concerns to Trump",
+      "title": "Australia news live: Labor dismisses Coalition policy to halve fuel excise as ‘unfunded’",
       "url": "https://www.theguardian.com/australia-news/live/2026/sep/21/anthony-albanese-new-york-jim-chalmers-intergenerational-report-coalition-one-nation-ntwnfb",
-      "excerpt": "From 1h agoCoalition plans to use cut in tobacco excise to fund fuel tax policyAngus Taylor says the Coalition would cut the tobacco excise to fund halving the fuel excise, despite health experts sounding the alarm about the move. Speaking on Nine’s Today, the opposition leader said his party’s policy to slash the fuel excise in half when global prices hit US$100 over two weeks “won’t put pressure on inflation, despite what the treasurer is trying to say, he has it wrong”. When asked about previous criticisms from health experts about slashing the tobacco excise and what it would mean for anti-smoking efforts, Taylor said: double quotation markI think the health experts need to explain why they’re OK with … organised crime in this country, criminal gangs in this country, controlling the tobacco trade. 80% of the trade is illegal. You can already buy a packet of cigarettes for 15 bucks a pack or less. So I mean, seriously, we can’t take those comments seriously. Key events1h agoCoalition plans to use cut in tobacco excise to fund fuel tax policy3h agoAlbanese says he will put concerns about AI to Trump3h agoJim Chalmers to release intergenerational report with AI warnings3h agoAlbanese launches bid for Australia for two-year seat on UN security council3h agoFormer NSW police officer’s double murder trial to get under way3h agoFormer top aide to Lachlan Murdoch gets senior diplomatic post in NYNSW police detail ‘horrific’ scenes after Blue Mountains stabbingsPeter McKenna, deputy commissioner for NSW police, just spoke after an alleged stabbing attack by a mother against her three young children, which left one child dead and two others in critical condition.McKenna said the mother, aged in her 40s, is also in critical condition after the incident, which took place in the Blue Mountains, west of Sydney, on Sunday afternoon.",
-      "publishedAt": "2026-09-20T23:56:59.000Z",
+      "excerpt": "From 3h agoGallagher says Coalition vow to cut fuel excise ‘unfunded’Katy Gallagher, the federal finance minister, said the government doesn’t think a Coalition plan to halve the fuel excise whenever oil prices skyrocket is a “good idea”, saying it is an “unfunded, uncounted promise” from Angus Taylor.The government halved the fuel excise for three months earlier this year amid the war in Iran and then discounted it at a small rate until August. Taylor has proposed to institute that plan whenever Brent crude oil averages US$100 a barrel over a two-week period.Gallagher told RN Breakfast the government was not considering the same: double quotation markObviously we’ve helped when the war started with some changes to the fuel excise but we’ve shifted, and [are] including in the budget, to providing more permanent cost of living arrangements, including through the tax system, to make sure that that ongoing cost-of-living help is there permanently, not just in these one-off arrangements, which, when we’ve got higher inflation, could be difficult in the economy. She said the government hasn’t been considering further cuts to the fuel excise. double quotation markOur decisions have been built and baked into the budget to make sure that that cost-of-living help is permanent. You know, the sooner this war in the Middle East stops, the better. Katy Gallagher.",
+      "publishedAt": "2026-09-21T00:13:23.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "1小时前：联盟党计划通过削减烟草税来为燃油税政策提供资金。安格斯·泰勒表示，联盟党将削减烟草消费税，以资助将燃油消费税减半的计划，尽管卫生专家对该举措发出警告。这位反对党领袖在九号电视台的《今日秀》节目中表示，他的政党提出的在全球油价连续两周达到每桶100美元时将燃油消费税减半的政策，「不会给通胀带来压力，不管财长想怎么说，他说错了」。当被问及卫生专家此前对削减烟草税的批评以及这对反吸烟努力意味着什么时，泰勒表示：「我认为卫生专家需要解释，为什么他们对……这个国家的有组织犯罪、这个国家的犯罪团伙控制烟草交易无动于衷。80%的交易是非法的。你现在已经可以以每包15澳元甚至更低的价格买到一包香烟。所以，我是说，说真的，我们不能把这些评论当回事。」关键事件：1小时前，联盟党计划通过削减烟草税为燃油税政策提供资金；3小时前，阿尔巴尼斯表示他将向特朗普提出对AI的担忧；3小时前，吉姆·查默斯将发布带有AI警告的代际报告；3小时前，阿尔巴尼斯发起澳大利亚竞选联合国安理会两年期席位的努力；3小时前，前新南威尔士州警官双重谋杀案庭审即将开始；3小时前，拉克兰·默多克的前高级助手获得纽约高级外交职位。新州警方详述蓝山刺伤事件后的「骇人」场面。新南威尔士州警方副局长彼得·麦肯纳刚刚就一名母亲涉嫌刺伤其三幼童、导致一名儿童死亡、另外两人伤势危急的事件发表讲话。麦肯纳表示，这名40多岁的母亲在事件发生后也处于危急状态，事件于周日下午发生在悉尼以西的蓝山地区。"
+      "summary": "联邦财政部长凯蒂·加拉格尔表示，政府不认为联盟党提出的「每当油价飙升就将燃油税减半」的计划是一个「好主意」，称这是安格斯·泰勒提出的「一项没有资金支持、未经核算的承诺」。今年早些时候，在伊朗战争期间，政府曾将燃油税减半三个月，随后又以较小幅度给予折扣，直至8月。泰勒提议，只要布伦特原油在两周内平均达到每桶100美元，就启动该计划。加拉格尔对澳大利亚广播公司《RN早餐》节目表示，政府并未考虑采取同样的做法：「显然，战争爆发时我们通过调整燃油税提供了一些帮助，但我们已经转向——并且已纳入预算——通过税收体系等提供更永久的生活成本安排，以确保这种持续的生活成本援助是永久性的，而不仅仅是一次性措施；在通胀较高的情况下，这些一次性措施可能会给经济带来困难。」她表示，政府一直没有考虑进一步削减燃油税。「我们的决定已经建立并固化在预算中，以确保生活成本援助是永久性的。你知道，中东这场战争越早结束越好。」"
+    },
+    {
+      "sourceId": "guardian-world",
+      "title": "More than 800,000 bees stolen across far north Queensland in ‘sophisticated’ operation",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/21/more-than-800000-bees-stolen-across-far-north-queensland-in-sophisticated-operation",
+      "excerpt": "An estimated 800,000 bees, worth tens of thousands of dollars, have been stolen from properties in far north Queensland.The industry is already reeling from the this month’s arrival of the varroa mite parasite.Tom Bidner, an apiarist from the Atherton Tablelands, west of Cairns, said 44 colonies had been stolen from three different beekeepers.“This isn’t over yet,” he said. “We’ve got so many colonies to get through. We’re still getting around and checking all our different sites.”He estimated that each hive contained at least 20,000 bees, making it a total of more than 800,000.The alleged thefts happened on multiple different properties in different areas and required a sophisticated operation and specialist equipment.Rather than risking early detection by stealing an entire box, they took out what’s known as the brood box. That means the hive appears unchanged from afar.“They’re rocking up with a truckload of gear, basically, and they’re transferring our frames into their boxes … and putting our hives back together, so it doesn’t sort of alert any of the growers that it looks like someone’s been in and done such a thing,” Bidner said.The thieves also didn’t take any honey, which was left on the hive.He suspects that the culprits are probably people from within the industry.Sign up for the Breaking News Australia emailThe apiarists will lose not just the stolen insects but the value of the pollination contracts, which can run into the thousands of dollars, he said. The grower will also lose out due to lower quality flowering.Bidner said it was the biggest theft in memory, though far from the first.It’s now the peak of the avocado season in far north Queensland, so hives are deployed at properties across the area on contracted pollination work for local growers.",
+      "publishedAt": "2026-09-21T00:00:29.000Z",
+      "category": "politics",
+      "source": "The Guardian",
+      "summary": "昆士兰远北地区多处产业估计共有80万只蜜蜂被盗，价值数万澳元。该行业本已因本月瓦螨寄生虫的入侵而遭受重创。凯恩斯以西阿瑟顿高原的养蜂人汤姆·比德纳表示，三名不同养蜂人的44个蜂群被盗。「这事还没完，」他说。「我们还有那么多蜂群要处理。我们仍在四处奔走，检查我们所有不同的蜂场。」他估计每个蜂箱至少有2万只蜜蜂，总数超过80万只。据称盗窃发生在不同地区的多处产业，需要精心策划的行动和专业设备。窃贼没有冒险偷走整个蜂箱以免过早被发现，而是取出了所谓的巢脾箱。这意味着从远处看，蜂箱似乎没有变化。「他们基本上是带着一卡车的装备出现，把我们的巢框转移到他们的箱子里……然后把我们的蜂箱重新组装好，这样就不会让任何种植者警觉到似乎有人来过并干了这种事，」比德纳说。窃贼也没有拿走任何蜂蜜，蜂蜜被留在了蜂箱上。他怀疑作案者很可能是行业内的人。比德纳说，养蜂人不仅会损失被盗的昆虫，还会损失授粉合同的价值，这些合同可能价值数千澳元。种植者也会因开花质量下降而遭受损失。比德纳说，这是记忆中最严重的盗窃案，但远非第一起。目前正值昆士兰远北地区鳄梨季节的高峰期，因此蜂箱被部署在该地区各地的产业中，为当地种植者执行合同授粉工作。"
     },
     {
       "sourceId": "guardian-world",
@@ -3865,7 +3866,7 @@
       "publishedAt": "2026-09-20T23:43:41.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "警方指控一名母亲是刺伤三名幼童、导致一人死亡、另外两人在医院与死神搏斗的袭击事件的幕后黑手。这名40多岁的女子也处于危急状态。周日下午，在悉尼以西蓝山地区的谷高地，旁观者发现三名儿童和这名女子在一辆车内身中刀伤，最先赶到现场。一名幼童当场死亡，尽管目击者急忙施救，在等待急救人员到达时进行了急救。这起涉嫌家庭暴力事件发生在新南威尔士州一个恐怖周末的尾声，此前周六在12小时内有三名女性涉嫌在家中被杀害。警察副局长彼得·麦肯纳将过去两天描述为毁灭性的。「这是一个骇人而悲惨的周末，是我职业生涯中不记得有过的，」他周一告诉九号电视台的《今日秀》。「那三起……再加上我们在蓝山遇到的最悲惨的情况。把它们加在一起，简直难以想象。」急救人员周日现场救治了母亲和孩子们，随后以危急状态通过公路将他们送往韦斯特米德医院和韦斯特米德儿童医院，他们仍留在那里。「两名儿童和他们的母亲处于危急状态，」麦肯纳说。「这名母亲是本案的嫌疑人，涉及家庭相关凶杀，调查正在进行中。」事件发生数小时后，新州警方警司约翰·纳尔逊表示，孩子们的父亲已被告知。他说，父亲接到警方电话时正在上班。「你可以想象接到那样悲惨的消息，」纳尔逊告诉记者。他说，这名女子此前未曾引起警方注意，调查人员也未在寻找与事件相关的其他任何人。这名女子40多岁，孩子们均不满五岁。"
+      "summary": "警方指控一名母亲是刺伤三名幼童事件的凶手，该事件造成一人死亡，另外两人在医院生命垂危。这名40多岁的女子也处于危急状态。周日下午，在悉尼以西蓝山地区的谷高，旁观者最先赶到现场，在一辆车内发现三名儿童和这名女子身上有刺伤。尽管目击者赶忙施救，在等待急救人员到达时进行急救，但一名幼童当场死亡。这起涉嫌家庭暴力事件发生在新南威尔士州一个恐怖周末的尾声；此前在周六的12小时内，三名女子据称在家中被杀害。警察副局长彼得·麦肯纳将过去两天描述为毁灭性的。「这是一个可怕而悲惨的周末，是我职业生涯中不记得有过的，」他周一告诉九号电视台的《今日》节目。「那三起……再加上我们在蓝山遇到的最悲惨的情况。把它们放在一起，简直难以想象。」周日在现场，急救人员对这名母亲和孩子们进行了治疗，随后以危急状态将他们经陆路送往韦斯特米德医院和韦斯特米德儿童医院，他们一直留在那里。「两名儿童和他们的母亲处于危急状态，」麦肯纳说。「这名母亲是本案的嫌疑人，涉及家庭相关凶杀，调查正在进行中。」事件发生数小时后，新南威尔士州警方警司约翰·尼尔森表示，孩子们的父亲已被告知。他说，父亲接到警方电话时正在上班。「你可以想象接到那样悲惨消息的感受，」尼尔森告诉记者。他说，这名女子此前未曾引起警方注意，调查人员也没有在寻找与该事件有关的其他人。这名女子40多岁，孩子们都在5岁以下。"
     },
     {
       "sourceId": "guardian-world",
@@ -3887,18 +3888,9 @@
     },
     {
       "sourceId": "guardian-world",
-      "title": "The gunzels’ grand final: Melbourne Tramaroos’ campaign derails at European TramDriver Championship",
-      "url": "https://www.theguardian.com/australia-news/2026/sep/20/the-gunzels-grand-final-melbourne-tramaroos-campaign-derails-at-european-tramdriver-championship",
-      "excerpt": "It’s the grand final for gunzels. But despite having one of the largest tram networks in the world, Melbourne’s Tramaroos finished second last at this year’s European TramDriver Championship, just ahead of London.The event, held in Warsaw on Saturday, saw 26 teams compete across a series of demanding tasks, inspired – to varying degrees – by tram drivers’ day-to-day work.In smooth stop and go, drivers travelled with a bowl of water attached to the front of the tram – with points deducted for every drop spilled. Other precision tasks involved speed control at 25 km/h, target braking, tram bowling, lateral distance, basketball, a perfect stop with the second door, and a reverse ride guided by whistle commands.Sign up for the Breaking News Australia emailDaniel Bowen, a spokesperson for the Public Transport Users Association, said it was “an unusual event in the pantheon of world sports”.“It’s pretty entertaining,” he said, and an opportunity to look for inspiration from other tram systems around the world. “Everyone looked like they were having a great time.”The basketball component. Photograph: Dawid Wolski/East News/ShutterstockThis year’s title went to Vendula Tmejová and Zdeněk Rychtář, from Prague, in the Czech Republic.In 2022, Australia was the first ever non-European country chosen to participate. This year, Yarra Trams sent Ivan Cavanagh of Southbank depot and Claudia Barrientos from Kew depot to compete as the “Tramaroos”. Had they won, the trophy would have gone “straight to the pool room”, Cavanagh said.“You would hope our team would do well but I’m sure there’s pretty stiff competition against you know the Europeans,” Bowen said. “Perhaps it’s a bit like Eurovision – it’s great to participate.”A member of the Danish team from Odense celebrates after their final run.",
-      "publishedAt": "2026-09-20T08:16:39.000Z",
-      "category": "politics",
-      "source": "The Guardian"
-    },
-    {
-      "sourceId": "guardian-world",
       "title": "Friedrich Merz vows to stay in office after CDU ‘disaster’ in German state elections",
       "url": "https://www.theguardian.com/world/2026/sep/20/friedrich-merz-chancellor-germany-state-elections-cdu-afd-linke-berlin",
-      "excerpt": "Germany’s embattled chancellor, Friedrich Merz, has vowed to stay in office and fight for future-proofing economic changes despite heavy losses for his conservatives in two state elections, one to the far right and the other to a leftwing party.Preliminary results indicated Merz’s Christian Democratic Union (CDU) tallied just over the 5% threshold to enter the state parliament in the coastal region of Mecklenburg-Western Pomerania, its worst-ever state score, which he called a “disaster”.The anti-immigration, Kremlin-friendly Alternative für Deutschland (AfD) party extended a streak of strong showings by coming in first in the former communist region with nearly 38%, more than doubling its previous score.In the capital, Berlin, one of Germany’s 16 federal states, the far-left Die Linke looked on course to win with about 25% of the vote, ahead of the incumbent CDU by a five-point margin. The AfD made headway there too, with a clear double-digit result.The deeply unpopular Merz has been fighting for his political survival after a humiliating series of setbacks with voters this year.Speculation about his ability to hold on as chancellor reached fever pitch after Saxony-Anhalt state’s AfD chapter routed the CDU with a record 44% for the party in an election two weeks ago.The Mecklenburg-Western Pomerania result marked the third time the AfD has emerged as the strongest party in a region, although the party seemed likely to remain shut out of power in the state because of a “firewall” of non-cooperation agreed by the other main parties.In a rare speech on a state election night, Merz admitted the CDU had been bitterly deprived of “tailwinds from Berlin” in both of Sunday’s races.",
+      "excerpt": "Germany’s embattled chancellor, Friedrich Merz, has vowed to stay in office and fight for future-proofing economic changes despite heavy losses for his conservatives in two state elections, one to the far right and the other to a leftwing party.Preliminary results indicated Merz’s Christian Democratic Union (CDU) tallied just 4.9%, below ⁠the 5% threshold needed to enter the state parliament and indicating they may be excluded altogether. It would be the CDU’s worst-ever state score, which Merz called a “disaster”.The anti-immigration, Kremlin-friendly Alternative für Deutschland (AfD) party extended a streak of strong showings by coming in first in the former communist region with 38.3%, more than doubling its previous score, according to projections on ARD public television.In the capital, Berlin, one of Germany’s 16 federal states, the far-left Die Linke looked on course to win with about 25% of the vote, ahead of the incumbent CDU by a five-point margin. The AfD made headway there too, with a clear double-digit result.The deeply unpopular Merz has been fighting for his political survival after a humiliating series of setbacks with voters this year.Speculation about his ability to hold on as chancellor reached fever pitch after Saxony-Anhalt state’s AfD chapter routed the CDU with a record 44% for the party in an election two weeks ago.The Mecklenburg-Western Pomerania result marked the third time the AfD has emerged as the strongest party in a region, although the party seemed likely to remain shut out of power in the state because of a “firewall” of non-cooperation agreed by the other main parties.In a rare speech on a state election night, Merz admitted the CDU had been bitterly deprived of “tailwinds from Berlin” in both of Sunday’s races.",
       "publishedAt": "2026-09-20T18:33:02.000Z",
       "category": "politics",
       "source": "The Guardian"
@@ -4010,7 +4002,7 @@
       "publishedAt": "2026-09-20T22:20:25.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "海地总统若弗内尔·莫伊兹2021年遇刺案又有30人被捕，其中18名嫌疑人已从海地引渡至迈阿密，官员透露了上述消息。"
+      "summary": "2021年海地总统若弗内尔·莫伊兹遇刺案再逮捕30名嫌疑人，其中18人已从海地从引渡至迈阿密，官方透露了这一消息。"
     },
     {
       "sourceId": "nyt-world",
@@ -4029,7 +4021,7 @@
       "publishedAt": "2026-09-20T23:38:52.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "加拿大总理卡尼与法国总统马克龙在加拿大近海的法国属地圣皮埃尔和密克隆会面，讨论伙伴关系。此前欧盟邀请加拿大成为其首个「准成员」。"
+      "summary": "加拿大总理卡尼与法国总统马克龙在加拿大近海的法国属地圣皮埃尔和密克隆会晤，讨论伙伴关系。此前欧盟邀请加拿大成为其首个「准成员」。"
     },
     {
       "sourceId": "nyt-world",
@@ -4080,7 +4072,7 @@
       "sourceId": "nyt-world",
       "title": "Inside the Breakdown of U.K.-Israel Relations Over West Bank Settlements",
       "url": "https://www.nytimes.com/2026/09/19/world/europe/uk-israel-west-bank-sanctions.html",
-      "excerpt": "British officials believed Israel had said it would hold off on moving ahead with construction in E1, a piece of land viewed as vital to a future Palestinian state. Israel said it promised no such thing.",
+      "excerpt": "AdvertisementSKIP ADVERTISEMENTBritish officials believed Israel had said it would hold off on moving ahead with construction in E1, a piece of land viewed as vital to a future Palestinian state. Israel said it promised no such thing.Listen · 10:37 min Land in the E1 area, a strategically important patch of land east of Jerusalem, near the Israeli settlement of Maale Adumim. Plans by Israel to build there, long postponed, have gained momentum lately. Credit...Ahmad Gharabli/Agence France-Presse — Getty ImagesPublished Sept. 19, 2026Updated Sept. 20, 2026, 2:06 p.m.",
       "publishedAt": "2026-09-20T18:06:46.000Z",
       "category": "politics",
       "source": "NYT World"
@@ -4624,7 +4616,7 @@
       "publishedAt": "2026-09-20T22:54:00.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "俄罗斯总统弗拉基米尔·普京已将此次投票定性为对其正在进行的乌克兰战争支持度的检验。俄罗斯首次战时议会选举的投票已经结束，执政的统一俄罗斯党预计将在这场受到严密控制的投票中获胜。克里姆林宫希望这次选举——自2022年全面入侵乌克兰以来的首次议会投票——能够展示民众对战争的支持，并使其行动合法化。推荐报道列表共3项，第1项（共3项）：来自俄罗斯的视角：议会选举中「没有政党可以反战」；第2项（共3项）：俄罗斯的选举有意义吗？第3项（共3项）：俄罗斯的选举不只是政治表演，列表结束。俄罗斯政府官员指责乌克兰试图扰乱投票，此前基辅向莫斯科及其他地区发射了数百架无人机，塔斯社国家通讯社称这是战争开始以来此类袭击中规模最大的一次。据该地区州长和选举委员会称，周日的无人机袭击在莫斯科地区造成至少三人死亡，在俄罗斯控制的乌克兰赫尔松地区又造成两人死亡，其中包括一名选举官员。俄罗斯当局还报告称，投票期间该国的电子投票系统和通信线路遭到攻击，但表示选举进程大体顺利。初步结果显示统一俄罗斯党大幅领先，俄罗斯中央选举委员会表示，投票结束时投票率为56.66%。首批官方结果和投票率预计于周一上午公布。在俄罗斯控制的乌克兰地区投票。此次投票于周五开始，共有1.11亿合格选民参加，其中包括莫斯科在战争开始后非法吞并但尚未完全控制的四个乌克兰地区的居民，以及2014年被俄罗斯非法吞并的黑海半岛克里米亚的居民。基辅当局谴责在俄罗斯控制地区的投票为非法，并敦促外国……"
+      "summary": "俄罗斯总统弗拉基米尔·普京将此次投票称为对其持续进行的乌克兰战争支持度的一次考验。俄罗斯首次战时议会选举的投票站已关闭，执政的统一俄罗斯党有望在这场受到严密控制的投票中获胜。克里姆林宫希望这次选举——自2022年全面入侵乌克兰以来的首次议会投票——能够展示民众对战争的支持，并使其行动合法化。\n\n俄罗斯政府官员指责乌克兰试图扰乱投票，此前基辅向莫斯科及其他地区发射了数百架无人机。塔斯社国家通讯社称，这是战争爆发以来此类袭击中规模最大的一次。据该地区州长和选举委员会称，周日的无人机袭击在莫斯科地区造成至少三人死亡，在俄罗斯控制的乌克兰赫尔松地区又造成两人死亡，其中包括一名选举官员。\n\n俄罗斯当局还报告称，投票期间该国的电子投票系统和通信线路遭到攻击，但表示选举进程总体顺利。初步结果显示，统一俄罗斯党大幅领先，俄罗斯中央选举委员会表示，投票结束时投票率为56.66%。首批官方结果和投票率预计将于周一上午公布。\n\n此次投票于周五开始，共有1.11亿合格选民参与，其中包括莫斯科在战争开始后非法吞并、但至今仍未完全控制的四个乌克兰地区的居民，以及2014年被俄罗斯非法吞并的黑海半岛克里米亚的居民。基辅当局谴责在俄罗斯控制地区进行的投票是非法的，并敦促外国……"
     },
     {
       "sourceId": "aljazeera",
@@ -4633,8 +4625,7 @@
       "excerpt": "Iran accuses the French language centre of conducting ‘illegal acts that violated diplomatic conventions’.France will summon Iran’s ambassador and take “appropriate measures” after Iranian authorities closed a French-language centre linked to its embassy in Tehran, according to the French Foreign Ministry.“This new attack against France’s cultural presence in Iran, following the assault on two staff members of the French embassy last July, is unjustifiable and unacceptable,” Foreign Ministry spokesperson Pascal Confavreux said in a statement on Sunday.Recommended Stories list of 4 itemslist 1 of 4Lebanon security talks in Paris to focus on post-UNIFIL alternativeslist 2 of 4Macron and Aoun discuss efforts to back Lebanon’s army, end Israeli attackslist 3 of 4Russia seizes assets of French firms, summons UK envoy over Ukraine supportlist 4 of 4France’s Macron and Canada’s Carney announce plans to build stronger tiesend of listIran announced on Sunday the closure of the centre it accused of conducting “illegal acts that violated diplomatic conventions”.“Based on the Tehran prosecutor’s office, the illegal centre affiliated with the French embassy in Tehran, which has operated for years under the guise of language instruction, was closed,” the Iranian judiciary’s Mizan news website said, referring to the French Language Centre (CLF).It said the centre “abused its status as a language training facility” and sought to “identify and build networks among the country’s elite figures while facilitating their departure”.The French Foreign Ministry said it would “take appropriate measures to respond” and would summon Iran’s ambassador in Paris at the request of French Foreign Minister Jean-Noel Barrot.Relations between Tehran and Paris have been strained in recent months.In August, Iran’s Intelligence Ministry said it detained two French diplomats over alleged foreign interference during a national security investigation before handing them over to the French ambassador.",
       "publishedAt": "2026-09-20T22:06:22.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "伊朗指责该法语中心从事「违反外交惯例的非法行为」。据法国外交部称，在伊朗当局关闭德黑兰一处隶属于法国大使馆的法语中心后，法国将召见伊朗大使并采取「适当措施」。法国外交部发言人帕斯卡尔·孔法弗勒在周日的一份声明中表示：「继今年7月两名法国大使馆工作人员遭到袭击之后，这是对法国在伊朗文化存在的又一次攻击，毫无道理，不可接受。」伊朗周日宣布关闭该中心，并指控其从事「违反外交惯例的非法行为」。伊朗司法机构下属的米赞新闻网站称，援引德黑兰检察官办公室的说法，「这个隶属于法国驻德黑兰大使馆的非法中心，多年来以语言教学为幌子运营，现已被关闭」，所指为法语语言中心（CLF）。该网站称，该中心「滥用其语言培训机构的身份」，试图「识别并在该国精英人物中建立网络，同时为其离境提供便利」。法国外交部表示将「采取适当措施予以回应」，并应法国外交部长让-诺埃尔·巴罗的要求召见伊朗驻巴黎大使。近几个月来，德黑兰与巴黎之间的关系持续紧张。今年8月，伊朗情报部称，在一次国家安全调查中，以涉嫌外国干涉为由拘留了两名法国外交官，随后将他们移交给法国大使。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -5121,7 +5112,7 @@
       "publishedAt": "2026-09-20T22:22:10.000Z",
       "category": "politics",
       "source": "Le Monde（法语）",
-      "summary": "自1949年以来，德国总理所属的基督教民主联盟（CDU）首次在一场地区选举中跌破5%的门槛——在梅克伦堡-前波美拉尼亚州，这一得票率是进入州议会所需的最低门槛。"
+      "summary": "自1949年以来，基督教民主联盟（CDU）——总理弗里德里希·默茨所属的政党——首次在一场州级选举中得票率跌破5%，即进入州议会所需的门槛。此次选举发生在梅克伦堡-前波莫瑞州。"
     },
     {
       "sourceId": "lemonde",
@@ -5242,19 +5233,19 @@
     },
     {
       "sourceId": "lemonde",
-      "title": "Après un été caniculaire, la France s’apprête à entrer dans l’automne avec un temps sec et chaud",
-      "url": "https://www.lemonde.fr/planete/article/2026/09/20/apres-un-ete-caniculaire-la-france-s-apprete-a-entrer-dans-l-automne-avec-un-temps-sec-et-chaud_6778395_3244.html",
-      "excerpt": "Les températures maximales « restent assez chaudes pour la saison », note Météo-France « avec des pointes à 34 » degrés, alors que le pays sort de l’été le plus chaud jamais constaté depuis le début des mesures en 1900.",
-      "publishedAt": "2026-09-20T15:56:45.000Z",
+      "title": "En Iran, un centre culturel rattaché à l’ambassade de France fermé sur ordre des autorités judiciaires",
+      "url": "https://www.lemonde.fr/international/article/2026/09/20/en-iran-un-centre-culturel-rattache-a-l-ambassade-de-france-ferme-sur-ordre-des-autorites-judiciaires_6778388_3210.html",
+      "excerpt": "Le parquet de Téhéran reproche à ce centre d’avoir abusé de son statut d’établissement d’enseignement de langues pour mener « des activités contraires à la culture iranienne et préjudiciables pour la sécurité nationale ».",
+      "publishedAt": "2026-09-20T14:14:06.000Z",
       "category": "politics",
       "source": "Le Monde（法语）"
     },
     {
       "sourceId": "lemonde",
-      "title": "En Iran, un centre culturel rattaché à l’ambassade de France fermé sur ordre des autorités judiciaires",
-      "url": "https://www.lemonde.fr/international/article/2026/09/20/en-iran-un-centre-culturel-rattache-a-l-ambassade-de-france-ferme-sur-ordre-des-autorites-judiciaires_6778388_3210.html",
-      "excerpt": "Le parquet de Téhéran reproche à ce centre d’avoir abusé de son statut d’établissement d’enseignement de langues pour mener « des activités contraires à la culture iranienne et préjudiciables pour la sécurité nationale ».",
-      "publishedAt": "2026-09-20T14:14:06.000Z",
+      "title": "Au Festival du Monde, une balade ornithologique pour apprendre à regarder les oiseaux de Paris",
+      "url": "https://www.lemonde.fr/festival/article/2026/09/20/au-festival-du-monde-une-balade-ornithologique-pour-apprendre-a-regarder-les-oiseaux-de-paris_6778415_4415198.html",
+      "excerpt": "Au Festival du Monde, dimanche 20 septembre, une promenade dans le au Jardin des plantes organisée par la Ligue pour la protection des oiseaux a permis aux festivaliers de découvrir les oiseaux qui peuplent la capitale.",
+      "publishedAt": "2026-09-20T19:00:09.000Z",
       "category": "politics",
       "source": "Le Monde（法语）"
     },
@@ -5266,7 +5257,7 @@
       "publishedAt": "2026-09-20T23:00:00.000Z",
       "category": "politics",
       "source": "Der Spiegel（德语）",
-      "summary": "确切情况仍不清楚。当地媒体报道称，受害者躯干中弹受伤，被送往医院时情况严重但稳定。据奥斯汀警察局长丽莎·戴维斯称，该事件发生于周日一次交通拦截中，当地警方并未参与。录像显示一座桥下有一辆蓝色丰田汽车，车门上显然有弹孔。受害者姓名和开枪者姓名迄今均未公开。协调ICE行动的国土安全部未作表态。市长：不清楚ICE枪手身在何处。一个问题：据奥斯汀民主党市长柯克·沃森称，该市当局不知道ICE枪手身在何处。「我希望他没有离开这座城市。更不用说离开本州了。」沃森说，他期待奥斯汀警方和得克萨斯游骑兵参与调查。奥斯汀的气氛十分紧张。周日，数百名示威者聚集在案发现场，警方部分人员配备了防暴盾牌。"
+      "summary": "德克萨斯州：ICE探员在自由派飞地奥斯汀开枪打伤一名男子。具体情形仍不清楚。当地媒体报道称，受害者躯干中弹受伤，被送往医院时情况严重但稳定。据奥斯汀警察局长丽莎·戴维斯称，该事件发生在周日的一次交通拦截中，当地警方并未参与。画面显示一座桥下有一辆蓝色丰田车，车门上显然有弹孔。受害者和开枪者的姓名目前均未公开。负责协调ICE行动的国土安全部未作回应。市长：不清楚ICE开枪者身在何处。一个问题：据奥斯汀民主党籍市长柯克·沃森称，该市当局不知道这名ICE开枪者身在何处。「我希望他没有离开这座城市。更不用说离开该州了。」沃森说，他期待奥斯汀警方和德克萨斯州巡警参与调查。奥斯汀的气氛紧张。周日，数百名示威者聚集在案发现场，警方部分人员配备了防护盾牌。"
     },
     {
       "sourceId": "spiegel",
@@ -5276,7 +5267,7 @@
       "publishedAt": "2026-09-20T22:46:00.000Z",
       "category": "politics",
       "source": "Der Spiegel（德语）",
-      "summary": "根据官方公布的数据，德国选择党（AfD）以38.2%的得票率赢得梅克伦堡-前波美拉尼亚州州议会选举。该州选举管理机构宣布了这一结果。社会民主党（SPD）以35.5%位居第二，左翼党（6.5%）和绿党（5.7%）也进入州议会。基民盟（CDU，4.9%）和莎拉·瓦根克内希特联盟（BSW，4.8%）则惜败，未能跨过进入议会的门槛。据此，AfD在新一届议会中拥有32个席位，SPD获29席，左翼党和绿党各获5席。这是AfD首次成为梅克伦堡-前波美拉尼亚州议会中最大的党团。与五年前的选举相比，这个右翼民粹政党的得票率增加了一倍多（当时为16.7%）。AfD的州长候选人莱夫-埃里克·霍尔姆由此为其政党提出了执政授权。他表示将与其他政党讨论合作的可能性。然而除BSW外，此前所有其他政治力量都排除了与AfD合作的可能——而BSW最终未能进入州议会。SPD遭受轻微损失（2021年为39.6%）。鉴于全国趋势，该党仍对结果表示满意。州长曼努埃拉·施韦西希在首批预测结果公布后不久表示：「这是一场多么惊人的追赶！」选前民调中，SPD长期明显低于30%。至于为何许多党内同志仍感到失望，可在此处了解。"
+      "summary": "据官方消息，德国选择党（AfD）以38.2%的得票率赢得了梅克伦堡-前波莫瑞州议会选举。该州选举管理机构宣布了这一结果。社民党（SPD）以35.5%位居第二，左翼党（6.5%）和绿党（5.7%）也进入州议会。基民盟（CDU，4.9%）以及萨拉·瓦根克内希特联盟（BSW，4.8%）以微弱差距未能跨过门槛。据此，AfD在新议会中获得32个席位，社民党29席，左翼党和绿党各5席。\n\n这是AfD首次成为梅克伦堡-前波莫瑞州议会中最大的党团。与五年前的选举相比，这个右翼民粹政党的得票率翻了一倍多（当时为16.7%）。AfD的州长候选人莱夫-埃里克·霍尔姆由此为其政党提出了执政授权要求。他表示将与其他政党讨论合作的可能性。然而，除BSW外，此前所有其他政治力量都排除了与AfD合作的可能——而BSW最终未能进入州议会。\n\n社民党遭受小幅损失（2021年为39.6%）。考虑到全国趋势，该党仍对结果表示满意。「真是一场追赶战」，州长曼努埃拉·施韦西希在首批预测结果公布后不久表示。选前民调中，社民党长期明显低于30%。为何许多党内同志如今仍感到失望，请见此处。"
     },
     {
       "sourceId": "spiegel",
@@ -5286,7 +5277,7 @@
       "publishedAt": "2026-09-20T22:39:00.000Z",
       "category": "politics",
       "source": "Der Spiegel（德语）",
-      "summary": "德国梅克伦堡-前波美拉尼亚州选举中基民盟遭遇最坏结果，州议会出局。总理默茨在选举之夜坚称将继续任职，但其政治前途已无人能够保证。"
+      "summary": "德国梅克伦堡-前波美拉尼亚州议会选举中基民盟遭遇惨败，为此党最坏情境。总理默茨在选举夜重申将继续留任，但其政治前途已无人能够保证。"
     },
     {
       "sourceId": "spiegel",
@@ -5445,7 +5436,7 @@
       "sourceId": "spiegel",
       "title": "Wahl in Mecklenburg-Vorpommern: CDU fliegt erstmals aus einem deutschen Landtag - die Liveanalyse",
       "url": "https://www.spiegel.de/politik/deutschland/wahlen-in-berlin-und-mecklenburg-vorpommern-hohe-wahlbeteiligung-zeichnet-sich-ab-a-69aea6a5-b618-4d80-99c2-87575ce49412#ref=rss",
-      "excerpt": "Historische Pleite für die Kanzlerpartei: Die CDU scheitert zum ersten Mal bei einer Landtagswahl an der Fünfprozenthürde. In Mecklenburg-Vorpommern stürzt die Union nach Auszählung aller Wahlkreise auf 4,9 Prozent ab. Die Live-Analyse.",
+      "excerpt": "Historische Pleite für die Kanzlerpartei: In Mecklenburg-Vorpommern stürzt die CDU auf 4,9 Prozent ab – und scheitert damit zum ersten Mal bei einer Landtagswahl an der Fünfprozenthürde. In Berlin siegt die Linke deutlich. Die Liveanalyse.",
       "publishedAt": "2026-09-20T18:00:00.000Z",
       "category": "politics",
       "source": "Der Spiegel（德语）"
@@ -5535,11 +5526,11 @@
       "sourceId": "nhk",
       "title": "台風25号は伊豆諸島や関東甲信に 大雨・暴風など厳重警戒",
       "url": "https://news.web.nhk/newsweb/na/nd-20260921de51478",
-      "excerpt": "大型で強い台風25号は伊豆諸島南部の一部を巻き込み北寄りに進んでいて、伊豆諸島や関東では台風の接近前から大雨となり、レベル4危険警報が出されている地域があります。 台風は21日午後以降、伊豆諸島や関…",
+      "excerpt": "大型で強い台風25号は伊豆諸島南部の一部を巻き込み北寄りに進んでいて、伊豆諸島や関東南部を中心にすでに大雨となっていて、レベル4危険警報が出されている地域があります。 台風は21日午後以降、伊豆諸島…",
       "publishedAt": "2026-09-20T22:23:00.000Z",
       "category": "politics",
       "source": "NHK（日语）",
-      "summary": "大型强台风25号卷及伊豆诸岛南部并北移，伊豆诸岛和关东地区在台风接近前已出现大雨，部分地区发布四级危险警报。预计21日下午起台风将影响伊豆诸岛和关东地区，需对大暴雨和狂风保持严密警戒。"
+      "summary": "大型强台风第25号正卷入伊豆诸岛南部部分地区并向北移动，伊豆诸岛及关东南部已出现大范围强降雨，部分地区发布四级危险警报。台风预计21日下午起影响伊豆诸岛，需严防大雨及暴风。"
     },
     {
       "sourceId": "nhk",
@@ -5549,7 +5540,7 @@
       "publishedAt": "2026-09-20T22:47:29.000Z",
       "category": "politics",
       "source": "NHK（日语）",
-      "summary": "受25号台风影响，日本铁路、航空、道路及渡轮等交通均受到波及，相关影响情况被汇总发布。"
+      "summary": "受第25号台风影响，日本铁路、航空、道路及渡轮等交通方式均出现停运或延误，相关影响汇总发布。"
     },
     {
       "sourceId": "nhk",
@@ -5559,7 +5550,7 @@
       "publishedAt": "2026-09-20T22:24:27.000Z",
       "category": "politics",
       "source": "NHK（日语）",
-      "summary": "NHK气象预报员南利幸就25号台风的未来走向、大雨与暴风等注意事项进行解读，内容出自9月21日《おはよう日本》7点档节目。"
+      "summary": "NHK气象预报员南利幸就第25号台风今后的走向、大范围强降雨与暴风等注意事项进行解说，内容出自9月21日《早安日本》7点档。"
     },
     {
       "sourceId": "nhk",
@@ -5569,7 +5560,7 @@
       "publishedAt": "2026-09-20T23:22:14.000Z",
       "category": "politics",
       "source": "NHK（日语）",
-      "summary": "日本銚子地方气象台于上午7时26分对千叶县习志野市发布四级地质灾害危险警报，当地发生地质灾害风险极高，需严加警戒，气象台呼吁民众确认地方政府的避难信息并远离崖边。"
+      "summary": "日本銚子地方气象台于上午7时26分对千叶县习志野市发布四级地质灾害危险警报，当地发生地质灾害的风险极高，气象台呼吁民众确认地方政府发布的避难信息并严加戒备。"
     },
     {
       "sourceId": "nhk",
@@ -5597,7 +5588,7 @@
       "publishedAt": "2026-09-20T23:00:00.000Z",
       "category": "politics",
       "source": "NHK（日语）",
-      "summary": "美国主流媒体报道称，特朗普政府正考虑对国际刑事法院（ICC）实施广泛制裁。若措施落实，ICC可能被排除在全球大部分金融体系之外。"
+      "summary": "美国媒体报道称，特朗普政府正考虑对国际刑事法院（ICC）实施广泛制裁。若措施落地，ICC可能被排除在全球大部分金融系统之外。"
     }
   ]
 }
