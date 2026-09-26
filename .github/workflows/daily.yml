@@ -24,7 +24,10 @@ name: Daily Brief
 # Schedule mechanics: cron probes twice per hour because GitHub Actions cron is
 # UTC-only and we want the user's local-timezone hour. A short "gate" job checks
 # the current hour in REPORT_TZ against REPORT_HOUR and only allows the build
-# job to run when they match. workflow_dispatch always bypasses the gate.
+# job to run when they match. Because both probes land in the *same* hour
+# window, the gate additionally reads the newest gh-pages commit timestamp and
+# skips the build once that window has already published — one full build per
+# window, not two. workflow_dispatch always bypasses the gate.
 
 on:
   schedule:
@@ -76,12 +79,56 @@ jobs:
           HOURS_VAL="${REPORT_HOUR:-8}"
           DAYS_VAL="${REPORT_DAYS:-*}"
 
-          NOW_HOUR=$(TZ="$TZ_VAL" date +%-H)
+          # One date call, so the hour slot and the calendar date can never
+          # disagree across a boundary. 10# keeps "08" from parsing as octal.
+          NOW_SLOT=$(TZ="$TZ_VAL" date '+%Y-%m-%dT%H')
+          TODAY="${NOW_SLOT%%T*}"
+          NOW_HOUR=$((10#${NOW_SLOT##*T}))
           NOW_DOW=$(TZ="$TZ_VAL" date +%w)
           NOW_PRINT=$(TZ="$TZ_VAL" date '+%Y-%m-%d %H:%M %Z')
 
           echo "Now in $TZ_VAL: $NOW_PRINT (hour=$NOW_HOUR, dow=$NOW_DOW)"
           echo "Configured REPORT_HOUR='$HOURS_VAL', REPORT_DAYS='$DAYS_VAL'"
+
+          # --- gh-pages probes -------------------------------------------------
+          # Both cron probes land inside the same REPORT_HOUR window, so an
+          # hour match on its own builds twice per trigger: two full fetch+LLM
+          # passes, the second silently overwriting the first. Ask gh-pages
+          # what it already has before deciding to spend anything.
+
+          gh_api() {
+            curl -s \
+              -H "Authorization: Bearer ${GH_TOKEN}" \
+              -H "Accept: application/vnd.github+json" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "$@"
+          }
+
+          # "YYYY-MM-DDTHH" in REPORT_TZ of the newest gh-pages publish.
+          # Prints nothing when that can't be determined — callers must read
+          # empty as "unknown", never as "nothing has been published yet".
+          latest_publish_slot() {
+            if ! command -v jq >/dev/null 2>&1; then
+              echo "  (jq unavailable — cannot read gh-pages publish time)" >&2
+              return 0
+            fi
+            local iso
+            iso=$(gh_api "https://api.github.com/repos/${GITHUB_REPOSITORY}/commits/gh-pages?per_page=1" \
+                    | jq -r '.[0].commit.committer.date // empty' 2>/dev/null || true)
+            if [ -z "$iso" ]; then
+              echo "  (gh-pages publish time unreadable — assuming nothing built yet)" >&2
+              return 0
+            fi
+            TZ="$TZ_VAL" date -d "$iso" '+%Y-%m-%dT%H'
+          }
+
+          # HTTP status of today's report on gh-pages:
+          #   200 = published, 404 = not there yet, anything else = unknown.
+          today_report_status() {
+            gh_api -o /dev/null -w '%{http_code}' \
+              "https://api.github.com/repos/${GITHUB_REPOSITORY}/contents/${TODAY}/${TODAY}.html?ref=gh-pages" \
+              || echo '000'
+          }
 
           # Hour match: comma-separated list of integers (0-23).
           hour_match=false
@@ -126,7 +173,7 @@ jobs:
           #   3. we're past today's earliest REPORT_HOUR AND
           #   4. today's report doesn't yet exist on gh-pages
           # Once today's report is published, this branch self-suppresses on
-          # subsequent gate runs — no double-builds per day.
+          # subsequent gate runs — no repeat catch-up builds.
           catchup_match=false
           if [ "$day_match" = "true" ] && [ "$hour_match" = "false" ]; then
             earliest_hour=99
@@ -144,13 +191,7 @@ jobs:
               catchup_threshold=$((earliest_hour - 1))
             fi
             if [ "$NOW_HOUR" -ge "$catchup_threshold" ]; then
-              TODAY=$(TZ="$TZ_VAL" date +%Y-%m-%d)
-              CHECK_URL="https://api.github.com/repos/${GITHUB_REPOSITORY}/contents/${TODAY}/${TODAY}.html?ref=gh-pages"
-              HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
-                -H "Authorization: Bearer ${GH_TOKEN}" \
-                -H "Accept: application/vnd.github+json" \
-                -H "X-GitHub-Api-Version: 2022-11-28" \
-                "$CHECK_URL" || echo "000")
+              HTTP_CODE=$(today_report_status)
               if [ "$HTTP_CODE" = "404" ]; then
                 echo "↻ Catchup: today's report ($TODAY) missing from gh-pages — recovering"
                 catchup_match=true
@@ -161,6 +202,17 @@ jobs:
           fi
 
           if [ "$hour_match" = "true" ] && [ "$day_match" = "true" ]; then
+            # Second probe inside this hour window? The first one already
+            # published, so skip instead of paying for a duplicate full run.
+            # A first attempt that failed leaves the slot stale, so the next
+            # probe still retries. REPORT_HOUR lists like "8,18" keep working:
+            # 8-o'clock's slot doesn't match NOW_SLOT at 18.
+            PUBLISHED_SLOT=$(latest_publish_slot)
+            if [ -n "$PUBLISHED_SLOT" ] && [ "$PUBLISHED_SLOT" = "$NOW_SLOT" ]; then
+              echo "✓ Match — but gh-pages already published in this hour window ($PUBLISHED_SLOT) — skipping duplicate build"
+              echo "should-run=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
             echo "✓ Match — proceeding to build"
             echo "should-run=true" >> "$GITHUB_OUTPUT"
           elif [ "$catchup_match" = "true" ]; then
